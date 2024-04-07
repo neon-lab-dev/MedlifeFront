@@ -1,0 +1,1390 @@
+{
+    "proctology": {
+        "heroHeader": "Advance Proctology surgery",
+        "subHeading": "सुरक्षित एवं सफल",
+        "details": "Embark on an affordable and advanced laparoscopic surgery journey with MedLifeEasy. Our highly skilled laparoscopic surgeons prioritize cost-effectiveness while delivering exceptional medical care.",
+        "subLists": [
+            "उन्नत 3D तकनीक",
+            "दर्दरहित सर्जरी (Painless Surgery) तथा जल्द रिकवरी",
+            "संक्रमण का कोई खतरा नहीं"
+        ],
+        "diseaseInfo" : {
+            "para1" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para2" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para3" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para4" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain."
+        },
+        "ourSpecialities": [
+          {
+              "img": "https://i.ibb.co/DtyCRyG/piles.jpg",
+              "title": "Piles",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/piles"
+          },
+          {
+              "img": "https://i.ibb.co/JpMdK7T/Fistula.jpg",
+              "title": "Fistula",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/fistula"
+          },
+          {
+              "img": "https://i.ibb.co/b5B5r8d/Fissure.jpg",
+              "title": "Fissure",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/fissure"
+          },
+          {
+              "img": "https://i.ibb.co/bgLsQMM/Pilonidal.jpg",
+              "title": "Pilonidal",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/pilonidal"
+          },
+          {
+              "img": "https://i.ibb.co/94zWhjJ/Rectal.jpg",
+              "title": "Rectal",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/rectal"
+          }
+      ]
+      ,
+        "treatment": {
+            "treatmentHeader": [
+                "Safe Umbilical Herniya Surgery With",
+                "Med Life Easy"
+            ],
+            "treatments": [
+                "Excellence in Healthcare",
+                "Patient-Centric Care",
+                " Personalized Approach",
+                "State-of-the-Art Facilities",
+                "Accepting All Insurance Plans",
+                "Zero-Cost EMI Options Available"
+            ]
+        },
+        "consult": {
+            "consultHeader": "लेप्रोस्कोपिक सर्जरी ओपन सर्जरी की तुलना में अधिक सुरक्षित एवं सफल है।",
+            "consultDetails" : "गॉलब्लैडर पथरी की सर्जरी,हर्निया सर्जरी,अपेंडिक्स सर्जरी,गर्भाशय की गांठ,बच्चेदानी आदि का ऑपरेशन कराएं अब दर्दरहित, उन्नत तकनीक के साथ",
+            "consultSubDetails" : "सुरक्षित एवं सफल सर्जरी , बिहार के सुप्रसिद्ध डाक्टरों द्वारासंपर्क करें Med Life Easy से और पाएं एक्सपर्ट परामर्श –"
+        },
+        "whyChooseUs": {
+            "whyChooseUsHeader": "एक स्वस्थ्य भविष्य की शुरुआत Med Life Easy के साथ",
+            "whyChooseUsDetails": "Med Life Easy आपको प्रदान करतें है सर्वोत्तम स्वास्थ्य सेवा उचित मूल्य पर और मिलवाते है बिहार के Best doctors की टीम से",
+            "listHeader" : "Why Choose Us?",
+            "lists": [
+                "Excellence in Healthcare",
+                "Patient-Centric Care",
+                "Personalized Approach",
+                "State-of-the-Art Facilities",
+                "Transparent Pricing",
+                "Coordinated Care"
+            ]
+        }
+    },
+    "laparoscopy": {
+        "heroHeader": "Advance Laproscopic surgery",
+        "subHeading": "सुरक्षित एवं सफल",
+        "details": "Embark on an affordable and advanced laparoscopic surgery journey with MedLifeEasy. Our highly skilled laparoscopic surgeons prioritize cost-effectiveness while delivering exceptional medical care.",
+        "subLists": [
+            "उन्नत 3D तकनीक",
+            "दर्दरहित सर्जरी (Painless Surgery) तथा जल्द रिकवरी",
+            "संक्रमण का कोई खतरा नहीं"
+        ],
+        "diseaseInfo" : {
+            "para1" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para2" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para3" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para4" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain."
+        },
+        "ourSpecialities": [
+          {
+              "img": "https://i.ibb.co/VNWdmdR/Hernia.jpg",
+              "title": "Hernia",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/hernia"
+          },
+          {
+              "img": "https://i.ibb.co/Jkff9S6/Gall-Stones.jpg",
+              "title": "GallStones",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/gallbladder"
+          },
+          {
+              "img": "https://i.ibb.co/XFpS542/Appendicitis.jpg",
+              "title": "Appendicitis",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/appendicitis"
+          },
+          {
+              "img": "https://i.ibb.co/PmhdKNN/Inguinal.jpg",
+              "title": "Inguinal",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/inguinal"
+          },
+          {
+              "img": "https://i.ibb.co/f08BCc2/Umbilical.jpg",
+              "title": "Umbilical",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/umbilical"
+          }
+      ]
+      ,
+
+        "treatment": {
+            "treatmentHeader": [
+                "Safe Umbilical Herniya Surgery With",
+                "Med Life Easy"
+            ],
+            "treatments": [
+                "Excellence in Healthcare",
+                "Patient-Centric Care",
+                " Personalized Approach",
+                "State-of-the-Art Facilities",
+                "Accepting All Insurance Plans",
+                "Zero-Cost EMI Options Available"
+            ]
+        },
+        "consult": {
+            "consultHeader": "लेप्रोस्कोपिक सर्जरी ओपन सर्जरी की तुलना में अधिक सुरक्षित एवं सफल है।",
+            "consultDetails" : "गॉलब्लैडर पथरी की सर्जरी,हर्निया सर्जरी,अपेंडिक्स सर्जरी,गर्भाशय की गांठ,बच्चेदानी आदि का ऑपरेशन कराएं अब दर्दरहित, उन्नत तकनीक के साथ",
+            "consultSubDetails" : "सुरक्षित एवं सफल सर्जरी , बिहार के सुप्रसिद्ध डाक्टरों द्वारासंपर्क करें Med Life Easy से और पाएं एक्सपर्ट परामर्श –"
+        },
+        "whyChooseUs": {
+            "whyChooseUsHeader": "एक स्वस्थ्य भविष्य की शुरुआत Med Life Easy के साथ",
+            "whyChooseUsDetails": "Med Life Easy आपको प्रदान करतें है सर्वोत्तम स्वास्थ्य सेवा उचित मूल्य पर और मिलवाते है बिहार के Best doctors की टीम से",
+            "listHeader" : "Why Choose Us?",
+            "lists": [
+                "Excellence in Healthcare",
+                "Patient-Centric Care",
+                "Personalized Approach",
+                "State-of-the-Art Facilities",
+                "Transparent Pricing",
+                "Coordinated Care"
+            ]
+        }
+    },
+    "gynaecology": {
+        "heroHeader": "Advance Gynaecology surgery",
+        "subHeading": "सुरक्षित एवं सफल",
+        "details": "Embark on an affordable and advanced laparoscopic surgery journey with MedLifeEasy. Our highly skilled laparoscopic surgeons prioritize cost-effectiveness while delivering exceptional medical care.",
+        "subLists": [
+            "उन्नत 3D तकनीक",
+            "दर्दरहित सर्जरी (Painless Surgery) तथा जल्द रिकवरी",
+            "संक्रमण का कोई खतरा नहीं"
+        ],
+        "diseaseInfo" : {
+            "para1" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para2" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para3" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para4" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain."
+        },
+        "ourSpecialities": [
+          {
+              "img": "https://i.ibb.co/DfMLKnY/Surgical.jpg",
+              "title": "Surgical",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/surgical"
+          },
+          {
+              "img": "https://i.ibb.co/17PqPKN/MTP.jpg",
+              "title": "MTP",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/mtp"
+          },
+          {
+              "img": "https://i.ibb.co/0mZYrMV/Ectopic.jpg",
+              "title": "Ectopic",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/ectopic"
+          },
+          {
+              "img": "https://i.ibb.co/ZLKc5Zx/Molar.jpg",
+              "title": "Molar",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/molar"
+          },
+          {
+              "img": "https://i.ibb.co/SQ8Mq4t/Uterus.jpg",
+              "title": "Uterus",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/uterus"
+          },
+          {
+              "img": "https://i.ibb.co/YL7hk3j/Ovarian.jpg",
+              "title": "Ovarian",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/ovarian"
+          },
+          {
+              "img": "https://i.ibb.co/zxrPQfq/Miscarriage.jpg",
+              "title": "Miscarriage",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/miscarriage"
+          },
+          {
+              "img": "https://i.ibb.co/z4F9HXb/Bartholin.jpg",
+              "title": "Bartholin",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/bartholin"
+          },
+          {
+              "img": "https://i.ibb.co/dp5Hr7b/Endometriosis.jpg",
+              "title": "Endometriosis",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/endometriosis"
+          },
+          {
+              "img": "https://i.ibb.co/6YYFRML/Adenomyosis.jpg",
+              "title": "Adenomyosis",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/adenomyosis"
+          },
+          {
+              "img": "https://i.ibb.co/zJPBj9Y/PCOS-PCOD.jpg",
+              "title": "PCOS-PCOD",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/pcosPcod"
+          },
+          {
+              "img": "https://i.ibb.co/93xqjLX/Pregnancy.jpg",
+              "title": "Pregnancy",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/pregnancy"
+          },
+          {
+              "img": "https://i.ibb.co/37Qk3x9/Laser.jpg",
+              "title": "Laser",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/laser"
+          },
+          {
+              "img": "https://i.ibb.co/GPdLQTD/Hymenoplasty.jpg",
+              "title": "Hymenoplasty",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/hymenoplasty"
+          },
+          {
+              "img": "https://i.ibb.co/TRjCFzn/Vaginoplasty.jpg",
+              "title": "Vaginoplasty",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/vaginoplasty"
+          },
+          {
+              "img": "https://i.ibb.co/0yFqGVq/Labiaplasty.jpg",
+              "title": "Labiaplasty",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/labiaplasty"
+          },
+          {
+              "img": "https://i.ibb.co/ctJgnQ5/Vaginal.jpg",
+              "title": "Vaginal",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/vaginal"
+          }
+      ],
+        "treatment": {
+            "treatmentHeader": [
+                "Safe Umbilical Herniya Surgery With",
+                "Med Life Easy"
+            ],
+            "treatments": [
+                "Excellence in Healthcare",
+                "Patient-Centric Care",
+                " Personalized Approach",
+                "State-of-the-Art Facilities",
+                "Accepting All Insurance Plans",
+                "Zero-Cost EMI Options Available"
+            ]
+        },
+        "consult": {
+            "consultHeader": "लेप्रोस्कोपिक सर्जरी ओपन सर्जरी की तुलना में अधिक सुरक्षित एवं सफल है।",
+            "consultDetails" : "गॉलब्लैडर पथरी की सर्जरी,हर्निया सर्जरी,अपेंडिक्स सर्जरी,गर्भाशय की गांठ,बच्चेदानी आदि का ऑपरेशन कराएं अब दर्दरहित, उन्नत तकनीक के साथ",
+            "consultSubDetails" : "सुरक्षित एवं सफल सर्जरी , बिहार के सुप्रसिद्ध डाक्टरों द्वारासंपर्क करें Med Life Easy से और पाएं एक्सपर्ट परामर्श –"
+        },
+        "whyChooseUs": {
+            "whyChooseUsHeader": "एक स्वस्थ्य भविष्य की शुरुआत Med Life Easy के साथ",
+            "whyChooseUsDetails": "Med Life Easy आपको प्रदान करतें है सर्वोत्तम स्वास्थ्य सेवा उचित मूल्य पर और मिलवाते है बिहार के Best doctors की टीम से",
+            "listHeader" : "Why Choose Us?",
+            "lists": [
+                "Excellence in Healthcare",
+                "Patient-Centric Care",
+                "Personalized Approach",
+                "State-of-the-Art Facilities",
+                "Transparent Pricing",
+                "Coordinated Care"
+            ]
+        }
+    },
+    "urology": {
+        "heroHeader": "Advance Urology Surgery",
+        "subHeading": "सुरक्षित एवं सफल",
+        "details": "Embark on an affordable and advanced laparoscopic surgery journey with MedLifeEasy. Our highly skilled laparoscopic surgeons prioritize cost-effectiveness while delivering exceptional medical care.",
+        "subLists": [
+            "उन्नत 3D तकनीक",
+            "दर्दरहित सर्जरी (Painless Surgery) तथा जल्द रिकवरी",
+            "संक्रमण का कोई खतरा नहीं"
+        ],
+        "diseaseInfo" : {
+            "para1" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para2" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para3" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para4" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain."
+        },
+        "ourSpecialities": [
+          {
+              "img": "https://i.ibb.co/BtVJSNY/circumcision.jpg",
+              "title": "circumcision",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/circumcision"
+          },
+          {
+              "img": "https://i.ibb.co/T0dQ6Jz/stapler.jpg",
+              "title": "stapler",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/stapler"
+          },
+          {
+              "img": "https://i.ibb.co/MPCPp0G/kidney.jpg",
+              "title": "kidney",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/kidney"
+          },
+          {
+              "img": "https://i.ibb.co/HKqFZkw/hydrocele.jpg",
+              "title": "hydrocele",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/hydrocele"
+          },
+          {
+              "img": "https://i.ibb.co/3ppFfDz/eswl.jpg",
+              "title": "eswl",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/eswl"
+          },
+          {
+              "img": "https://i.ibb.co/HC1R7y4/rirs.jpg",
+              "title": "rirs",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/rirs"
+          },
+          {
+              "img": "https://i.ibb.co/vJDd1nD/pcnl.jpg",
+              "title": "pcnl",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/pcnl"
+          },
+          {
+              "img": "https://i.ibb.co/jwN0DSP/ursl.jpg",
+              "title": "ursl",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/ursl"
+          },
+          {
+              "img": "https://i.ibb.co/z8ydxmJ/enlarged.jpg",
+              "title": "enlarged",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/enlarged"
+          },
+          {
+              "img": "https://i.ibb.co/F0cpBBn/frenuloplasty.jpg",
+              "title": "frenuloplasty",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/frenuloplasty"
+          },
+          {
+              "img": "https://i.ibb.co/zPwzvPy/balanitis.jpg",
+              "title": "balanitis",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/balanitis"
+          },
+          {
+              "img": "https://i.ibb.co/6PYyN4z/balanoposthitis.jpg",
+              "title": "balanoposthitis",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/balanoposthitis"
+          },
+          {
+              "img": "https://i.ibb.co/2d7zqYH/paraphimosis.jpg",
+              "title": "paraphimosis",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/paraphimosis"
+          },
+          {
+              "img": "https://i.ibb.co/MZVzjT0/foreskin.jpg",
+              "title": "foreskin",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/foreskin"
+          },
+          {
+              "img": "https://i.ibb.co/0ZqKzxk/prostatectomy.jpg",
+              "title": "prostatectomy",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/prostatectomy"
+          },
+          {
+              "img": "https://i.ibb.co/FDCpqq4/Tight-Foreskin.jpg",
+              "title": "tight",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/tight"
+          },
+          {
+              "img": "https://i.ibb.co/TYS5t1N/toenail.jpg",
+              "title": "toenail",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/toenail"
+          },
+          {
+              "img": "https://i.ibb.co/x5xzNKM/phimosis.jpg",
+              "title": "phimosis",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/phimosis"
+          },
+          {
+              "img": "https://i.ibb.co/YkVSTKf/swollen.jpg",
+              "title": "swollen",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/swollen"
+          },
+          {
+              "img": "https://i.ibb.co/WK4v9g3/testicular.jpg",
+              "title": "testicular",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/testicular"
+          },
+          {
+              "img": "https://i.ibb.co/Kr6mGTW/epididymal.jpg",
+              "title": "epididymal",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/epididymal"
+          },
+          {
+              "img": "https://i.ibb.co/ykvttCw/corn.jpg",
+              "title": "corn",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/corn"
+          },
+          {
+              "img": "https://i.ibb.co/Jt3VxBc/vasectomy.jpg",
+              "title": "vasectomy",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/vasectomy"
+          }
+      ],
+        "treatment": {
+            "treatmentHeader": [
+                "Safe Umbilical Herniya Surgery With",
+                "Med Life Easy"
+            ],
+            "treatments": [
+                "Excellence in Healthcare",
+                "Patient-Centric Care",
+                " Personalized Approach",
+                "State-of-the-Art Facilities",
+                "Accepting All Insurance Plans",
+                "Zero-Cost EMI Options Available"
+            ]
+        },
+        "consult": {
+            "consultHeader": "लेप्रोस्कोपिक सर्जरी ओपन सर्जरी की तुलना में अधिक सुरक्षित एवं सफल है।",
+            "consultDetails" : "गॉलब्लैडर पथरी की सर्जरी,हर्निया सर्जरी,अपेंडिक्स सर्जरी,गर्भाशय की गांठ,बच्चेदानी आदि का ऑपरेशन कराएं अब दर्दरहित, उन्नत तकनीक के साथ",
+            "consultSubDetails" : "सुरक्षित एवं सफल सर्जरी , बिहार के सुप्रसिद्ध डाक्टरों द्वारासंपर्क करें Med Life Easy से और पाएं एक्सपर्ट परामर्श –"
+        },
+        "whyChooseUs": {
+            "whyChooseUsHeader": "एक स्वस्थ्य भविष्य की शुरुआत Med Life Easy के साथ",
+            "whyChooseUsDetails": "Med Life Easy आपको प्रदान करतें है सर्वोत्तम स्वास्थ्य सेवा उचित मूल्य पर और मिलवाते है बिहार के Best doctors की टीम से",
+            "listHeader" : "Why Choose Us?",
+            "lists": [
+                "Excellence in Healthcare",
+                "Patient-Centric Care",
+                "Personalized Approach",
+                "State-of-the-Art Facilities",
+                "Transparent Pricing",
+                "Coordinated Care"
+            ]
+        }
+    },
+    "ent": {
+        "heroHeader": "Advance ENT surgery",
+        "subHeading": "सुरक्षित एवं सफल",
+        "details": "Embark on an affordable and advanced laparoscopic surgery journey with MedLifeEasy. Our highly skilled laparoscopic surgeons prioritize cost-effectiveness while delivering exceptional medical care.",
+        "subLists": [
+            "उन्नत 3D तकनीक",
+            "दर्दरहित सर्जरी (Painless Surgery) तथा जल्द रिकवरी",
+            "संक्रमण का कोई खतरा नहीं"
+        ],
+        "diseaseInfo" : {
+            "para1" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para2" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para3" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para4" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain."
+        },
+        "ourSpecialities": [
+          {
+              "img": "https://i.ibb.co/SRrKBZR/tympanoplasty.jpg",
+              "title": "Tympanoplasty",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/tympanoplasty"
+          },
+          {
+              "img": "https://i.ibb.co/jhDbqtF/Adenoidectomy.jpg",
+              "title": "Adenoidectomy",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/adenoidectomy"
+          },
+          {
+              "img": "https://i.ibb.co/YtS4fTb/Sinus.jpg",
+              "title": "Sinus",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/sinus"
+          },
+          {
+              "img": "https://i.ibb.co/pxT6jN7/Septoplasty.jpg",
+              "title": "Septoplasty",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/septoplasty"
+          },
+          {
+              "img": "https://i.ibb.co/zP7j7nM/Mastoidectomy.jpg",
+              "title": "Mastoidectomy",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/mastoidectomy"
+          },
+          {
+              "img": "https://i.ibb.co/zsycV7z/FESS.jpg",
+              "title": "FESS",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/fess"
+          },
+          {
+              "img": "https://i.ibb.co/bRvMDM5/Thyroidectomy.jpg",
+              "title": "Thyroidectomy",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/thyroidectomy"
+          },
+          {
+              "img": "https://i.ibb.co/dmzx2P7/Tonsillectomy.jpg",
+              "title": "Tonsillectomy",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/tonsillectomy"
+          },
+          {
+              "img": "https://i.ibb.co/k411vtz/Stapedectomy.jpg",
+              "title": "Stapedectomy",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/stapedectomy"
+          },
+          {
+              "img": "https://i.ibb.co/WDCNXz7/Myringotomy.jpg",
+              "title": "Myringotomy",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/myringotomy"
+          },
+          {
+              "img": "https://i.ibb.co/qYTW4fr/Umbilical-Throat.jpg",
+              "title": "Throat",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/throat"
+          },
+          {
+              "img": "https://i.ibb.co/6yRXdvf/Ear-Surgery.png",
+              "title": "Ear",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/ear"
+          },
+          {
+              "img": "https://i.ibb.co/DWvBjbs/Vocal.jpg",
+              "title": "Vocal",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/vocal"
+          },
+          {
+              "img": "https://i.ibb.co/Jyqkp0T/Nasal.jpg",
+              "title": "Nasal",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/nasal"
+          },
+          {
+              "img": "https://i.ibb.co/V3JqBwr/Turbinate.jpg",
+              "title": "Turbinate",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/turbinate"
+          }
+      ],
+        "treatment": {
+            "treatmentHeader": [
+                "Safe Umbilical Herniya Surgery With",
+                "Med Life Easy"
+            ],
+            "treatments": [
+                "Excellence in Healthcare",
+                "Patient-Centric Care",
+                " Personalized Approach",
+                "State-of-the-Art Facilities",
+                "Accepting All Insurance Plans",
+                "Zero-Cost EMI Options Available"
+            ]
+        },
+        "consult": {
+            "consultHeader": "लेप्रोस्कोपिक सर्जरी ओपन सर्जरी की तुलना में अधिक सुरक्षित एवं सफल है।",
+            "consultDetails" : "गॉलब्लैडर पथरी की सर्जरी,हर्निया सर्जरी,अपेंडिक्स सर्जरी,गर्भाशय की गांठ,बच्चेदानी आदि का ऑपरेशन कराएं अब दर्दरहित, उन्नत तकनीक के साथ",
+            "consultSubDetails" : "सुरक्षित एवं सफल सर्जरी , बिहार के सुप्रसिद्ध डाक्टरों द्वारासंपर्क करें Med Life Easy से और पाएं एक्सपर्ट परामर्श –"
+        },
+        "whyChooseUs": {
+            "whyChooseUsHeader": "एक स्वस्थ्य भविष्य की शुरुआत Med Life Easy के साथ",
+            "whyChooseUsDetails": "Med Life Easy आपको प्रदान करतें है सर्वोत्तम स्वास्थ्य सेवा उचित मूल्य पर और मिलवाते है बिहार के Best doctors की टीम से",
+            "listHeader" : "Why Choose Us?",
+            "lists": [
+                "Excellence in Healthcare",
+                "Patient-Centric Care",
+                "Personalized Approach",
+                "State-of-the-Art Facilities",
+                "Transparent Pricing",
+                "Coordinated Care"
+            ]
+        }
+    },
+    "vascular": {
+        "heroHeader": "Advance Vascular surgery",
+        "subHeading": "सुरक्षित एवं सफल",
+        "details": "Embark on an affordable and advanced laparoscopic surgery journey with MedLifeEasy. Our highly skilled laparoscopic surgeons prioritize cost-effectiveness while delivering exceptional medical care.",
+        "subLists": [
+            "उन्नत 3D तकनीक",
+            "दर्दरहित सर्जरी (Painless Surgery) तथा जल्द रिकवरी",
+            "संक्रमण का कोई खतरा नहीं"
+        ],
+        "diseaseInfo" : {
+            "para1" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para2" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para3" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para4" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain."
+        },
+        "ourSpecialities": [
+          {
+              "img": "https://i.ibb.co/tL5xjX1/Varicose.jpg",
+              "title": "Varicose",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/varicose"
+          },
+          {
+              "img": "https://i.ibb.co/2htp1CH/Varicocele.jpg",
+              "title": "Varicocele",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/varicocele"
+          },
+          {
+              "img": "https://i.ibb.co/gSR1T0d/DVT.jpg",
+              "title": "DVT",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/dvt"
+          },
+          {
+              "img": "https://i.ibb.co/pLYYcff/Diabetic.jpg",
+              "title": "Diabetic",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/diabetic"
+          },
+          {
+              "img": "https://i.ibb.co/YjvjN6p/Uterine.jpg",
+              "title": "Uterine",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/uterine"
+          }
+      ]
+      ,
+        "treatment": {
+            "treatmentHeader": [
+                "Safe Umbilical Herniya Surgery With",
+                "Med Life Easy"
+            ],
+            "treatments": [
+                "Excellence in Healthcare",
+                "Patient-Centric Care",
+                " Personalized Approach",
+                "State-of-the-Art Facilities",
+                "Accepting All Insurance Plans",
+                "Zero-Cost EMI Options Available"
+            ]
+        },
+        "consult": {
+            "consultHeader": "लेप्रोस्कोपिक सर्जरी ओपन सर्जरी की तुलना में अधिक सुरक्षित एवं सफल है।",
+            "consultDetails" : "गॉलब्लैडर पथरी की सर्जरी,हर्निया सर्जरी,अपेंडिक्स सर्जरी,गर्भाशय की गांठ,बच्चेदानी आदि का ऑपरेशन कराएं अब दर्दरहित, उन्नत तकनीक के साथ",
+            "consultSubDetails" : "सुरक्षित एवं सफल सर्जरी , बिहार के सुप्रसिद्ध डाक्टरों द्वारासंपर्क करें Med Life Easy से और पाएं एक्सपर्ट परामर्श –"
+        },
+        "whyChooseUs": {
+            "whyChooseUsHeader": "एक स्वस्थ्य भविष्य की शुरुआत Med Life Easy के साथ",
+            "whyChooseUsDetails": "Med Life Easy आपको प्रदान करतें है सर्वोत्तम स्वास्थ्य सेवा उचित मूल्य पर और मिलवाते है बिहार के Best doctors की टीम से",
+            "listHeader" : "Why Choose Us?",
+            "lists": [
+                "Excellence in Healthcare",
+                "Patient-Centric Care",
+                "Personalized Approach",
+                "State-of-the-Art Facilities",
+                "Transparent Pricing",
+                "Coordinated Care"
+            ]
+        }
+    },
+    "aesthetics": {
+        "heroHeader": "Advance Aesthetics surgery",
+        "subHeading": "सुरक्षित एवं सफल",
+        "details": "Embark on an affordable and advanced laparoscopic surgery journey with MedLifeEasy. Our highly skilled laparoscopic surgeons prioritize cost-effectiveness while delivering exceptional medical care.",
+        "subLists": [
+            "उन्नत 3D तकनीक",
+            "दर्दरहित सर्जरी (Painless Surgery) तथा जल्द रिकवरी",
+            "संक्रमण का कोई खतरा नहीं"
+        ],
+        "diseaseInfo" : {
+            "para1" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para2" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para3" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para4" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain."
+        },
+        "ourSpecialities": [
+          {
+              "img": "https://i.ibb.co/vxnzG0F/Gynecomastia.jpg",
+              "title": "Gynecomastia",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/gynecomastia"
+          },
+          {
+              "img": "https://i.ibb.co/fNnGQdV/Liposuction.jpg",
+              "title": "Liposuction",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/liposuction"
+          },
+          {
+              "img": "https://i.ibb.co/KFtVvsr/Lipoma.jpg",
+              "title": "Lipoma",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/lipoma"
+          },
+          {
+              "img": "https://i.ibb.co/7WZWzkH/Breast-Lift-Surgery.jpg",
+              "title": "Breast Lift Surgery",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/breast-lift"
+          },
+          {
+              "img": "https://i.ibb.co/zsFwx6m/Sebaceous-Cyst-Surgery.jpg",
+              "title": "Sebaceous Cyst Surgery",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/sebaceous"
+          },
+          {
+              "img": "https://i.ibb.co/bHn1fsg/Rhinoplasty.jpg",
+              "title": "Rhinoplasty",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/rhinoplasty"
+          },
+          {
+              "img": "https://i.ibb.co/XCJrxYK/Breast-Augmentation-Surgery.png",
+              "title": "Breast Augmentation Surgery",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/breast-augmentation"
+          },
+          {
+              "img": "https://i.ibb.co/z6hRWtk/Axillary-Breast.jpg",
+              "title": "Axillary Breast",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/axillary"
+          },
+          {
+              "img": "https://i.ibb.co/qkKXvHf/Tummy-Tuck.jpg",
+              "title": "Tummy Tuck",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/tummy"
+          },
+          {
+              "img": "https://i.ibb.co/4t6VGhB/Breast-Lump.png",
+              "title": "Breast Lump",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/breast-lump"
+          },
+          {
+              "img": "https://i.ibb.co/DCHyn2r/Breast-Reduction.jpg",
+              "title": "Breast Reduction",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/breast-reduction"
+          },
+          {
+              "img": "https://i.ibb.co/Jzg3DBD/Double-Chin.jpg",
+              "title": "Double Chin",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/double"
+          },
+          {
+              "img": "https://i.ibb.co/VqzQ20j/Buccal-Fat.jpg",
+              "title": "Buccal Fat",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/buccal"
+          },
+          {
+              "img": "https://i.ibb.co/x7bCqZc/Earlobe-Repair.jpg",
+              "title": "Earlobe Repair",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/earlobe"
+          },
+          {
+              "img": "https://i.ibb.co/nDTfmph/Blepharoplasty.jpg",
+              "title": "Blepharoplasty",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/blepharoplasty"
+          },
+          {
+              "img": "https://i.ibb.co/yVx3MFH/Beard-Transplant.jpg",
+              "title": "Beard Transplant",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/beard"
+          },
+          {
+              "img": "https://i.ibb.co/sHcPGVF/Cleft-Lip.jpg",
+              "title": "Cleft Lip",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/cleft"
+          }
+      ],
+        "treatment": {
+            "treatmentHeader": [
+                "Safe Umbilical Herniya Surgery With",
+                "Med Life Easy"
+            ],
+            "treatments": [
+                "Excellence in Healthcare",
+                "Patient-Centric Care",
+                " Personalized Approach",
+                "State-of-the-Art Facilities",
+                "Accepting All Insurance Plans",
+                "Zero-Cost EMI Options Available"
+            ]
+        },
+        "consult": {
+            "consultHeader": "लेप्रोस्कोपिक सर्जरी ओपन सर्जरी की तुलना में अधिक सुरक्षित एवं सफल है।",
+            "consultDetails" : "गॉलब्लैडर पथरी की सर्जरी,हर्निया सर्जरी,अपेंडिक्स सर्जरी,गर्भाशय की गांठ,बच्चेदानी आदि का ऑपरेशन कराएं अब दर्दरहित, उन्नत तकनीक के साथ",
+            "consultSubDetails" : "सुरक्षित एवं सफल सर्जरी , बिहार के सुप्रसिद्ध डाक्टरों द्वारासंपर्क करें Med Life Easy से और पाएं एक्सपर्ट परामर्श –"
+        },
+        "whyChooseUs": {
+            "whyChooseUsHeader": "एक स्वस्थ्य भविष्य की शुरुआत Med Life Easy के साथ",
+            "whyChooseUsDetails": "Med Life Easy आपको प्रदान करतें है सर्वोत्तम स्वास्थ्य सेवा उचित मूल्य पर और मिलवाते है बिहार के Best doctors की टीम से",
+            "listHeader" : "Why Choose Us?",
+            "lists": [
+                "Excellence in Healthcare",
+                "Patient-Centric Care",
+                "Personalized Approach",
+                "State-of-the-Art Facilities",
+                "Transparent Pricing",
+                "Coordinated Care"
+            ]
+        }
+    },
+    "orthopedics": {
+        "heroHeader": "Advance Orthopedics surgery",
+        "subHeading": "सुरक्षित एवं सफल",
+        "details": "Embark on an affordable and advanced laparoscopic surgery journey with MedLifeEasy. Our highly skilled laparoscopic surgeons prioritize cost-effectiveness while delivering exceptional medical care.",
+        "subLists": [
+            "उन्नत 3D तकनीक",
+            "दर्दरहित सर्जरी (Painless Surgery) तथा जल्द रिकवरी",
+            "संक्रमण का कोई खतरा नहीं"
+        ],
+        "diseaseInfo" : {
+            "para1" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para2" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para3" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para4" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain."
+        },
+        "ourSpecialities": [
+          {
+              "img": "https://i.ibb.co/YZbB1TW/Carpal.jpg",
+              "title": "Carpal",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/carpal"
+          },
+          {
+              "img": "https://i.ibb.co/dD5PxpD/ACL.jpg",
+              "title": "ACL",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/acl"
+          },
+          {
+              "img": "https://i.ibb.co/FX9TKv2/Meniscus.jpg",
+              "title": "Meniscus",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/meniscus"
+          },
+          {
+              "img": "https://i.ibb.co/CmjYcdL/Hip.jpg",
+              "title": "Hip",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/hip"
+          },
+          {
+              "img": "https://i.ibb.co/VMxy3NZ/Spine.jpg",
+              "title": "Spine",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/spine"
+          },
+          {
+              "img": "https://i.ibb.co/6rhQzFj/Shoulder-Dislocation.jpg",
+              "title": "Shoulder",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/shoulder-dislocation"
+          },
+          {
+              "img": "https://i.ibb.co/x8jWBTK/Shoulder-Replacement.jpg",
+              "title": "Shoulder",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/shoulder-replacement"
+          },
+          {
+              "img": "https://i.ibb.co/ZYRrxms/Rotator-Cuff-Repair.jpg",
+              "title": "Rotator Cuff Repair",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/rotator"
+          },
+          {
+              "img": "https://i.ibb.co/gJwbHCx/Arthroscopy-Surgery.jpg",
+              "title": "Arthroscopy Surgery",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/arthroscopy"
+          },
+          {
+              "img": "https://i.ibb.co/5MzdWD5/Knee-replacement.jpg",
+              "title": "Knee",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/knee-replacement"
+          },
+          {
+              "img": "https://i.ibb.co/gJwbHCx/Arthroscopy-Surgery.jpg",
+              "title": "Knee Arthroscopy",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/knee-arthroscopy"
+          },
+          {
+              "img": "https://i.ibb.co/DKpgrd2/Shoulder-Arthroscopy.jpg",
+              "title": "Shoulder Arthroscopy",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/shoulder-arthroscopy"
+          },
+          {
+              "img": "https://i.ibb.co/sW1FSVB/Total-Knee-Replacement.jpg",
+              "title": "Total Knee Replacement",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/total"
+          }
+      ]
+      ,
+        "treatment": {
+            "treatmentHeader": [
+                "Safe Umbilical Herniya Surgery With",
+                "Med Life Easy"
+            ],
+            "treatments": [
+                "Excellence in Healthcare",
+                "Patient-Centric Care",
+                " Personalized Approach",
+                "State-of-the-Art Facilities",
+                "Accepting All Insurance Plans",
+                "Zero-Cost EMI Options Available"
+            ]
+        },
+        "consult": {
+            "consultHeader": "लेप्रोस्कोपिक सर्जरी ओपन सर्जरी की तुलना में अधिक सुरक्षित एवं सफल है।",
+            "consultDetails" : "गॉलब्लैडर पथरी की सर्जरी,हर्निया सर्जरी,अपेंडिक्स सर्जरी,गर्भाशय की गांठ,बच्चेदानी आदि का ऑपरेशन कराएं अब दर्दरहित, उन्नत तकनीक के साथ",
+            "consultSubDetails" : "सुरक्षित एवं सफल सर्जरी , बिहार के सुप्रसिद्ध डाक्टरों द्वारासंपर्क करें Med Life Easy से और पाएं एक्सपर्ट परामर्श –"
+        },
+        "whyChooseUs": {
+            "whyChooseUsHeader": "एक स्वस्थ्य भविष्य की शुरुआत Med Life Easy के साथ",
+            "whyChooseUsDetails": "Med Life Easy आपको प्रदान करतें है सर्वोत्तम स्वास्थ्य सेवा उचित मूल्य पर और मिलवाते है बिहार के Best doctors की टीम से",
+            "listHeader" : "Why Choose Us?",
+            "lists": [
+                "Excellence in Healthcare",
+                "Patient-Centric Care",
+                "Personalized Approach",
+                "State-of-the-Art Facilities",
+                "Transparent Pricing",
+                "Coordinated Care"
+            ]
+        }
+    },
+    "ophthalmology": {
+        "heroHeader": "Advance Ophthalmology surgery",
+        "subHeading": "सुरक्षित एवं सफल",
+        "details": "Embark on an affordable and advanced laparoscopic surgery journey with MedLifeEasy. Our highly skilled laparoscopic surgeons prioritize cost-effectiveness while delivering exceptional medical care.",
+        "subLists": [
+            "उन्नत 3D तकनीक",
+            "दर्दरहित सर्जरी (Painless Surgery) तथा जल्द रिकवरी",
+            "संक्रमण का कोई खतरा नहीं"
+        ],
+        "diseaseInfo" : {
+            "para1" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para2" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para3" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para4" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain."
+        },
+        "ourSpecialities": [
+          {
+              "img": "https://i.ibb.co/2PZqttc/Lasik-Surgery.jpg",
+              "title": "Lasik",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/lasik"
+          },
+          {
+              "img": "https://i.ibb.co/M1GTh05/Cataract.jpg",
+              "title": "Cataract",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/cataract"
+          },
+          {
+              "img": "https://i.ibb.co/bFSm9ms/ICL.jpg",
+              "title": "ICL",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/icl"
+          },
+          {
+              "img": "https://i.ibb.co/MVJCr80/Glaucoma.jpg",
+              "title": "Glaucoma",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/glaucoma"
+          },
+          {
+              "img": "https://i.ibb.co/yQFpW4V/Squint.jpg",
+              "title": "Squint",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/squint"
+          },
+          {
+              "img": "https://i.ibb.co/hxGhMdv/Diabetic.png",
+              "title": "Diabetic",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/diabetic"
+          },
+          {
+              "img": "https://i.ibb.co/bjh1xjH/ICL.jpg",
+              "title": "Vitrectomy",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/vitrectomy"
+          },
+          {
+              "img": "https://i.ibb.co/94H8jJD/PRK.jpg",
+              "title": "PRK",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/prk"
+          },
+          {
+              "img": "https://i.ibb.co/g9SX63z/SMILE.jpg",
+              "title": "SMILE",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/smile"
+          },
+          {
+              "img": "https://i.ibb.co/ZHkW59T/FEMTO.jpg",
+              "title": "FEMTO",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/femto"
+          },
+          {
+              "img": "https://i.ibb.co/bjh1xjH/ICL.jpg",
+              "title": "ICL",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/icl"
+          },
+          {
+              "img": "https://i.ibb.co/rvSd22J/Contoura.jpg",
+              "title": "Contoura",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/contoura"
+          },
+          {
+              "img": "https://i.ibb.co/Dpczg4W/Phaco.jpg",
+              "title": "Phaco",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/phaco"
+          }
+      ]
+      ,
+        "treatment": {
+            "treatmentHeader": [
+                "Safe Umbilical Herniya Surgery With",
+                "Med Life Easy"
+            ],
+            "treatments": [
+                "Excellence in Healthcare",
+                "Patient-Centric Care",
+                " Personalized Approach",
+                "State-of-the-Art Facilities",
+                "Accepting All Insurance Plans",
+                "Zero-Cost EMI Options Available"
+            ]
+        },
+        "consult": {
+            "consultHeader": "लेप्रोस्कोपिक सर्जरी ओपन सर्जरी की तुलना में अधिक सुरक्षित एवं सफल है।",
+            "consultDetails" : "गॉलब्लैडर पथरी की सर्जरी,हर्निया सर्जरी,अपेंडिक्स सर्जरी,गर्भाशय की गांठ,बच्चेदानी आदि का ऑपरेशन कराएं अब दर्दरहित, उन्नत तकनीक के साथ",
+            "consultSubDetails" : "सुरक्षित एवं सफल सर्जरी , बिहार के सुप्रसिद्ध डाक्टरों द्वारासंपर्क करें Med Life Easy से और पाएं एक्सपर्ट परामर्श –"
+        },
+        "whyChooseUs": {
+            "whyChooseUsHeader": "एक स्वस्थ्य भविष्य की शुरुआत Med Life Easy के साथ",
+            "whyChooseUsDetails": "Med Life Easy आपको प्रदान करतें है सर्वोत्तम स्वास्थ्य सेवा उचित मूल्य पर और मिलवाते है बिहार के Best doctors की टीम से",
+            "listHeader" : "Why Choose Us?",
+            "lists": [
+                "Excellence in Healthcare",
+                "Patient-Centric Care",
+                "Personalized Approach",
+                "State-of-the-Art Facilities",
+                "Transparent Pricing",
+                "Coordinated Care"
+            ]
+        }
+    },
+    "fertility": {
+        "heroHeader": "Advance Fertility surgery",
+        "subHeading": "सुरक्षित एवं सफल",
+        "details": "Embark on an affordable and advanced laparoscopic surgery journey with MedLifeEasy. Our highly skilled laparoscopic surgeons prioritize cost-effectiveness while delivering exceptional medical care.",
+        "subLists": [
+            "उन्नत 3D तकनीक",
+            "दर्दरहित सर्जरी (Painless Surgery) तथा जल्द रिकवरी",
+            "संक्रमण का कोई खतरा नहीं"
+        ],
+        "diseaseInfo" : {
+            "para1" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para2" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para3" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para4" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain."
+        },
+
+        "treatment": {
+            "treatmentHeader": [
+                "Safe Umbilical Herniya Surgery With",
+                "Med Life Easy"
+            ],
+            "treatments": [
+                "Excellence in Healthcare",
+                "Patient-Centric Care",
+                " Personalized Approach",
+                "State-of-the-Art Facilities",
+                "Accepting All Insurance Plans",
+                "Zero-Cost EMI Options Available"
+            ]
+        },
+        "consult": {
+            "consultHeader": "लेप्रोस्कोपिक सर्जरी ओपन सर्जरी की तुलना में अधिक सुरक्षित एवं सफल है।",
+            "consultDetails" : "गॉलब्लैडर पथरी की सर्जरी,हर्निया सर्जरी,अपेंडिक्स सर्जरी,गर्भाशय की गांठ,बच्चेदानी आदि का ऑपरेशन कराएं अब दर्दरहित, उन्नत तकनीक के साथ",
+            "consultSubDetails" : "सुरक्षित एवं सफल सर्जरी , बिहार के सुप्रसिद्ध डाक्टरों द्वारासंपर्क करें Med Life Easy से और पाएं एक्सपर्ट परामर्श –"
+        },
+        "whyChooseUs": {
+            "whyChooseUsHeader": "एक स्वस्थ्य भविष्य की शुरुआत Med Life Easy के साथ",
+            "whyChooseUsDetails": "Med Life Easy आपको प्रदान करतें है सर्वोत्तम स्वास्थ्य सेवा उचित मूल्य पर और मिलवाते है बिहार के Best doctors की टीम से",
+            "listHeader" : "Why Choose Us?",
+            "lists": [
+                "Excellence in Healthcare",
+                "Patient-Centric Care",
+                "Personalized Approach",
+                "State-of-the-Art Facilities",
+                "Transparent Pricing",
+                "Coordinated Care"
+            ]
+        }
+    },
+    "dentistry": {
+        "heroHeader": "Advance Dentistry surgery",
+        "subHeading": "सुरक्षित एवं सफल",
+        "details": "Embark on an affordable and advanced laparoscopic surgery journey with MedLifeEasy. Our highly skilled laparoscopic surgeons prioritize cost-effectiveness while delivering exceptional medical care.",
+        "subLists": [
+            "उन्नत 3D तकनीक",
+            "दर्दरहित सर्जरी (Painless Surgery) तथा जल्द रिकवरी",
+            "संक्रमण का कोई खतरा नहीं"
+        ],
+        "diseaseInfo" : {
+            "para1" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para2" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para3" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para4" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain."
+        },
+
+        "treatment": {
+            "treatmentHeader": [
+                "Safe Umbilical Herniya Surgery With",
+                "Med Life Easy"
+            ],
+            "treatments": [
+                "Excellence in Healthcare",
+                "Patient-Centric Care",
+                " Personalized Approach",
+                "State-of-the-Art Facilities",
+                "Accepting All Insurance Plans",
+                "Zero-Cost EMI Options Available"
+            ]
+        },
+        "consult": {
+            "consultHeader": "लेप्रोस्कोपिक सर्जरी ओपन सर्जरी की तुलना में अधिक सुरक्षित एवं सफल है।",
+            "consultDetails" : "गॉलब्लैडर पथरी की सर्जरी,हर्निया सर्जरी,अपेंडिक्स सर्जरी,गर्भाशय की गांठ,बच्चेदानी आदि का ऑपरेशन कराएं अब दर्दरहित, उन्नत तकनीक के साथ",
+            "consultSubDetails" : "सुरक्षित एवं सफल सर्जरी , बिहार के सुप्रसिद्ध डाक्टरों द्वारासंपर्क करें Med Life Easy से और पाएं एक्सपर्ट परामर्श –"
+        },
+        "whyChooseUs": {
+            "whyChooseUsHeader": "एक स्वस्थ्य भविष्य की शुरुआत Med Life Easy के साथ",
+            "whyChooseUsDetails": "Med Life Easy आपको प्रदान करतें है सर्वोत्तम स्वास्थ्य सेवा उचित मूल्य पर और मिलवाते है बिहार के Best doctors की टीम से",
+            "listHeader" : "Why Choose Us?",
+            "lists": [
+                "Excellence in Healthcare",
+                "Patient-Centric Care",
+                "Personalized Approach",
+                "State-of-the-Art Facilities",
+                "Transparent Pricing",
+                "Coordinated Care"
+            ]
+        }
+    },
+    "weightloss": {
+        "heroHeader": "Advance Weight Loss surgery",
+        "subHeading": "सुरक्षित एवं सफल",
+        "details": "Embark on an affordable and advanced laparoscopic surgery journey with MedLifeEasy. Our highly skilled laparoscopic surgeons prioritize cost-effectiveness while delivering exceptional medical care.",
+        "subLists": [
+            "उन्नत 3D तकनीक",
+            "दर्दरहित सर्जरी (Painless Surgery) तथा जल्द रिकवरी",
+            "संक्रमण का कोई खतरा नहीं"
+        ],
+        "diseaseInfo" : {
+            "para1" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para2" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para3" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para4" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain."
+        },
+        "ourSpecialities": [
+          {
+              "img": "https://i.ibb.co/1rsx3RD/Bariatric.png",
+              "title": "Bariatric",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/bariatric"
+          },
+          {
+              "img": "https://i.ibb.co/Qr5D5L6/Gynaecology.jpg",
+              "title": "SPATZ",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/spatz"
+          },
+          {
+              "img": "https://i.ibb.co/qR8hBfF/Weightloss.jpg",
+              "title": "Weightloss",
+              "details": "Specialised & advanced treatment for Anorectal Disease",
+              "link": "treatment/weightloss"
+          }
+      ],
+        "treatment": {
+            "treatmentHeader": [
+                "Safe Umbilical Herniya Surgery With",
+                "Med Life Easy"
+            ],
+            "treatments": [
+                "Excellence in Healthcare",
+                "Patient-Centric Care",
+                " Personalized Approach",
+                "State-of-the-Art Facilities",
+                "Accepting All Insurance Plans",
+                "Zero-Cost EMI Options Available"
+            ]
+        },
+        "consult": {
+            "consultHeader": "लेप्रोस्कोपिक सर्जरी ओपन सर्जरी की तुलना में अधिक सुरक्षित एवं सफल है।",
+            "consultDetails" : "गॉलब्लैडर पथरी की सर्जरी,हर्निया सर्जरी,अपेंडिक्स सर्जरी,गर्भाशय की गांठ,बच्चेदानी आदि का ऑपरेशन कराएं अब दर्दरहित, उन्नत तकनीक के साथ",
+            "consultSubDetails" : "सुरक्षित एवं सफल सर्जरी , बिहार के सुप्रसिद्ध डाक्टरों द्वारासंपर्क करें Med Life Easy से और पाएं एक्सपर्ट परामर्श –"
+        },
+        "whyChooseUs": {
+            "whyChooseUsHeader": "एक स्वस्थ्य भविष्य की शुरुआत Med Life Easy के साथ",
+            "whyChooseUsDetails": "Med Life Easy आपको प्रदान करतें है सर्वोत्तम स्वास्थ्य सेवा उचित मूल्य पर और मिलवाते है बिहार के Best doctors की टीम से",
+            "listHeader" : "Why Choose Us?",
+            "lists": [
+                "Excellence in Healthcare",
+                "Patient-Centric Care",
+                "Personalized Approach",
+                "State-of-the-Art Facilities",
+                "Transparent Pricing",
+                "Coordinated Care"
+            ]
+        }
+    },
+    "dermatology": {
+        "heroHeader": "Advance Dermatology surgery",
+        "subHeading": "सुरक्षित एवं सफल",
+        "details": "Embark on an affordable and advanced laparoscopic surgery journey with MedLifeEasy. Our highly skilled laparoscopic surgeons prioritize cost-effectiveness while delivering exceptional medical care.",
+        "subLists": [
+            "उन्नत 3D तकनीक",
+            "दर्दरहित सर्जरी (Painless Surgery) तथा जल्द रिकवरी",
+            "संक्रमण का कोई खतरा नहीं"
+        ],
+        "diseaseInfo" : {
+            "para1" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para2" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para3" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.",
+
+            "para4" : "Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain. Some cases may be asymptomatic.Hernia is characterized by the protrusion of an organ or tissue through an abnormal opening. Typically affecting the stomach or intestine, hernias may manifest as a bulge, swelling, or pain."
+        },
+
+        "treatment": {
+            "treatmentHeader": [
+                "Safe Umbilical Herniya Surgery With",
+                "Med Life Easy"
+            ],
+            "treatments": [
+                "Excellence in Healthcare",
+                "Patient-Centric Care",
+                " Personalized Approach",
+                "State-of-the-Art Facilities",
+                "Accepting All Insurance Plans",
+                "Zero-Cost EMI Options Available"
+            ]
+        },
+        "consult": {
+            "consultHeader": "लेप्रोस्कोपिक सर्जरी ओपन सर्जरी की तुलना में अधिक सुरक्षित एवं सफल है।",
+            "consultDetails" : "गॉलब्लैडर पथरी की सर्जरी,हर्निया सर्जरी,अपेंडिक्स सर्जरी,गर्भाशय की गांठ,बच्चेदानी आदि का ऑपरेशन कराएं अब दर्दरहित, उन्नत तकनीक के साथ",
+            "consultSubDetails" : "सुरक्षित एवं सफल सर्जरी , बिहार के सुप्रसिद्ध डाक्टरों द्वारासंपर्क करें Med Life Easy से और पाएं एक्सपर्ट परामर्श –"
+        },
+        "whyChooseUs": {
+            "whyChooseUsHeader": "एक स्वस्थ्य भविष्य की शुरुआत Med Life Easy के साथ",
+            "whyChooseUsDetails": "Med Life Easy आपको प्रदान करतें है सर्वोत्तम स्वास्थ्य सेवा उचित मूल्य पर और मिलवाते है बिहार के Best doctors की टीम से",
+            "listHeader" : "Why Choose Us?",
+            "lists": [
+                "Excellence in Healthcare",
+                "Patient-Centric Care",
+                "Personalized Approach",
+                "State-of-the-Art Facilities",
+                "Transparent Pricing",
+                "Coordinated Care"
+            ]
+        }
+    }
+}

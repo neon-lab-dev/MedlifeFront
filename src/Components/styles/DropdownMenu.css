@@ -1,0 +1,84 @@
+/* DropdownMenu.css */
+
+.dropdown {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  flex-direction: column;
+}
+
+@media (max-width: 991px) {
+  .dropdown {
+    flex-direction: column;
+  }
+}
+
+.ddm-btn {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  position: relative;
+}
+
+.dropdown-menu {
+  list-style: none;
+  padding: 0;
+  width: fit-content;
+  min-width: 150px;
+  margin: 0;
+  position: absolute;
+  display: block;
+  background-color: #f9f9f9;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 100%;
+  overflow-x: scroll;
+  min-width: 200px;
+}
+
+.dropdown-menu li {
+  padding: 12px;
+  cursor: pointer;
+  color: #0a0a0a;
+  font-size: 14px;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f0f0f0;
+  transition-duration: 400ms;
+}
+
+/* .dropdown:hover .dropdown-menu {
+  display: block;
+} */
+
+.btm {
+  color: var(--material-theme-ref-neutral-neutral24, #363a3b);
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; 
+  justify-content: center;
+  align-items: center;
+}
+
+.btm svg path {
+  fill: #363a3b;
+}
+
+
+.scrollDropdown{
+  height: 288px;
+  overflow-y: scroll;
+}

@@ -1,0 +1,116 @@
+.oa-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  padding: 30px 0;
+  box-sizing: border-box;
+}
+
+.oa-left-card {
+  border-radius: 28.829px;
+  background: rgba(255, 255, 255, 0.6);
+  display: flex;
+  width: 50%;
+  height: auto;
+  padding: 40.36px 46.126px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  /* border: 1pt solid red; */
+}
+.oa-right-card {
+  width: 40%;
+}
+.oa-right-card img {
+  width: 100%;
+}
+
+.oa-card-inner-cont {
+  display: flex;
+  padding-top: 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.oa-card-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.oa-card-cont svg {
+  width: 32px !important;
+}
+
+.oa-card-cont span {
+  color: var(--material-theme-sys-light-tertiary, #47617a);
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 133.333% */
+  width: fit-content;
+}
+
+@media screen and (max-width: 768px) {
+  .oa-cont {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .oa-left-card {
+    border-radius: 28.829px;
+    background: rgba(255, 255, 255, 0.6);
+    display: flex;
+    width: 90%;
+    height: auto;
+    padding: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    /* border: 1pt solid red; */
+  }
+  .oa-right-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .oa-right-card img {
+    width: 100%;
+  }
+
+  .oa-card-inner-cont {
+    display: flex;
+    padding-top: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .oa-card-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  .oa-card-cont svg {
+    width: 32px !important;
+  }
+
+  .oa-card-cont span {
+    color: var(--material-theme-sys-light-tertiary, #47617a);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+    width: fit-content;
+  }
+}

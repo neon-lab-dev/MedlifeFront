@@ -1,0 +1,124 @@
+.spe-cont {
+  display: flex;
+  width: 100vw;
+  padding: 23px 0;
+  min-height: 900px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  background: rgba(228, 255, 251, 0.5);
+  box-sizing: border-box;
+}
+
+.spe-img{
+  height: 160px;
+  border-bottom: 1px solid rgb(209, 209, 209);
+  width: 100%;
+}
+
+.spe-inner-cont {
+  width: 90%;
+  gap: 25px;
+  flex-direction: column;
+  display: flex;
+}
+.spe-card-cont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 20px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+.spe-card {
+  border-radius: 10px;
+  background: var(--material-theme-sys-light-surface-container-lowest, #fff);
+  display: flex;
+  width: 226px;
+  
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.spe-card-inner-cont {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+
+.spe-card-head {
+  color: var(--material-theme-ref-neutral-neutral12, #1d2021);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.spe-card-text {
+  color: var(--material-theme-ref-neutral-neutral24, #363a3b);
+
+  /* material-theme/body/small */
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+}
+
+.spe-card-det {
+  display: flex;
+  height: 32px;
+  padding: 5px 10px;
+  align-items: center;
+  gap: 5px;
+  border-radius: 5px;
+  border: 1.25px solid var(--material-theme-sys-light-secondary, #5854a8);
+  width: fit-content;
+  box-sizing: border-box;
+  color: var(--material-theme-sys-light-secondary, #5854a8);
+
+  /* material-theme/label/large */
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+.spe-card-det svg {
+  width: 15px;
+}
+.revv {
+  display: none !important;
+}
+@media screen and (max-width: 768px) {
+  .spe-inner-cont {
+    width: 95%;
+    gap: 25px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .revv{
+    display: flex !important;
+  }
+  .spe-cont {
+    min-height: 0;
+  }
+  .spe-card-cont {
+    display: none;
+  }
+}

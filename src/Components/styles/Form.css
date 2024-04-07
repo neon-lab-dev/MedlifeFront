@@ -1,0 +1,68 @@
+.inp {
+  border-radius: 13.074px;
+  border: 1.307px solid var(--material-theme-ref-neutral-neutral80, #c4c7c8);
+  background: var(--www-pristyncare-com-nero, #fff);
+  display: flex;
+  width: 100%;
+  height: 78.446px;
+  padding: 26.476px 16.997px 19.612px 16.997px;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+
+  color: var(--material-theme-ref-neutral-neutral60, #8e9192);
+  font-family: Lato;
+  font-size: 18.304px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26.149px; /* 142.857% */
+}
+
+.inp::placeholder {
+  color: var(--material-theme-ref-neutral-neutral60, #8e9192);
+  font-family: Lato;
+  font-size: 18.304px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26.149px;
+}
+
+
+.cities-scroll {
+  width: 100%;
+  overflow: scroll;
+  display: flex;
+  gap: 20px;
+}
+.city-chip {
+  color: var(--material-theme-sys-light-tertiary, #47617a);
+  text-align: center;
+
+  /* material-theme/title/small */
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+
+  border-radius: 13.074px;
+  border: 1.634px solid var(--material-theme-ref-secondary-secondary40, #5854a8);
+
+  display: flex;
+  height: 41.838px;
+  justify-content: center;
+  width: fit-content;
+  align-items: center;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1200px) {
+  .inp {
+    height: auto;
+    padding: 20px 16.997px;
+  }
+  .hc-form-cont button {
+    padding: 0;
+  }
+}

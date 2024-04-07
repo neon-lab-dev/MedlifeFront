@@ -1,0 +1,113 @@
+.cl-cont {
+  display: flex;
+  width: 100vw;
+  height: auto;
+  padding: 30px 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background: #f1f9f8;
+}
+
+.cl-inner-cont {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  flex-shrink: 0;
+}
+
+.cl-cards-cont {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 36px 32px;
+  flex-wrap: wrap;
+}
+
+.cl-card {
+  border-radius: 10px;
+  background: var(--material-theme-white, rgba(255, 255, 255, 0.87));
+  display: flex;
+  width: 30%;
+  padding: 20px 17px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cl-data-head {
+  color: var(--material-theme-sys-light-secondary, #5854a8);
+  font-family: Lato;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+}
+.cl-data-text {
+  color: var(--material-theme-ref-tertiary-tertiary20, #17324a);
+
+  /* material-theme/headline/small */
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+}
+
+@media screen and (max-width: 1000px) {
+  .cl-cards-cont {
+    display: flex;
+    gap: 19px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .cl-card {
+    border-radius: 10px;
+    background: var(--material-theme-white, rgba(255, 255, 255, 0.87));
+    display: flex;
+    width: 100%;
+    padding: 15px 12px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cl-inner-cont {
+    width: 95%;
+  }
+
+  .cl-cards-cont {
+    display: flex;
+    gap: 19px;
+    width: 100%;
+  }
+
+  .cl-data-head {
+    color: var(--material-theme-sys-light-secondary, #5854a8);
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+  }
+  .cl-data-text {
+    color: var(--material-theme-ref-tertiary-tertiary20, #17324a);
+
+    /* material-theme/headline/small */
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 133.333% */
+  }
+}

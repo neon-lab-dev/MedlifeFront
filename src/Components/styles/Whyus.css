@@ -1,0 +1,221 @@
+.wu-cont {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.wu-inner-cont {
+  background: var(--material-theme-white, rgba(255, 255, 255, 0.87));
+  box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.15);
+  display: flex;
+  width: 90%;
+  height: 712px;
+  border-radius: 15px;;
+
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.wu-left-cont,
+.wu-right-cont {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 30px;
+}
+
+.wu-left-img {
+  width: 100%;
+}
+.wu-left-img img {
+  width: 100%;
+}
+
+.wu-left-head {
+  color: #344e5f;
+  font-family: Ek Mukta, Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 136%; /* 54.4px */
+}
+
+.wu-left-text {
+  color: rgba(0, 0, 0, 0.67);
+
+  font-family: Tiro Devanagari Hindi, Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.wu-pts-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.wu-pts {
+  display: flex;
+  gap: 15px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.wu-btm-head {
+  color: var(--material-theme-ref-tertiary-tertiary20, #17324a);
+  text-align: center;
+  font-family: Lato;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.wu-pts-text {
+  color: rgba(0, 0, 0, 0.87);
+  text-align: center;
+
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.wu-svg-cont {
+  height: 20px;
+}
+
+.wu-right-cta {
+  cursor: pointer;
+  display: flex;
+  width: 100%;
+  height: 80px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #00a0aa;
+  box-sizing: border-box;
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 109.091% */
+}
+
+@media screen and (max-width: 768px) {
+  .wu-inner-cont {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    box-shadow: none;
+    gap: 30px;
+  }
+
+  .wu-left-cont,
+  .wu-right-cont {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+  }
+
+  .wu-left-img {
+    width: 100%;
+  }
+  .wu-left-img img {
+    width: 100%;
+  }
+
+  .wu-left-head {
+    display: none;
+  }
+
+  .wu-left-text {
+    color: rgba(0, 0, 0, 0.67);
+
+    font-family: Tiro Devanagari Hindi, Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .wu-pts-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .wu-pts {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .wu-btm-head {
+    color: var(--material-theme-ref-tertiary-tertiary20, #17324a);
+    text-align: center;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .wu-pts-text {
+    color: rgba(0, 0, 0, 0.87);
+    text-align: center;
+
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .wu-svg-cont {
+    height: 20px;
+  }
+
+  .wu-right-cta {
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #00a0aa;
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 109.091% */
+  }
+}

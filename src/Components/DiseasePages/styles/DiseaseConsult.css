@@ -1,0 +1,85 @@
+.dc-cont {
+  width: 100vw;
+  height: auto;
+  background: #ecf7fc;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+.dc-inner-cont {
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.dc-right {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.dc-right img {
+  width: 100%;
+}
+.dc-left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+}
+
+.dc-left-det-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 90%;
+}
+
+.dc-left-sub-head {
+  color: rgba(48, 48, 48, 0.87);
+  font-family: "Ek Mukta";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.dc-left-text {
+  color: rgba(48, 48, 48, 0.75);
+  font-family: "Ek Mukta";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.dc-left-head {
+  color: #344e5f;
+  font-family: "Ek Mukta";
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.dc-cta {
+  border-radius: 10px;
+  background: #00a0aa;
+  display: flex;
+  width: 358px;
+  height: 64px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

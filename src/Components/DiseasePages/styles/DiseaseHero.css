@@ -1,0 +1,255 @@
+.dh-cont {
+  width: 100vw;
+  height: auto;
+  background: #fcf8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  flex-direction: column;
+  gap: 80px;
+}
+.dh-inner-cont {
+  min-height: 754px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  display: flex;
+  width: 100%;
+  height: auto;
+  gap: 0;
+}
+.dh-left,
+.dh-right {
+  width: 50%;
+  position: relative;
+}
+
+.dh-right {
+  display: flex;
+  align-items: flex-end;
+}
+.dh-right > img {
+  width: 100%;
+}
+
+.dh-right-abs {
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+
+  border-radius: 12px;
+  background: #00a0aa;
+  box-shadow: 0px 4px 56px 0px rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  width: 90%;
+  /* height: 99px; */
+  padding: 25px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  color: #fff;
+  text-align: center;
+
+  /* material-theme/title/large */
+  font-family: Lato;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 127.273% */
+}
+
+.dh-left {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+  overflow: hidden;
+}
+
+.dh-left-nav {
+  color: var(--material-theme-ref-neutral-neutral30, #444748);
+
+  /* Breadcrumbs/18 px/Lato/regular */
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+}
+
+.dh-left-mid {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 54px;
+}
+
+.dh-left-det-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.dh-left-head-col {
+  color: #2ca9e1;
+  font-family: "Ek Mukta";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 72px;
+}
+.dh-left-head {
+  color: #344e5f;
+  font-family: Lato;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px; /* 100% */
+}
+
+.dh-left-text {
+  color: #344e5f;
+  font-family: "Tiro Devanagari Hindi";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 133.333% */
+  width: 90%;
+}
+
+.dh-left-pts {
+  display: flex;
+  padding-right: 10px;
+  align-items: center;
+  gap: 10px;
+}
+
+.dh-pts-cont {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: "Ek Mukta";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 150% */
+}
+
+.dh-cta {
+  border-radius: 10px;
+  background: #00a0aa;
+  display: flex;
+  width: 358px;
+  height: 64px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+
+  color: #fff;
+  text-align: center;
+
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.dh-card-cont {
+  border-radius: 8.211px;
+  background: var(--material-theme-ref-tertiary-tertiary99, #fcfcff);
+  box-shadow: 0px 2.463px 18.064px 0px rgba(0, 0, 0, 0.08);
+  display: flex;
+  width: 90%;
+  padding: 20.528px 41.055px;
+  justify-content: center;
+  align-items: center;
+  gap: 41.055px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.dh-left-circle {
+  position: absolute;
+  bottom: -30%;
+  right: -40%;
+  width: 568px;
+  height: 568px;
+  flex-shrink: 0;
+  border-radius: 568px;
+  background: #e4e2ff;
+}
+
+.dh-btm-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+}
+
+.dh-btm-card {
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.12);
+  display: flex;
+  width: 350px;
+  height: 374px;
+  /* height: auto; */
+  flex-direction: column;
+  align-items: flex-start;
+}
+.dh-btm-card img {
+  width: 100%;
+}
+.dh-btmcard-head {
+  color: var(--text-color, #252b42);
+  font-family: "Tiro Devanagari Hindi";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.1px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.dh-card-line {
+  background: var(--danger-color, #e74040);
+  width: 50px;
+  height: 2px;
+}
+.dh-btmcard-text {
+  border-radius: 8px;
+  background: #dff2f1;
+  display: flex;
+  padding: 14px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 80%;
+  color: #00a0aa;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 125% */
+}
+
+.dh-btm-main {
+  padding: 24px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}

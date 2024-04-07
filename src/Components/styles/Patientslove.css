@@ -1,0 +1,105 @@
+.pl-cont {
+  display: flex;
+  width: 100vw;
+  height: 849px;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  gap: 50px;
+  background: #f6fafb;
+}
+
+.pl-text {
+  color: var(--material-theme-ref-neutral-neutral24, #363a3b);
+  font-family: Ek Mukta;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.pl-card {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 3px 22px 0px rgba(0, 0, 0, 0.12);
+  width: 361px;
+  height: auto;
+  flex-shrink: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.pl-cta-cont {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+}
+
+@media screen and (max-width: 395px) {
+  .pl-cta-cont {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.pl-va {
+  display: flex;
+  height: 48px;
+  padding: 11px 20px;
+
+  justify-content: center;
+  align-items: center;
+  color: var(--material-theme-sys-light-secondary, #5854a8);
+  text-align: center;
+
+  /* material-theme/title/medium */
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+
+  border-radius: 8px;
+  border: 1.5px solid var(--material-theme-sys-light-secondary, #5854a8);
+  background: var(--www-pristyncare-com-nero, #fff);
+  box-sizing: border-box;
+}
+
+.pl-wr {
+  box-sizing: border-box;
+  display: flex;
+
+  padding: 11px 21px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1.5px solid var(--material-theme-sys-light-secondary, #5854a8);
+  background: var(--material-theme-sys-light-secondary, #5854a8);
+
+  color: #fff;
+  text-align: center;
+
+  /* material-theme/title/medium */
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+@media screen and (max-width: 395px) {
+  .pl-wr, .pl-va {
+    width: 100%;
+    width: 100%;
+  }
+}
+
