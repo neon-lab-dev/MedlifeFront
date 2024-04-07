@@ -23,7 +23,7 @@ const FbReviews = () => {
     try {
       axios
         .get(
-          `https://graph.instagram.com/me/media?fields=id,thumbnail_url,media_url,timestamp,permalink,username&access_token=${process.env.REACT_APP_INSTAGRAM_ACCESS_TOKEN}&limit=6`
+          `https://graph.instagram.com/me/media?fields=id,thumbnail_url,media_url,timestamp,permalink,username&access_token=${import.meta.env.VITE_INSTAGRAM_ACCESS_TOKEN}&limit=6`
         )
         .then((res) => {
           setInstagramPost(res.data.data);
