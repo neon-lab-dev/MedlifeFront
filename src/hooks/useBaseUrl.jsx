@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosBaseUrl = axios.create({
-    baseURL: 'https://medlife-backend.vercel.app'
+    baseURL: 'https://api.medlifeeasy.com'
 })
 
 const useAxiosBaseUrl = () => {
