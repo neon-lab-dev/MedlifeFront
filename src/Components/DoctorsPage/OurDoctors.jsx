@@ -103,7 +103,7 @@ const OurDoctors = () => {
                             <h2 className="text-lg font-bold text-gray-700 flex items-center gap-2">
                               {" "}
                               <IoBagAdd></IoBagAdd>
-                              <p className="text-gray-600 capitalize">{doctor?.experience}</p>
+                              <p className="text-gray-600 capitalize">{doctor?.experience} Years</p>
                             </h2>
 
                             <h2 className="text-lg font-bold text-gray-700 flex items-center gap-2">

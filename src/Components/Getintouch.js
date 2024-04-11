@@ -1,23 +1,127 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./styles/Getintouch.css";
 import { IoIosArrowDown } from "react-icons/io";
 import useAxiosBaseUrl from "../hooks/useBaseUrl";
 import { toast } from "sonner";
 
 const cities = [
-  "Select City / शहर चुनें",
-  "Patna",
-  "Gaya",
+  "Araria",
+  "Arwal",
+  "Aurangabad",
+  "Banka",
+  "Begusarai",
   "Bhagalpur",
-  "Muzaffarpur",
-  "Purnia",
+  "Bhojpur",
+  "Buxar",
   "Darbhanga",
-];
+  "East Champaran",
+  "Gaya",
+  "Gopalganj",
+  "Jamui",
+  "Jehanabad",
+  "Khagaria",
+  "Kishanganj",
+  "Kaimur",
+  "Katihar",
+  "Lakhisarai",
+  "Madhubani",
+  "Munger",
+  "Madhepura",
+  "Muzaffarpur",
+  "Nalanda",
+  "Nawada",
+  "Patna",
+  "Purnia",
+  "Rohtas",
+  "Saharsa",
+  "Samastipur",
+  "Sheohar",
+  "Sheikhpura",
+  "Saran",
+  "Sitamarhi",
+  "Supaul",
+  "Siwan",
+  "Vaishali",
+  "West Champaran"
+]
+
 const disease = [
-  "Select Disease / रोग का चयन करें",
-  "Hernia",
-  "Gynacology",
-  "Fever",
+  "Proctology",
+  "Piles Treatment",
+  "Fistula Treatment",
+  "Pilonidal Sinus Treatment",
+  "Rectal Prolapse",
+
+  "Laparoscopy",
+  "Hernia Treatment",
+  "Gallbladder Treatment",
+  "Inguinal Hernia Treatment",
+  "Umbilical Hernia Treatment",
+
+  "Gynaecology",
+  "Uterus Removal",
+  "Ovarian Cyst",
+
+  "ENT",
+  "Tympanoplasty",
+  "Adenoidectomy",
+  "Sinus Treatment",
+  "Septoplasty",
+  "Mastoidectomy",
+  "FESS Surgery",
+  "Thyroidectomy",
+  "Tonsillectomy",
+  "Stapedectomy",
+  "Myringotomy",
+  "Throat Surgery",
+  "Ear Surgery",
+  "Vocal Cord Polyps",
+  "Nasal Polyps",
+  "Turbinate Reduction",
+
+  "Vascular",
+  "Varicose Veins Treatment",
+  "Varicocele Treatment",
+
+  "Aesthetics",
+  "Gynecomastia",
+  "Liposuction",
+  "Hair Transplant",
+
+  "Orthopedics",
+  "Knee Replacement",
+  "ACL Tear Treatment",
+  "Hip Replacement Surgery",
+  "Spine Surgery",
+
+  "Ophthalmology",
+  "Lasik Eye Surgery",
+  "Cataract Surgery",
+  "Phaco Surgery",
+
+  "Fertility",
+  "IVF Treatment",
+  "IUI Treatment",
+
+  "Dentistry",
+  "Dental Implant Surgery",
+  "Dental Braces",
+  "Teeth Aligners",
+
+  "Weight Loss",
+  "Bariatric Surgery",
+  "Intragastric Balloon",
+  "Weightloss Surgery",
+
+  "Dermatology",
+  "Botox",
+  "Vampire Facial",
+  "Face Threadlift",
+  "Hair Transplant",
+  "FUE",
+  "FUT",
+  "DHI Hair Transplant",
+  "GFC Hair Transplant",
 ];
 
 const Getintouch = () => {
@@ -107,15 +211,20 @@ const Getintouch = () => {
             <div className="relative inline-block text-left w-full mb-4">
               <select
                 id="city"
-                value={selectedCity}
-                onChange={handleChange}
                 className="block appearance-none cursor-pointer bg-white border border-gray-300 px-4 focus:outline-none focus:border-teal-700 transition duration-300 ease-in-out w-full h-12 rounded-lg 2xl:h-16"
               >
-                {cities.map((city) => (
-                  <option key={city} value={city}>
-                    {city}
+
+<option disabled selected>
+                    Select City / शहर चुनें
                   </option>
-                ))}
+
+                  {
+                    cities.map((city, index) => 
+                  <option key={index} value={city}>
+                      {city}
+                  </option>
+                  )
+                  }
               </select>
               <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 text-gray-700">
                 <IoIosArrowDown></IoIosArrowDown>
@@ -125,13 +234,14 @@ const Getintouch = () => {
             <div className="relative inline-block text-left w-full mb-4">
               <select
                 id="city"
-                value={selectedDisease}
-                onChange={handleChange1}
                 className="block appearance-none cursor-pointer bg-white border border-gray-300 px-4 focus:outline-none focus:border-teal-700 transition duration-300 ease-in-out w-full h-12 rounded-lg 2xl:h-16"
               >
-                {disease.map((city) => (
-                  <option key={city} value={city}>
-                    {city}
+                <option disabled selected>
+                    Select Disease / रोग का चयन करें
+                  </option>
+                {disease.map((disease, index) => (
+                  <option key={index} value={disease}>
+                    {disease}
                   </option>
                 ))}
               </select>

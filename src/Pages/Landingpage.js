@@ -12,12 +12,12 @@ import Faqs from "../Components/Faq";
 import Getintouch from "../Components/Getintouch";
 import Officeaddress from "../Components/Officeaddress";
 import Footer from "../Components/Footer";
-import Modal from "../Components/Modal";
 import { Helmet } from "react-helmet-async";
 import Surgeries from "./Surgeries";
 import FbReviews from "../Components/FbReviews";
 import Navbar from "../Components/Navbar";
 import ReactGA from 'react-ga';
+import AppointmentModal from "../Components/AppointmentModal";
 const Landingpage = () => {
   useEffect(() => {
     ReactGA.pageview(window.location.pathname + window.location.search);
@@ -28,7 +28,7 @@ const Landingpage = () => {
         <title>Medlife Easy | Home</title>
       </Helmet>
       <Navbar></Navbar>
-      <Modal></Modal>
+      <AppointmentModal/>
       <Hero />
       <Surgeries></Surgeries>
       <Specialities />

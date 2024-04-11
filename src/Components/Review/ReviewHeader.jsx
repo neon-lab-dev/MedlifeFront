@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { IoIosArrowDown } from "react-icons/io";
 import { Link, useNavigate } from "react-router-dom";
 import { FaArrowRightToBracket } from "react-icons/fa6";
@@ -125,6 +125,132 @@ const ReviewHeader = () => {
   let average = sum / reviews.length || 0;
 
 
+  // All the dictricts name
+  const districts = [
+    "Araria",
+    "Arwal",
+    "Aurangabad",
+    "Banka",
+    "Begusarai",
+    "Bhagalpur",
+    "Bhojpur",
+    "Buxar",
+    "Darbhanga",
+    "East Champaran",
+    "Gaya",
+    "Gopalganj",
+    "Jamui",
+    "Jehanabad",
+    "Khagaria",
+    "Kishanganj",
+    "Kaimur",
+    "Katihar",
+    "Lakhisarai",
+    "Madhubani",
+    "Munger",
+    "Madhepura",
+    "Muzaffarpur",
+    "Nalanda",
+    "Nawada",
+    "Patna",
+    "Purnia",
+    "Rohtas",
+    "Saharsa",
+    "Samastipur",
+    "Sheohar",
+    "Sheikhpura",
+    "Saran",
+    "Sitamarhi",
+    "Supaul",
+    "Siwan",
+    "Vaishali",
+    "West Champaran"
+]
+
+
+  // All the disease names
+
+  const disease = [
+    "Select Disease",
+    "Proctology",
+    "Piles Treatment",
+    "Fistula Treatment",
+    "Pilonidal Sinus Treatment",
+    "Rectal Prolapse",
+
+    "Laparoscopy",
+    "Hernia Treatment",
+    "Gallbladder Treatment",
+    "Inguinal Hernia Treatment",
+    "Umbilical Hernia Treatment",
+
+    "Gynaecology",
+    "Uterus Removal",
+    "Ovarian Cyst",
+
+    "ENT",
+    "Tympanoplasty",
+    "Adenoidectomy",
+    "Sinus Treatment",
+    "Septoplasty",
+    "Mastoidectomy",
+    "FESS Surgery",
+    "Thyroidectomy",
+    "Tonsillectomy",
+    "Stapedectomy",
+    "Myringotomy",
+    "Throat Surgery",
+    "Ear Surgery",
+    "Vocal Cord Polyps",
+    "Nasal Polyps",
+    "Turbinate Reduction",
+
+    "Vascular",
+    "Varicose Veins Treatment",
+    "Varicocele Treatment",
+
+    "Aesthetics",
+    "Gynecomastia",
+    "Liposuction",
+    "Hair Transplant",
+
+    "Orthopedics",
+    "Knee Replacement",
+    "ACL Tear Treatment",
+    "Hip Replacement Surgery",
+    "Spine Surgery",
+
+    "Ophthalmology",
+    "Lasik Eye Surgery",
+    "Cataract Surgery",
+    "Phaco Surgery",
+
+    "Fertility",
+    "IVF Treatment",
+    "IUI Treatment",
+
+    "Dentistry",
+    "Dental Implant Surgery",
+    "Dental Braces",
+    "Teeth Aligners",
+
+    "Weight Loss",
+    "Bariatric Surgery",
+    "Intragastric Balloon",
+    "Weightloss Surgery",
+
+    "Dermatology",
+    "Botox",
+    "Vampire Facial",
+    "Face Threadlift",
+    "Hair Transplant",
+    "FUE",
+    "FUT",
+    "DHI Hair Transplant",
+    "GFC Hair Transplant",
+  ];
+
+
   return (
     <div className="flex flex-col items-center">
 
@@ -211,7 +337,7 @@ const ReviewHeader = () => {
                   </div>
                   <div className="w-full">
                     <ProgressBar
-                      barContainerClassName="progressContainer"
+                      barContainerclassName="progressContainer"
                       height="7px"
                       isLabelVisible={false}
                       completed={percentageOfFiveStarReviews}
@@ -253,7 +379,7 @@ const ReviewHeader = () => {
                   <div className="w-full">
                     <div className="w-full">
                       <ProgressBar
-                        barContainerClassName="progressContainer"
+                        barContainerclassName="progressContainer"
                         height="7px"
                         isLabelVisible={false}
                         completed={percentageOfFourStarReviews}
@@ -295,7 +421,7 @@ const ReviewHeader = () => {
                   </div>
                   <div className="w-full">
                     <ProgressBar
-                      barContainerClassName="progressContainer"
+                      barContainerclassName="progressContainer"
                       height="7px"
                       isLabelVisible={false}
                       completed={percentageOfThreeStarReviews}
@@ -336,7 +462,7 @@ const ReviewHeader = () => {
                   </div>
                   <div className="w-full">
                     <ProgressBar
-                      barContainerClassName="progressContainer"
+                      barContainerclassName="progressContainer"
                       height="7px"
                       isLabelVisible={false}
                       completed={percentageOfTwoStarReviews}
@@ -377,7 +503,7 @@ const ReviewHeader = () => {
                   </div>
                   <div className="w-full">
                     <ProgressBar
-                      barContainerClassName="progressContainer"
+                      barContainerclassName="progressContainer"
                       height="7px"
                       isLabelVisible={false}
                       completed={percentageOfOneStarReviews}
@@ -423,7 +549,7 @@ const ReviewHeader = () => {
                 type="text"
               />
 
-              <div class="relative inline-block text-left w-full">
+              <div className="relative inline-block text-left w-full">
                 <select
                   name="city"
                   className="bg-white border border-gray-300 px-4 focus:outline-none focus:border-teal-700 transition duration-300 ease-in-out w-full h-12 rounded-lg appearance-none"
@@ -431,17 +557,21 @@ const ReviewHeader = () => {
                   <option disabled selected>
                     Select City / शहर चुनें
                   </option>
-                  <option value="Mumbai">Mumbai</option>
-                  <option value="Patna">Patna</option>
-                  <option value="Chennai">Chennai</option>
-                  <option value="Kolkata"> Kolkata </option>
+
+                  {
+                    districts.map((district, index) => 
+                  <option key={index} value={district}>
+                      {district}
+                  </option>
+                  )
+                  }
                 </select>
-                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
                   <IoIosArrowDown></IoIosArrowDown>
                 </div>
               </div>
 
-              <div class="relative inline-block text-left w-full">
+              <div className="relative inline-block text-left w-full">
                 <select
                   name="disease"
                   className="bg-white border border-gray-300 px-4 focus:outline-none focus:border-teal-700 transition duration-300 ease-in-out w-full h-12 rounded-lg appearance-none"
@@ -449,12 +579,15 @@ const ReviewHeader = () => {
                   <option disabled selected>
                     Select Disease / रोग का चयन करें
                   </option>
-                  <option value="Hernia">Hernia</option>
-                  <option value="Cancer">Cancer</option>
-                  <option value="Blood Pressure">Blood Pressure</option>
-                  <option value="Diphtheria"> Diphtheria </option>
+                  {
+                    disease.map((disease, index) => 
+                  <option key={index} value={disease}>
+                      {disease}
+                  </option>
+                  )
+                  }
                 </select>
-                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
                   <IoIosArrowDown></IoIosArrowDown>
                 </div>
               </div>

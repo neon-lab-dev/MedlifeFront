@@ -14,6 +14,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import Loader from "./Loader/Loader";
+import "../Components/styles/Reviews.css"
 
 const FbReviews = () => {
   const [instagramPost, setInstagramPost] = useState();
@@ -65,6 +66,7 @@ const FbReviews = () => {
             pagination={{
               clickable: true,
             }}
+            spaceBetween={10}
             modules={[Pagination]}
             className="carousel"
           >
