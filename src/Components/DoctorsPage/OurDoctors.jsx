@@ -43,9 +43,8 @@ const OurDoctors = () => {
             <div className="flex flex-col justify-center items-center gap-14">
             {allDoctors.length > 0
               ? allDoctors.map((doctor) => (
-                  <div className="w-full lg:w-5/6">
+                  <div key={doctor._id} className="w-full lg:w-5/6">
                     <div
-                      key={doctor._id}
                       className="bg-white shadow-md shadow-md-top shadow-md-bottom border-t-2 border-gray-100 px-2 py-5 rounded-md grid grid-cols-1 lg:grid-cols-3 items-center" 
                     >
                       {/* grid grid-cols-3 mb-2 lg:mb-4 */}
@@ -137,7 +136,7 @@ const OurDoctors = () => {
                     </div>
                   </div>
                 ))
-              : "No content here"}
+              : "No doctors available"}
           </div>
           </div>
         )}

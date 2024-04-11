@@ -11,7 +11,7 @@ const DiseaseHero = ({ content, disease }) => {
   return (
     <div className="bg-[#fcf8ff] w-full flex flex-col gap-[10px] items-center pb-5">
       <Helmet>
-        <title>Medlife Easy | {disease}</title>
+        <title>Medlife Easy | {disease.charAt(0).toUpperCase() + disease.slice(1)}</title>
       </Helmet>
       {/* Breadcrumbs menu */}
       <div className="text-sm breadcrumbs w-[95%] lg:w-[90%]">
