@@ -32,7 +32,7 @@ const Doctors = () => {
         <h1 className="text-2xl md:text-4xl font-semibold text-gray-800  text-center mb-3">
           Meet your Doctors!
         </h1>
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-5xl mx-auto mb-5">
           <p className="text-gray-600 font-lato text-center w-full">
             Meet our exceptional team of doctors. Highly qualified and
             compassionate, they're dedicated to your well-being. With
@@ -81,7 +81,7 @@ const Doctors = () => {
                       <div className="doc-det">
                         <div className="doc-name">{doctor.doctorName}</div>
                         <div className="doc-exp">
-                          {doctor.experience} |{" "}
+                          {doctor.experience} Years |{" "}
                           <b style={{ color: "#C4C0FF" }}>
                             {doctor.diseaseHandle}
                           </b>

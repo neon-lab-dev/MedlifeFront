@@ -73,7 +73,7 @@ const OurBlogs = () => {
               </div>
             ))
           ) : (
-            <p>No blogs available</p>
+            "No blogs available"
           )}
         </div>
       </div>

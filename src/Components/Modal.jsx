@@ -20,7 +20,7 @@ const Modal = () => {
     const startModalInterval = () => {
       modalInterval = setInterval(() => {
         openModal();
-      }, 500000000);
+      }, 3000090);
     };
 
     const resetModalInterval = () => {

@@ -43,7 +43,7 @@
 
 .dd-top-head {
   color: var(--material-theme-ref-tertiary-tertiary20, #17324a);
-  text-align: center;
+  text-align: start;
 
   /* material-theme/title/large */
   font-family: Lato;

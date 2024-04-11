@@ -1,7 +1,5 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import "./styles/Specialities.css";
-import proctospe from "../Assests/proctospe.png";
-import ext from "../Assests/external.png";
 import { Link } from "react-router-dom";
 import proctology from "../Assests/Our specialities image/PROCTOLOGY.jpg";
 import laparoscopy from "../Assests/Our specialities image/Laparoscopy.jpg";
@@ -32,6 +30,7 @@ const Specialities = () => {
     }
   };
   const specialitiesInfo = [
+    
     {
       img: proctology,
       name: "Proctology",

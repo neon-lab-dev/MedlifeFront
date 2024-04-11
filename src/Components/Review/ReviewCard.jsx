@@ -45,28 +45,33 @@ const ReviewCard = () => {
                 <p className="text-lg mb-2 text-[#17324A]">
                   Name: <span className="font-semibold">{review?.name}</span>
                 </p>
-                <p className="text-lg mb-2 text-[#17324A]">
-                  City: <span className="font-semibold">PATNA</span>
-                </p>
-                <p className="text-lg mb-2 text-[#17324A]">
-                  Disease: <span className="font-semibold">HERNIA</span>
-                </p>
+                {
+                  review?.city &&
+                  <p className="text-lg mb-2 text-[#17324A]">
+                  City: <span className="font-semibold">{review?.city}</span>
+                </p>}
+
+
+                {
+                  review?.disease && 
+                  <p className="text-lg mb-2 text-[#17324A]">
+                  Disease: <span className="font-semibold">{review?.disease}</span>
+                </p>}
+
 
               </div>
 
               {/* Reviews Card with star icon */}
               <div className="ml-3 col-span-4">
-                <div className="flex items-center gap-4 mb-4">
-                  <div className="flex items-center justify-center gap-4">
+                <div className="flex items-center gap-2 mb-2">
+                  <div className="flex items-center justify-center gap-2">
                     <h2 className="text-lg font-semibold">{review?.ratings}</h2>
                     <ReactStars
                       value={review?.ratings}
                       edit={true}
                       activeColors={["#FFCE00"]}
                     />
-                    <h2 className="text-md md:text-lg font-semibold">
-                      ({calculateTimeAgo(review?.createdAt)})
-                    </h2>
+                    
                   </div>
                 </div>
 

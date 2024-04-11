@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import phone from "../Assests/Modal images and icons/phone.png";
 import doctor from "../Assests/Modal images and icons/doctor.png";
 import customer from "../Assests/Modal images and icons/customer-care 1.png";
@@ -60,7 +60,87 @@ const AppointmentModal = ({ text, className }) => {
     "Vaishali",
     "West Champaran",
   ];
-  const disease = ["Select Disease", "Hernia", "Gynacology", "Fever"];
+
+  // All the disease names
+  const disease = [
+    "Select Disease",
+    "Proctology",
+    "Piles Treatment",
+    "Fistula Treatment",
+    "Pilonidal Sinus Treatment",
+    "Rectal Prolapse",
+
+    "Laparoscopy",
+    "Hernia Treatment",
+    "Gallbladder Treatment",
+    "Inguinal Hernia Treatment",
+    "Umbilical Hernia Treatment",
+
+    "Gynaecology",
+    "Uterus Removal",
+    "Ovarian Cyst",
+
+    "ENT",
+    "Tympanoplasty",
+    "Adenoidectomy",
+    "Sinus Treatment",
+    "Septoplasty",
+    "Mastoidectomy",
+    "FESS Surgery",
+    "Thyroidectomy",
+    "Tonsillectomy",
+    "Stapedectomy",
+    "Myringotomy",
+    "Throat Surgery",
+    "Ear Surgery",
+    "Vocal Cord Polyps",
+    "Nasal Polyps",
+    "Turbinate Reduction",
+
+    "Vascular",
+    "Varicose Veins Treatment",
+    "Varicocele Treatment",
+
+    "Aesthetics",
+    "Gynecomastia",
+    "Liposuction",
+    "Hair Transplant",
+
+    "Orthopedics",
+    "Knee Replacement",
+    "ACL Tear Treatment",
+    "Hip Replacement Surgery",
+    "Spine Surgery",
+
+    "Ophthalmology",
+    "Lasik Eye Surgery",
+    "Cataract Surgery",
+    "Phaco Surgery",
+
+    "Fertility",
+    "IVF Treatment",
+    "IUI Treatment",
+
+    "Dentistry",
+    "Dental Implant Surgery",
+    "Dental Braces",
+    "Teeth Aligners",
+
+    "Weight Loss",
+    "Bariatric Surgery",
+    "Intragastric Balloon",
+    "Weightloss Surgery",
+
+    "Dermatology",
+    "Botox",
+    "Vampire Facial",
+    "Face Threadlift",
+    "Hair Transplant",
+    "FUE",
+    "FUT",
+    "DHI Hair Transplant",
+    "GFC Hair Transplant",
+  ];
 
   const axiosBaseUrl = useAxiosBaseUrl();
 
@@ -106,6 +186,34 @@ const AppointmentModal = ({ text, className }) => {
       });
   };
 
+  const modalRef = useRef(null);
+
+  const openModal = () => {
+    if (modalRef.current) {
+      modalRef.current.showModal();
+    }
+  };
+
+  useEffect(() => {
+    let modalInterval;
+
+    const startModalInterval = () => {
+      modalInterval = setInterval(() => {
+        openModal();
+      }, 60000);
+    };
+
+    const resetModalInterval = () => {
+      clearInterval(modalInterval);
+      startModalInterval();
+    };
+
+    startModalInterval();
+
+    return () => clearInterval(modalInterval);
+
+  }, []);
+
   return (
     <div className="">
       <button
@@ -117,7 +225,7 @@ const AppointmentModal = ({ text, className }) => {
       >
         {text}
       </button>
-      <dialog id="my_modal_4" className="modal">
+      <dialog ref={modalRef} id="my_modal_4" className="modal">
         <div className="modal-box bg-white w-11/12 md:w-5/6 max-w-6xl p-0">
           <form method="dialog">
             <button className="btn btn-sm btn-circle btn-ghost absolute right-1 lg:right-2 top-[10px] lg:top-4 text-white">
