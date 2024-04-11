@@ -1,9 +1,8 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import "./Landingpage.css";
 import Hero from "../Components/Hero";
 import Specialities from "../Components/Specialities";
 import SocialNews from "../Components/SocialNews";
-import Reviews from "../Components/Reviews";
 import ChangingLives from "../Components/ChangingLives";
 import Doctors from "../Components/Doctors";
 import Whyus from "../Components/Whyus";

@@ -15,10 +15,11 @@ const DiseaseHeroSection = ({ content, subDisease, diseaseName }) => {
   return (
     <div className="bg-[#fcf8ff] flex flex-col items-center">
       <Helmet>
-        <title>
-          {diseaseName} | {subDisease}
-        </title>
-      </Helmet>
+  <title>
+    {diseaseName} | {subDisease.charAt(0).toUpperCase() + subDisease.slice(1)}
+  </title>
+</Helmet>
+
       {/* Breadcrumbs menu */}
       <div className="text-sm breadcrumbs w-[94%] lg:w-[90%]">
         <ul>
@@ -35,7 +36,7 @@ const DiseaseHeroSection = ({ content, subDisease, diseaseName }) => {
       <div className="w-[94%] lg:w-[90%] xl:w-[90%] grid grid-cols-1 lg:grid-cols-5 gap-0 lg:gap-10 relative">
         <div className="pt-4 pb-10 z-10 col-span-3">
           {/* Main heading */}
-          <h1 className="text-5xl text-gray-600 font-semibold mb-3 font-lato capitalize">
+          <h1 className="text-5xl text-gray-600 font-semibold mb-3 font-lato capitalize leading-[55px]">
             {content ? content?.heroHeader : ""}
           </h1>
           {/* Sub heading */}

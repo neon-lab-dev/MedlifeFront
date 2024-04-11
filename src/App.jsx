@@ -14,7 +14,6 @@ import TermsConditions from "./Components/FooterPages/TermsConditions";
 import HospitalDetails from "./Components/Hospitals/HospitalDetails";
 import HospitalsPage from "./Components/Hospitals/HospitalsPage";
 import Modal from "./Components/Modal";
-import Navbar from "./Components/Navbar";
 import ReviewPage from "./Components/Review/ReviewPage";
 import WriteReview from "./Components/Review/WriteReview/WriteReview";
 import BookAmbulance from "./Components/Services/BookAmbulance";
@@ -34,10 +33,21 @@ import "swiper/css/navigation";
 import "./App.css";
 import FormProvider from "./Components/Provider/FormProvider";
 import ReactGA from "react-ga";
+import { useState } from "react";
+import PreLoader from "./Components/Loader/PreLoader";
 ReactGA.initialize("G-ZH1TFBC5PG");
 
 const queryClient = new QueryClient();
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  setTimeout(() => {
+    setLoading(false);
+  }, 2000);
+
+  if (loading) {
+    return <div><PreLoader/></div>;
+  }
   return (
     <Router>
       <HelmetProvider>

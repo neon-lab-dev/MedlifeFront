@@ -1,8 +1,9 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import herniasurgery from "../../../Assests/herniasurgery.png";
 import AppointmentModal from "../../AppointmentModal";
 import ReactGA from "react-ga";
 import { MdOutlineDone } from "react-icons/md";
+import PropTypes from "prop-types";
 
 const AboutDisease = ({ content }) => {
   useEffect(() => {
@@ -19,6 +20,54 @@ const AboutDisease = ({ content }) => {
             </h3>
           )}
 
+{content?.aboutDisease?.diagnosis?.details && (
+            <p className="text-sm text-justify mb-2 font-lato font-normal">
+              {content?.aboutDisease?.diagnosis?.details}
+            </p>
+          )}
+
+{content?.aboutDisease?.diagnosis?.details3 && (
+            <p className="text-sm text-justify mb-2 font-lato font-normal">
+              {content?.aboutDisease?.diagnosis?.details3}
+            </p>
+          )}
+
+
+          {content?.aboutDisease?.diagnosis?.featureHeader && (
+            <h3 className="text-2xl font-bold mb-3 text-gray-600">
+              {content.aboutDisease.diagnosis.featureHeader}
+            </h3>
+          )}
+
+<div className="mb-2 flex flex-col gap-2">
+            {content?.aboutDisease?.diagnosis?.features?.length > 0
+              ? content?.aboutDisease?.diagnosis?.features?.map((list, index) => (
+                  <div key={index} className="flex  gap-2 mb-4">
+                    <div className="bg-[#2ca9e1] p-1 w-5 h-5 rounded-full flex justify-center items-center text-white">
+                      <MdOutlineDone></MdOutlineDone>
+                    </div>
+                    <p className="font-semibold text-gray-800 font-lato -mt-[2px]">
+                      {list}
+                    </p>
+                  </div>
+                ))
+              : ""}
+          </div>
+
+          
+
+          {content?.aboutDisease?.diagnosis?.details2 &&
+            content?.aboutDisease?.diagnosis?.details2?.map((detail, index) => (
+              <p
+                key={index}
+                className="text-sm text-justify mb-2 font-lato font-normal"
+              >
+                {detail}
+              </p>
+            ))}
+
+            
+
           {content?.aboutDisease?.diagnosis?.diagnosisSubHeader && (
             <h3 className="text-2xl font-bold mb-3 text-gray-600">
               {content.aboutDisease.diagnosis.diagnosisSubHeader}
@@ -30,6 +79,15 @@ const AboutDisease = ({ content }) => {
               {content?.aboutDisease?.diagnosis?.diagnosisSubDetails}
             </p>
           )}
+
+          
+{content?.aboutDisease?.diagnosis?.subheader3 && (
+            <h3 className="text-2xl font-bold mb-3 text-gray-600">
+              {content.aboutDisease.diagnosis.subheader3}
+            </h3>
+          )}
+
+
 
           {content?.aboutDisease?.diagnosis?.diagnosisLists &&
             content.aboutDisease.diagnosis.diagnosisLists.map(
@@ -46,6 +104,7 @@ const AboutDisease = ({ content }) => {
               }
             )}
 
+
           {content?.aboutDisease?.diagnosis?.occureHeader && (
             <h3 className="text-2xl font-bold mb-3 text-gray-600">
               {content.aboutDisease.diagnosis.occureHeader}
@@ -58,7 +117,7 @@ const AboutDisease = ({ content }) => {
             </p>
           )}
 
-          {content?.aboutDisease?.diagnosis?.occureSubHeader && (
+{content?.aboutDisease?.diagnosis?.occureSubHeader && (
             <h3 className="text-2xl font-bold mb-3 text-gray-600">
               {content.aboutDisease.diagnosis.occureSubHeader}
             </h3>
@@ -67,6 +126,55 @@ const AboutDisease = ({ content }) => {
           {content?.aboutDisease?.diagnosis?.occureSubDetails && (
             <p className="text-sm text-justify mb-2 font-lato font-normal">
               {content?.aboutDisease?.diagnosis?.occureSubDetails}
+            </p>
+          )}
+          
+{content?.aboutDisease?.diagnosis?.occureListSubHeader && (
+            <h3 className="text-2xl font-bold mb-3 text-gray-600">
+              {content.aboutDisease.diagnosis.occureListSubHeader}
+            </h3>
+          )}
+
+{content?.aboutDisease?.diagnosis?.occureSubDetailsLists &&
+            content.aboutDisease.diagnosis.occureSubDetailsLists.map(
+              (list, index) => {
+                const [title, description] = list.split(":");
+                return (
+                  <p
+                    className="text-sm text-justify mb-2 font-lato font-normal"
+                    key={index}
+                  >
+                    <strong>{title}</strong>: {description}
+                  </p>
+                );
+              }
+            )}
+
+
+{content?.aboutDisease?.diagnosis?.occureSubDetailsLists2 &&
+            content.aboutDisease.diagnosis.occureSubDetailsLists2.map(
+              (list, index) => {
+                const [title, description] = list.split(":");
+                return (
+                  <p
+                    className="text-sm text-justify mb-2 font-lato font-normal"
+                    key={index}
+                  >
+                    <strong>{title}</strong>: {description}
+                  </p>
+                );
+              }
+            )}
+
+          {content?.aboutDisease?.diagnosis?.occureSubHeader2 && (
+            <h3 className="text-2xl font-bold mb-3 text-gray-600">
+              {content.aboutDisease.diagnosis.occureSubHeader2}
+            </h3>
+          )}
+
+          {content?.aboutDisease?.diagnosis?.occureSubDetails2 && (
+            <p className="text-sm text-justify mb-2 font-lato font-normal">
+              {content?.aboutDisease?.diagnosis?.occureSubDetails2}
             </p>
           )}
 
@@ -95,7 +203,22 @@ const AboutDisease = ({ content }) => {
               : ""}
           </div>
 
-          {content?.aboutDisease?.diagnosis?.diagnosisFooterDetails && (
+          {content?.aboutDisease?.diagnosis?.occureDetailsLists &&
+            content.aboutDisease.diagnosis.occureDetailsLists.map(
+              (diagnosis, index) => {
+                const [title, description] = diagnosis.split(":");
+                return (
+                  <p
+                    className="text-sm text-justify mb-2 font-lato font-normal"
+                    key={index}
+                  >
+                    <strong>{title}</strong>: {description}
+                  </p>
+                );
+              }
+            )}
+
+{content?.aboutDisease?.diagnosis?.diagnosisFooterDetails && (
             <p className="text-sm text-justify mb-2 font-lato font-normal">
               {content?.aboutDisease?.diagnosis?.diagnosisFooterDetails}
             </p>
@@ -125,6 +248,9 @@ const AboutDisease = ({ content }) => {
       </div>
     </div>
   );
+};
+AboutDisease.propTypes = {
+  content: PropTypes.object, // Content prop can be of any type
 };
 
 export default AboutDisease;
