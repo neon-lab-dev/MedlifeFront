@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import CityDropdown from "./CityDropdown.js";
 import "./styles/Form.css";
 import { IoIosArrowDown } from "react-icons/io";

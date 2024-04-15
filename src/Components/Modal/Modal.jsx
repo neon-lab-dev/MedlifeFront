@@ -1,17 +1,17 @@
-import { useEffect, useState } from "react";
-import phone from "../Assests/Modal images and icons/phone.png";
-import doctor from "../Assests/Modal images and icons/doctor.png";
-import customer from "../Assests/Modal images and icons/customer-care 1.png";
-import doctor1 from "../Assests/Modal images and icons/doctor 1.png";
-import "./styles/Form.css";
+import { useEffect, useRef, useState } from "react";
+import phone from "../../Assests/Modal images and icons/phone.png";
+import doctor from "../../Assests/Modal images and icons/doctor.png";
+import customer from "../../Assests/Modal images and icons/customer-care 1.png";
+import doctor1 from "../../Assests/Modal images and icons/doctor 1.png";
+import "../styles/Form.css";
 import { IoIosArrowDown } from "react-icons/io";
 import { Toaster, toast } from "sonner";
-import useAxiosBaseUrl from "../hooks/useBaseUrl";
-import CityDropdown from "./CityDropdown";
 import { twMerge } from "tailwind-merge";
 import ReactGA from 'react-ga';
+import useAxiosBaseUrl from "../../hooks/useBaseUrl";
+import CityDropdown from "../CityDropdown";
 
-const AppointmentModal = ({ text, className }) => {
+const Modal = ({ text, className }) => {
   useEffect(() => {
     ReactGA.pageview(window.location.pathname + window.location.search);
   })
@@ -186,6 +186,34 @@ const AppointmentModal = ({ text, className }) => {
       });
   };
 
+  const modalRef = useRef(null);
+
+  const openModal = () => {
+    if (modalRef.current) {
+      modalRef.current.showModal();
+    }
+  };
+
+  useEffect(() => {
+    let modalInterval;
+
+    const startModalInterval = () => {
+      modalInterval = setInterval(() => {
+        openModal();
+      }, 60000);
+    };
+
+    const resetModalInterval = () => {
+      clearInterval(modalInterval);
+      startModalInterval();
+    };
+
+    startModalInterval();
+
+    return () => clearInterval(modalInterval);
+
+  }, []);
+
   return (
     <div className="">
       <button
@@ -197,7 +225,7 @@ const AppointmentModal = ({ text, className }) => {
       >
         {text}
       </button>
-      <dialog id="my_modal_4" className="modal">
+      <dialog ref={modalRef} id="my_modal_4" className="modal">
         <div className="modal-box bg-white w-11/12 md:w-5/6 max-w-6xl p-0">
           <form method="dialog">
             <button className="btn btn-sm btn-circle btn-ghost absolute right-1 lg:right-2 top-[10px] lg:top-4 text-white">
@@ -369,4 +397,4 @@ const AppointmentModal = ({ text, className }) => {
   );
 };
 
-export default AppointmentModal;
+export default Modal;

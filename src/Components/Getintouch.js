@@ -42,8 +42,8 @@ const cities = [
   "Supaul",
   "Siwan",
   "Vaishali",
-  "West Champaran"
-]
+  "West Champaran",
+];
 
 const disease = [
   "Proctology",
@@ -125,8 +125,6 @@ const disease = [
 ];
 
 const Getintouch = () => {
-  const [patientName, setPatientName] = useState("");
-  const [mobileNumber, setMobileNumber] = useState("");
   const [selectedCity, setSelectedCity] = useState("");
   const [selectedDisease, setSelectedDisease] = useState("");
 
@@ -143,18 +141,22 @@ const Getintouch = () => {
     e.preventDefault();
     const patientName = e.target.patientName.value;
     const mobileNumber = e.target.mobileNumber.value;
+
     if (
       !patientName ||
       !mobileNumber ||
       !selectedCity ||
       !selectedDisease ||
-      selectedCity === "Select City" ||
-      selectedCity === "Select Disease"
+      selectedCity === "Select City / शहर चुनें" ||
+      selectedCity === "Select Disease / रोग का चयन करें"
+      
     ) {
       toast.error("Please fill all the fields");
-      
+
       return;
-    }
+    } 
+    
+
     axiosBaseUrl
       .post("/api/v1/createlead", {
         name: patientName,
@@ -165,7 +167,7 @@ const Getintouch = () => {
       .then((response) => {
         if (response.data.message) {
           const promise = new Promise((resolve) =>
-            setTimeout(() => resolve({  }), 3000)
+            setTimeout(() => resolve({}), 3000)
           );
           toast.promise(promise, {
             loading: "Loading...",
@@ -181,7 +183,6 @@ const Getintouch = () => {
       });
   };
 
-
   return (
     <div className="git-cont">
       <div className="git-inner-cont">
@@ -193,14 +194,14 @@ const Getintouch = () => {
         <form onSubmit={handleSubmit} className="w-full">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <input
-            name="patientName"
+              name="patientName"
               type="text"
               className="bg-white border border-gray-300 px-4 focus:outline-none focus:border-teal-700 transition duration-300 ease-in-out w-full h-12 rounded-lg 2xl:h-16 mb-4"
               placeholder="Patient Name / रोगी का नाम"
             />
 
             <input
-            name="mobileNumber"
+              name="mobileNumber"
               type="number"
               className="bg-white border border-gray-300 px-4 focus:outline-none focus:border-teal-700 transition duration-300 ease-in-out w-full h-12 rounded-lg 2xl:h-16 mb-4"
               placeholder="Mobile No. / मोबाइल नंबर"
@@ -211,20 +212,19 @@ const Getintouch = () => {
             <div className="relative inline-block text-left w-full mb-4">
               <select
                 id="city"
+                value={selectedCity}
+                onChange={handleChange}
                 className="block appearance-none cursor-pointer bg-white border border-gray-300 px-4 focus:outline-none focus:border-teal-700 transition duration-300 ease-in-out w-full h-12 rounded-lg 2xl:h-16"
               >
+                <option disabled selected>
+                  Select City / शहर चुनें
+                </option>
 
-<option disabled selected>
-                    Select City / शहर चुनें
-                  </option>
-
-                  {
-                    cities.map((city, index) => 
+                {cities.map((city, index) => (
                   <option key={index} value={city}>
-                      {city}
+                    {city}
                   </option>
-                  )
-                  }
+                ))}
               </select>
               <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 text-gray-700">
                 <IoIosArrowDown></IoIosArrowDown>
@@ -234,11 +234,13 @@ const Getintouch = () => {
             <div className="relative inline-block text-left w-full mb-4">
               <select
                 id="city"
+                value={selectedDisease}
+                onChange={handleChange1}
                 className="block appearance-none cursor-pointer bg-white border border-gray-300 px-4 focus:outline-none focus:border-teal-700 transition duration-300 ease-in-out w-full h-12 rounded-lg 2xl:h-16"
               >
                 <option disabled selected>
-                    Select Disease / रोग का चयन करें
-                  </option>
+                  Select Disease / रोग का चयन करें
+                </option>
                 {disease.map((disease, index) => (
                   <option key={index} value={disease}>
                     {disease}
@@ -252,7 +254,9 @@ const Getintouch = () => {
           </div>
 
           <div className="flex justify-center items-center">
-            <button className="border border-[#00a0aa] bg-[#00a0aa] rounded-lg w-full md:w-1/2 lg:w-1/2 xl:w-[40%] h-12 2xl:h-16 text-white">Book Free Appointment</button>
+            <button className="border border-[#00a0aa] bg-[#00a0aa] rounded-lg w-full md:w-1/2 lg:w-1/2 xl:w-[40%] h-12 2xl:h-16 text-white">
+              Book Free Appointment
+            </button>
           </div>
         </form>
       </div>

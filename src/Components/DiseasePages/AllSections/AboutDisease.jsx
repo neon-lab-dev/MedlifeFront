@@ -229,7 +229,7 @@ const AboutDisease = ({ content }) => {
               href="tel:+9876543210"
               className="w-full md:w-1/2 lg:w-full xl:w-[65%] h-12 2xl:h-16 border border-[#00a0aa] rounded-lg text-[#00a0aa] flex justify-center items-center"
             >
-              Call now +98 765 432 10
+              Call now +91 995 599 2502
             </a>
 
             <div className="w-full">
