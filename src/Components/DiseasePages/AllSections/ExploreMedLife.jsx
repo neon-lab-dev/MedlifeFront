@@ -289,7 +289,7 @@ const ExploreMedLife = ({ content }) => {
             href="tel:+9876543210"
             className="w-full md:w-[350px] h-12 2xl:h-16 border border-[#00a0aa] rounded-lg text-[#00a0aa] flex justify-center items-center"
           >
-            Call now +98 765 432 10
+            Call now +91 995 599 2502
           </a>
         </div>
 

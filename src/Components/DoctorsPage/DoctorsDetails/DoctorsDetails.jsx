@@ -136,7 +136,7 @@ const DoctorsDetails = () => {
                   </div>
 
                   <button className="w-full md:w-[350px] h-[50px] border border-[#00a0aa] rounded-lg text-[#00a0aa] ">
-                    Call now +98 765 432 10
+                    Call now +91 995 599 2502
                   </button>
                 </div>
               </div>

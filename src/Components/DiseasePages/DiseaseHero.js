@@ -39,7 +39,7 @@ const DiseaseHero = ({ content, disease }) => {
 
           <a href="tel:+9876543210" >
           <div className="w-full sm:w-[70%] md:w-[60%] h-12 2xl:h-16 border border-[#00a0aa] rounded-lg text-[#00a0aa] flex items-center justify-center">
-            Call now +98 765 432 10
+            Call now +91 995 599 2502
            </div>
            </a>
 

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { FaCaretLeft, FaCaretRight } from "react-icons/fa";
 import Navbar from "../Navbar";
 import ReviewHeader from "./ReviewHeader";

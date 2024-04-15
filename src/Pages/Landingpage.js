@@ -17,7 +17,8 @@ import Surgeries from "./Surgeries";
 import FbReviews from "../Components/FbReviews";
 import Navbar from "../Components/Navbar";
 import ReactGA from 'react-ga';
-import AppointmentModal from "../Components/AppointmentModal";
+// import AppointmentModal from "../Components/AppointmentModal";
+import Modal from "../Components/Modal/Modal";
 const Landingpage = () => {
   useEffect(() => {
     ReactGA.pageview(window.location.pathname + window.location.search);
@@ -28,7 +29,8 @@ const Landingpage = () => {
         <title>Medlife Easy | Home</title>
       </Helmet>
       <Navbar></Navbar>
-      <AppointmentModal/>
+      {/* <AppointmentModal/> */}
+      <Modal/>
       <Hero />
       <Surgeries></Surgeries>
       <Specialities />

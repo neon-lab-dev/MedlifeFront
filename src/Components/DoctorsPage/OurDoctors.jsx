@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { IoBagAdd } from "react-icons/io5";
 import { HiLocationMarker } from "react-icons/hi";
 import useAxiosBaseUrl from "../../hooks/useBaseUrl";
@@ -49,7 +49,7 @@ const OurDoctors = () => {
                     >
                       {/* grid grid-cols-3 mb-2 lg:mb-4 */}
                       <div className="col-span-2">
-
+{console.log(doctor)}
                         <div className="flex gap-2">
                         
                         <div className="flex justify-center md:justify-start lg:justify-end mr-2 md:mr-0 lg:mr-4 border rounded-md p-2">
@@ -68,7 +68,7 @@ const OurDoctors = () => {
                             </h1>
                             <p className="text-[#17324A] mb-1">
                               {" "}
-                              MBBS, MS-{" "}
+                              {doctor?.education}-{" "}
                               <span className="text-teal-500">
                                 {doctor?.diseaseHandle}
                               </span>
@@ -122,7 +122,7 @@ const OurDoctors = () => {
 
                         <a href="tel:+9876543210" >
           <div className="w-full border border-[#00a0aa] px-4 py-3 rounded-lg text-[#00a0aa] text-[9px] md:text-sm flex items-center justify-center">
-            Call now +98 765 432 10
+            Call now +91 995 599 2502
            </div>
            </a>
 

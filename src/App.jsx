@@ -27,7 +27,6 @@ import { HelmetProvider } from "react-helmet-async";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Caurosel from "./Components/Caurosel";
-import Caurosel2 from "./Components/Caurosel2";
 import "swiper/css";
 import "swiper/css/navigation";
 import "./App.css";
@@ -85,7 +84,6 @@ function App() {
                   element={<ServiceUnavailable />}
                 />
                 <Route path="caurosel" element={<Caurosel />} />
-                <Route path="caurosel2" element={<Caurosel2 />} />
 
                 {/* Error page */}
                 <Route path="error" element={<ErrorPage />} />

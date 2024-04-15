@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import Footer from "../Footer";
 import Navbar from "../Navbar";
 import { Link } from "react-router-dom";
@@ -17,7 +17,7 @@ const TermsConditions = () => {
           <Navbar></Navbar>
       <div className='flex items-center flex-col mt-2 mb-10'>
           {/* Breadcrumbs menu */}
-          <div className="text-sm breadcrumbs w-[93%]">
+          <div className="text-sm breadcrumbs w-[89.5%]">
             <ul>
               <li>
                 <Link to={"/"}>Home</Link>

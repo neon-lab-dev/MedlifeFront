@@ -76,7 +76,7 @@ const DocNew = ({ docHeading, diseaseName }) => {
                     </div>
                   </div>
                   <div className="dd-btm">
-                    <div className="dd-call">Call now +98 765 432 10</div>
+                    <div className="dd-call">Call now +91 995 599 2502</div>
                     <div className="dd-book">Book Appointment</div>
                   </div>
                 </div>
@@ -163,7 +163,7 @@ const DocNew = ({ docHeading, diseaseName }) => {
                     </div>
                   </div>
                   <div className="dd-btm">
-                    <div className="dd-call">Call now +98 765 432 10</div>
+                    <div className="dd-call">Call now +91 995 599 2502</div>
                     <div className="dd-book">Book Appointment</div>
                   </div>
                 </SwiperSlide>

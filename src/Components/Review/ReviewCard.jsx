@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import useAxiosBaseUrl from "../../hooks/useBaseUrl";
 import ReactStars from "react-rating-star-with-type";
 

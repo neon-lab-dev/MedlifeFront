@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import Navbar from "../Navbar";
 import aboutUs from "../../Assests/aboutUs.png";
 import patient from "../../Assests/About us page icons/patient.png"

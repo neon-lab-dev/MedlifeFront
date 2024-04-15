@@ -157,7 +157,7 @@ const DiseaseDoc = ({ docHeading, diseaseName }) => {
         //             </div>
         //           </div>
         //           <div className="dd-btm">
-        //             <div className="dd-call">Call now +98 765 432 10</div>
+        //             <div className="dd-call">Call now +91 995 599 2502</div>
         //             <div className="dd-book">Book Appointment</div>
         //           </div>
         //         </div>
@@ -257,7 +257,7 @@ const DiseaseDoc = ({ docHeading, diseaseName }) => {
                   </div>
                   <div className="dd-btm">
                     
-                  <a href="tel:+9876543210" className="dd-call"> Call now +98 765 432 10</a>
+                  <a href="tel:+9876543210" className="dd-call"> Call now +91 995 599 2502</a>
                     {/* <div className="dd-book">Book Appointment</div> */}
                     <div className="w-full">
               <AppointmentModal
@@ -340,7 +340,7 @@ const DiseaseDoc = ({ docHeading, diseaseName }) => {
                   </div>
                 </div>
                 <div className="dd-btm">
-                  <div className="dd-call">Call now +98 765 432 10</div>
+                  <div className="dd-call">Call now +91 995 599 2502</div>
                   <div className="dd-book">Book Appointment</div>
                 </div>
               </div>
