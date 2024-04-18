@@ -1,5 +1,5 @@
 import Navbar from "../../Navbar";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import DiseaseHeroSection from "../AllSections/DiseaseHeroSection";
 import DiseaseDoc from "../DiseaseDoc";
 import ExploreMedLife from "../AllSections/ExploreMedLife";

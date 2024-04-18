@@ -1,4 +1,3 @@
-import React from "react";
 import { useSwiper } from "swiper/react";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 import { IoIosArrowDropleftCircle } from "react-icons/io";

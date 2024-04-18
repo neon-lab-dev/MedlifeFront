@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 import ReactGA from "react-ga";
 import { Link } from "react-router-dom";
@@ -20,7 +20,7 @@ const OurSpecialities = ({ content }) => {
             content?.ourSpecialities?.map((speciality, index) => (
               <div key={index} className="bg-white rounded-2xl shadow-md">
                 <img
-                  className="border-b border-gray-300 mb-4 rounded-t-2xl h-[160px] w-full"
+                  className="border-b border-gray-300 mb-4 rounded-t-2xl h-[160px] w-full object-cover"
                   src={speciality.img}
                   alt=""
                 />

@@ -11,7 +11,7 @@ const AboutDisease = ({ content }) => {
   });
   return (
     <div className=" bg-[#ecf7fc] w-full flex justify-center my-5">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-0 w-[95%] lg:w-[90%]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-0 w-[95%] lg:w-[90%] items-center">
         {/* Left side details */}
         <div className="py-6  ">
           {content?.aboutDisease?.diagnosis?.diagnosisHeader && (
@@ -240,7 +240,7 @@ const AboutDisease = ({ content }) => {
             </div>
           </div>
         </div>
-
+        {/* h-full object-cover object-center */}
         {/* Right side image */}
         <div className="flex justify-center items-center lg:justify-end">
           <img className="h-1/2" src={herniasurgery} alt="" />
