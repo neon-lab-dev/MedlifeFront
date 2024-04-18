@@ -81,7 +81,6 @@ const SelectCitySidebar = () => {
       const response = await fetch(url);
       const data = await response.json();
       if (data.results.length > 0) {
-        console.log("data.results[0].components", data.results[0].components);
         const cityName =
           data.results[0].components.city || data.results[0].components.town || data.results[0].components._normalized_city || data.results[0].components.state_district;
 

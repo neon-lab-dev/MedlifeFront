@@ -143,7 +143,7 @@ const WriteReview = () => {
             <div className="flex items-center gap-3">
               <Rating
                 onChange={(value) => {
-                  console.log("Rating:", value);
+                 
                   setRatings(value);
                 }}
                 emptySymbol={

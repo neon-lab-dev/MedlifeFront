@@ -5,7 +5,6 @@ import ReactGA from 'react-ga';
 
 const DropdownMenu = ({ name, list, st, link }) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  console.log(link);
 
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);

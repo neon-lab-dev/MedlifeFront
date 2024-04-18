@@ -319,8 +319,8 @@ const AppointmentModal = ({ text, className }) => {
                         onChange={(e) => setSelectedCity(e.target.value)}
                         className="block appearance-none bg-white border border-gray-300 px-4 pr-8 focus:outline-none focus:border-teal-700 cursor-pointer w-full h-12 rounded-lg"
                       >
-                        {districts.map((city) => (
-                          <option key={city} value={city}>
+                        {districts.map((city, index) => (
+                          <option key={index} value={city}>
                             {city}
                           </option>
                         ))}
@@ -340,8 +340,8 @@ const AppointmentModal = ({ text, className }) => {
                         }}
                         className="block appearance-none bg-white border border-gray-300 px-4 pr-8 focus:outline-none focus:border-teal-700 cursor-pointer w-full h-12 rounded-lg"
                       >
-                        {disease.map((disease) => (
-                          <option key={disease} value={disease}>
+                        {disease.map((disease, index) => (
+                          <option key={index} value={disease}>
                             {disease}
                           </option>
                         ))}
