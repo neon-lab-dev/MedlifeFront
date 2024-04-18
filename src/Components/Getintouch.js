@@ -5,6 +5,7 @@ import useAxiosBaseUrl from "../hooks/useBaseUrl";
 import { toast } from "sonner";
 
 const cities = [
+  "Select City / शहर चुनें",
   "Araria",
   "Arwal",
   "Aurangabad",
@@ -46,6 +47,7 @@ const cities = [
 ];
 
 const disease = [
+  "Select Disease / रोग का चयन करें",
   "Proctology",
   "Piles Treatment",
   "Fistula Treatment",
@@ -148,7 +150,7 @@ const Getintouch = () => {
       !selectedCity ||
       !selectedDisease ||
       selectedCity === "Select City / शहर चुनें" ||
-      selectedCity === "Select Disease / रोग का चयन करें"
+      selectedDisease === "Select Disease / रोग का चयन करें"
       
     ) {
       toast.error("Please fill all the fields");
@@ -216,9 +218,9 @@ const Getintouch = () => {
                 onChange={handleChange}
                 className="block appearance-none cursor-pointer bg-white border border-gray-300 px-4 focus:outline-none focus:border-teal-700 transition duration-300 ease-in-out w-full h-12 rounded-lg 2xl:h-16"
               >
-                <option disabled selected>
+                {/* <option value={"Select City / शहर चुनें"} disabled>
                   Select City / शहर चुनें
-                </option>
+                </option> */}
 
                 {cities.map((city, index) => (
                   <option key={index} value={city}>
@@ -238,9 +240,9 @@ const Getintouch = () => {
                 onChange={handleChange1}
                 className="block appearance-none cursor-pointer bg-white border border-gray-300 px-4 focus:outline-none focus:border-teal-700 transition duration-300 ease-in-out w-full h-12 rounded-lg 2xl:h-16"
               >
-                <option disabled selected>
+                {/* <option disabled selected>
                   Select Disease / रोग का चयन करें
-                </option>
+                </option> */}
                 {disease.map((disease, index) => (
                   <option key={index} value={disease}>
                     {disease}

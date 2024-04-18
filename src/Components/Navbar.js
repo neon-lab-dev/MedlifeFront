@@ -341,7 +341,7 @@ const Navbar = () => {
   };
 
   const handleSuggestionClick = (suggestion) => {
-    console.log("suggestion.link", suggestion.link);
+    // console.log("suggestion.link", suggestion.link);
     navigate(suggestion.link);
 
     setSearchedResult("");
