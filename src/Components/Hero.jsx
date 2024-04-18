@@ -1,4 +1,3 @@
-import React from "react";
 import heroDoc from "../Assests/heroDoc.png";
 import Form from "./Form";
 
@@ -13,8 +12,8 @@ const Hero = () => {
           <h2 className="text-gray-500 text-xl md:text-3xl lg:text-[clamp(18px,1.8vw,36px)] font-semibold text-center lg:text-start">
             Your Path to Health and Happiness
           </h2>
-          <div className="flex xl:justify-start w-[100%] justify-center">
-            <img className="w-full lg:w-[60%]" src={heroDoc} alt="" />
+          <div className="flex flex-grow xl:justify-start w-[100%] justify-center">
+            <img className="w-full lg:w-[70%]" src={heroDoc} alt="" />
 
             {/* Bottom Card */}
             <div className="w-[90%] flex justify-center xl:justify-start absolute bottom-0">

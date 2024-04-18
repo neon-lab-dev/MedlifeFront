@@ -60,7 +60,7 @@ const DiseaseDoc = ({ docHeading, diseaseName }) => {
                       <div className="dd-top-head">{doctor.doctorName}</div>
                       <div className="dd-top-text font-lato">
                         {" "}
-                        MBBS, MS-{" "}
+                         {doctor?.education}-{" "}
                         <p style={{ color: "#00A0AA", fontSize: "17px" }}>
                           {doctor.diseaseHandle}
                         </p>
@@ -221,15 +221,14 @@ const DiseaseDoc = ({ docHeading, diseaseName }) => {
                     </div>
 
                     <div className="dd-top-cont">
-                    <div className="dd-top-right">
+                    <div className="dd-top-right w-full">
                       <div className="dd-top-head">{doctor.doctorName}</div>
-                      <div className="dd-top-text">
-                        {" "}
-                        MBBS, MS-{" "}
+                      <p className="flex gap-[2px] w-full">
+                         {doctor?.education} - 
                         <p style={{ color: "#00A0AA", fontSize: "17px" }}>
                           {doctor.diseaseHandle}
                         </p>
-                      </div>
+                      </p>
                       <div className="bg-gray-500 w-52 h-[1px] mb-[1px]"></div>
                       <div className="dd-top-sub-head"> Specialization</div>
                       <div className="dd-top-sp-cont">
