@@ -1,6 +1,7 @@
-import React from 'react';
+/* eslint-disable react/no-unescaped-entities */
 import emergencyProcedure from "../../../Assests/emergencyProcedure.png"
 import AppointmentModal from '../../AppointmentModal';
+import CallNowButton from '../../ReusableComponents/CallNowButton';
 
 const EmergencyProcedures = () => {
 
@@ -20,12 +21,9 @@ const EmergencyProcedures = () => {
 
                 <div className="flex flex-col xl:flex-row gap-3 w-full">
        
+       <CallNowButton className="w-full md:w-4/5 h-[64px]"/>
 
-          <a href="tel:+9876543210" className='w-full md:w-4/5 h-[64px] border border-[#00a0aa] rounded-lg text-[#00a0aa] flex items-center justify-center'>
-          <div>
-            Call now +91 995 599 2502
-           </div>
-           </a>
+          
 
 
          <div className='w-full'>

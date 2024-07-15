@@ -31,7 +31,7 @@ const HerniaPage = () => {
     "bartholin",
     "endometriosis",
     "adenomyosis",
-    "pcosPcod",
+    "pcos-pcod",
     "pregnancy",
     "laser",
     "hymenoplasty",

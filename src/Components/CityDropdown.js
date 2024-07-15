@@ -54,7 +54,7 @@ const CityDropdown = ({ onCityChange, type }) => {
             (city, ind) =>
               ind !== 0 && (
                 <div
-                  className="border rounded-md flex justify-center items-center h-10 px-2 w-full cursor-pointer text-nowrap"
+                  className="border border-gray-50 rounded-md flex justify-center items-center h-10 px-2 w-full cursor-pointer text-nowrap"
                   key={city}
                   onClick={() => {
                     setSelectedCity(city);

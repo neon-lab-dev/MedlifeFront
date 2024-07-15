@@ -4,6 +4,7 @@ import { HiLocationMarker } from "react-icons/hi";
 import useAxiosBaseUrl from "../../hooks/useBaseUrl";
 import Loader from "../Loader/Loader";
 import AppointmentModal from "../AppointmentModal";
+import CallNowButton from "../ReusableComponents/CallNowButton";
 
 const OurDoctors = () => {
   const axiosBaseUrl = useAxiosBaseUrl();
@@ -37,7 +38,7 @@ const OurDoctors = () => {
           <Loader></Loader>
         ) : (
           <div className="">
-            <div className="flex flex-col justify-center items-center gap-14">
+        <div className="flex flex-col justify-center items-center gap-14">
               {allDoctors.length > 0
                 ? allDoctors.map((doctor) => (
                     <div key={doctor._id} className="w-full lg:w-5/6">
@@ -115,12 +116,9 @@ const OurDoctors = () => {
 
                         <div className="flex justify-start md:justify-end pr-0 lg:pr-16 w-full mt-4">
                           <div className="grid grid-cols-2 lg:grid-cols-1 gap-5 w-full lg:w-80">
-                            <a href="tel:+9876543210">
-                              <div className=" border border-[#00a0aa] px-1 md:px-4 py-3 rounded-lg text-[#00a0aa] text-[9px] md:text-sm flex items-center justify-center">
-                                Call now +91 995 599 2502
-                              </div>
-                            </a>
 
+                            <CallNowButton className="text-[9px] md:text-sm flex items-center justify-center"/>
+                            
                             <AppointmentModal
                               className="w-full bg-[#00a0aa] px-2 md:px-4 py-3 rounded-lg text-white border border-[#00a0aa] text-[9px] md:text-sm"
                               text={"Book Your Appointment"}

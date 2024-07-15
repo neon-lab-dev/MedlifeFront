@@ -286,7 +286,7 @@ const AppointmentModal = ({ text, className }) => {
 
               {/* Form */}
               <div className="-mt-0 lg:-mt-[75px] px-2">
-                <div className="w-full shadow-lg rounded-3xl mb-3 border-t border-gray-100">
+                <div className="w-full shadow-lg rounded-3xl mb-3 border-t border-gray-50">
                   <form
                     onSubmit={handleSubmit}
                     className="flex flex-col items-center gap-3 bg-white p-3 rounded-3xl w-full"

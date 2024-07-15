@@ -16,6 +16,29 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+.h1 {
+  @apply text-[] md:text-[] 2xl:text-[64px] font-lato font-extrabold leading-[72px];
+}
+.h2 {
+  @apply text-[] md:text-[] 2xl:text-[45px] font-lato font-normal leading-[52px];
+}
+.h3 {
+  @apply text-[] md:text-[] 2xl:text-[32px] font-lato font-bold leading-[40px];
+}
+.body-text-sm {
+  @apply text-[] md:text-[] 2xl:text-[18px] font-lato font-normal leading-6;
+}
+.body-text-lg {
+  @apply text-[] md:text-[] 2xl:text-2xl font-lato font-normal leading-6;
+}
+.body-text-md {
+  @apply text-[] md:text-[] 2xl:text-[20px] font-lato font-normal leading-6;
+}
+.body-text {
+  @apply text-[] md:text-[] 2xl:text-[16px] font-lato font-normal leading-6;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

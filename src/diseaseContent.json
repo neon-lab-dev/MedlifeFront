@@ -1001,18 +1001,12 @@
       "formTitle": ""
     },
     "aboutDisease": {
-      "diseaseHeader": "What is Umbilical Herniya ",
-      "details": "Umbilical Herniya is characterized by the formation of solid particles within the gallbladder. These stones can vary in size and may cause symptoms such as pain, discomfort, or bloating. In some cases, individuals with gallbladder stones may experience no symptoms at all.",
+      "diseaseHeader": "",
+      "details": "",
       "symptoms": {
-        "symptomHeader": "Symptoms of Umbilical Herniya:",
+        "symptomHeader": "",
         "symptomsList": [
-          "Abdominal pain, particularly in the upper right side",
-          "Nausea or vomiting",
-          "Sudden and intense pain in the upper abdomen, known as biliary colic",
-          "Jaundice (yellowing of the skin and eyes)",
-          "Fever and chills in cases of infection",
-          "Back or shoulder pain",
-          "Indigestion or bloating after meals"
+          ""
         ]
       },
       "diagnosis": {
@@ -1174,8 +1168,8 @@
       "cost": "Gynecologist"
     },
     "aboutDisease": {
-      "diseaseHeader": "What is Umbilical Herniya ",
-      "details": "Umbilical Herniya is characterized by the formation of solid particles within the gallbladder. These stones can vary in size and may cause symptoms such as pain, discomfort, or bloating. In some cases, individuals with gallbladder stones may experience no symptoms at all.",
+      "diseaseHeader": "",
+      "details": "",
       "symptoms": {
         "symptomHeader": "Symptoms of Umbilical Herniya:",
         "symptomsList": [
@@ -1358,7 +1352,6 @@
       }
     }
   },
-
   "bartholin": {
     "parentDisease": "Gynaecology",
     "heroHeader": "Bartholin Cyst Treatment by Expert Female Gynecologist at Med Life Easy",
@@ -1400,18 +1393,12 @@
       "cost": "Gynaecologist"
     },
     "aboutDisease": {
-      "diseaseHeader": "What is Umbilical Herniya ",
-      "details": "Umbilical Herniya is characterized by the formation of solid particles within the gallbladder. These stones can vary in size and may cause symptoms such as pain, discomfort, or bloating. In some cases, individuals with gallbladder stones may experience no symptoms at all.",
+      "diseaseHeader": "",
+      "details": "",
       "symptoms": {
-        "symptomHeader": "Symptoms of Umbilical Herniya:",
+        "symptomHeader": "",
         "symptomsList": [
-          "Abdominal pain, particularly in the upper right side",
-          "Nausea or vomiting",
-          "Sudden and intense pain in the upper abdomen, known as biliary colic",
-          "Jaundice (yellowing of the skin and eyes)",
-          "Fever and chills in cases of infection",
-          "Back or shoulder pain",
-          "Indigestion or bloating after meals"
+          ""
         ]
       },
       "diagnosis": {
@@ -1451,9 +1438,9 @@
   },
   "endometriosis": {
     "parentDisease": "Gynaecology",
-    "heroHeader": "Endometriosis Treatment by Expert Gynecologists at Med Life Easy",
+    "heroHeader": "Endometriosis Treatment",
     "subHeading": "",
-    "details": "If you have been diagnosed with endometriosis and are seeking the best treatment, consult with our expert gynecologists at Med Life Easy today. We understand the challenges posed by endometriosis and offer personalized treatment plans to address your specific needs. Our experienced gynecologists utilize advanced techniques and therapies to provide comprehensive care and support throughout your treatment journey. Schedule a consultation with us to explore your options and begin your journey towards relief from endometriosis symptoms.",
+    "details": "For the treatment of adenomyosis, hysterectomy is often regarded as one of the most effective options. To learn more and consult with a leading gynecologist in India, contact Med Life Easy. They provide expert advice and comprehensive care for adenomyosis.",
     "subLists": [
 
     ],
@@ -1473,14 +1460,368 @@
     },
     "SurgeryForm": {
       "surgeryHeader": [
-        "Why Endometriosis Treatment is Necessary"
+        "Endometriosis Treatment: Why Necessary"
       ],
 
-      "surgerydetails": "Endometriosis can lead to significant health complications over time. It often causes increasing abdominal pain, chronic fatigue, and may negatively impact fertility.",
+      "surgerydetailsList" : [
+        "Endometriosis treatment is crucial to prevent severe health complications that can develop over time. This condition can lead to worsening abdominal pain, constant fatigue, and may significantly impact your ability to conceive.",
 
-      "surgerydetails2": "For women with endometriosis, conceiving can be challenging. Inflamed pelvic tissues can obstruct the reproductive process, affecting the ovaries and fallopian tubes' function, crucial for successful conception. Left untreated, endometriosis can progress, potentially leading to infertility or increasing the risk of certain cancers.",
+        "For women with endometriosis, pregnancy can be a major challenge. The inflamed pelvic region caused by endometriosis makes conception difficult. Additionally, endometriosis can disrupt the functioning of the ovaries and fallopian tubes, which are essential for fertilization. If left untreated, endometriosis can progress, becoming more severe and leading to infertility. In rare cases, it can also increase the risk of certain cancers.",
 
-      "surgerydetails3": "Early treatment is essential for managing symptoms and preserving reproductive health. Timely intervention helps prevent the progression of endometriosis, minimizing complications and enhancing overall quality of life. Therefore, seeking treatment promptly is crucial for addressing endometriosis effectively.",
+        "Receiving timely treatment for endometriosis is vital for maintaining a healthy reproductive life and improving overall quality of life. Early intervention helps prevent the condition from worsening and makes treatment more effective and manageable. For expert advice and comprehensive care, consider reaching out to Med Life Easy."
+      ],
+
+
+      "subHeader": "",
+      "typeHeader": "Disease name",
+      "type": "Endometriosis",
+      "surgeryNameHeader": "Surgery name",
+      "surgeryName": "Hysterectomy",
+      "timeHeader": "Duration ",
+      "time": "50-60 Mins",
+      "costHeader": "Treated by",
+      "cost": "Gynaecologist"
+    },
+    "aboutDisease": {
+      "diseaseHeader": "",
+      "details": "",
+      "symptoms": {
+        "symptomHeader": "",
+        "symptomsList": [
+          ""
+        ]
+      },
+      "diagnosis": {
+        "diagnosisHeader": "Diagnosis and Treatment for Endometriosis",
+        "diagnosisSubHeader": "",
+        "details": "Diagnosing endometriosis typically requires a diagnostic laparoscopy, as symptoms alone are not conclusive. This procedure utilizes a laparoscope, a small catheter-like instrument with a camera and lens, to confirm the presence of endometriosis.",
+        "diagnosisSubDetails": "",
+
+        "subheader3": "",
+
+        "occureHeader": "Non-Surgical Treatment for Endometriosis:",
+        "occureDetails": "In the early stages, endometriosis can often be managed with non-surgical approaches. Contraceptives and pain relievers are commonly used. Contraceptive pills help regulate hormones, ceasing ovulation and allowing the endometrium to rest and heal. This process aids in reducing pain and other associated symptoms. Alternatively, hormonal therapy may be recommended by a doctor, although it is typically a short-term solution.",
+
+        "occureSubHeader": "Surgical Treatment for Endometriosis:",
+        "occureSubDetails": "Surgical options for endometriosis treatment include Ovarian Cystectomy and Hysterectomy. These procedures can be performed using two methods:",
+
+        "occureSubDetailsLists" : [
+          "Laparoscopy: This modern approach involves surgery through a laparoscope, resulting in minimal invasiveness, quicker recovery, and reduced risk of complications.",
+
+          "Open Cut Method: In contrast, the open cut method involves a more invasive incision and stitching process, requiring longer recovery time post-surgery."
+        ],
+
+       "diagnosisFooterDetails" : "For comprehensive care and expert guidance on the diagnosis and treatment of endometriosis, consider consulting with Med Life Easy."
+      }
+    }
+  },
+  "adenomyosis": {
+    "parentDisease": "Gynaecology",
+    "heroHeader": "Adenomyosis Treatment",
+    "subHeading": "",
+    "details": "Hysterectomy is often considered one of the most effective treatments for adenomyosis. If you're looking for expert consultation and treatment for adenomyosis in India, reach out to Med Life Easy. They provide access to leading gynecologists specializing in adenomyosis treatment, ensuring comprehensive and personalized care for your needs.",
+    "listHeading" : "Are You Going Through any of these Symptoms?",
+    "subLists": [
+      "Heavy or prolonged menstrual bleeding",
+      "Painful intercourse",
+      "Severe cramping during menstruation",
+      "Chronic pelvic pain"
+    ],
+    "treatment": {
+      "treatmentHeader": [
+        "",
+        ""
+      ],
+      "treatments": [
+        ""
+      ]
+    },
+    "SurgeryForm": {
+      "surgeryHeader": [
+        "Effective Treatment Options for Adenomyosis:"
+      ],
+      "surgerydetailsList" : [
+        "Adenomyosis, characterized by the invasion of uterine lining tissue into the muscular wall, can be addressed through various treatment approaches. Pain management, hormonal medications, and therapies are commonly employed. However, in cases of severe discomfort, a hysterectomy may be recommended by doctors. This surgical procedure is highly effective in alleviating adenomyosis symptoms. When adenomyosis reaches an advanced stage, hysterectomy often becomes the sole viable treatment option."
+      ],
+      "subHeader": "",
+      "typeHeader": "Disease name",
+      "type": "Adenomyosis",
+      "surgeryNameHeader": "Surgery name",
+      "surgeryName": "Hysterectomy",
+      "timeHeader": "Duration ",
+      "time": "5-6 Weeks",
+      "costHeader": "Treated by",
+      "cost": "Gynaecologist"
+    },
+    "aboutDisease": {
+      "diseaseHeader": "",
+      "details": "",
+      "symptoms": {
+        "symptomHeader": "",
+        "symptomsList": [
+          ""
+        ]
+      },
+      "diagnosis": {
+        "diagnosisHeader": "Diagnosis and Treatment of Adenomyosis",
+        "diagnosisSubHeader": "Diagnosis of Adenomyosis:",
+        "diagnosisSubDetails": "When diagnosing adenomyosis, healthcare providers at Med Life Easy start by reviewing your medical history and performing specific diagnostic tests to assess your uterus's condition. These tests help determine the severity of the condition, your age, and your desire for future pregnancy, guiding the treatment plan. Common diagnostic tests include:",
+
+        "diagnosisLists": [
+          "Pelvic Exam: This physical examination involves assessing the vagina and vulva for signs of swelling or soreness. A speculum is then used to collect a cell sample from the vagina for further analysis, aiding in the detection of conditions like cancer or sexually transmitted diseases.",
+
+          "Transvaginal Ultrasound: This imaging test uses high-frequency sound waves to create detailed images of internal organs, providing valuable insights into uterine thickening indicative of adenomyosis.",
+
+          "MRI Scan: Magnetic Resonance Imaging (MRI) produces high-resolution images of internal organs using magnetic and radio waves. It helps identify radiological features of adenomyosis, such as thickening between the endometrium and myometrium. Prior to an MRI, removal of medical or electrical devices from the body is necessary to prevent interference."
+
+        ],
+
+        "occureHeader": "Treatment for Adenomyosis",
+        "occureDetails": "At Med Life Easy, the treatment for adenomyosis is personalized based on factors such as severity, age, and your desire for future pregnancy:",
+
+        "occureListSubHeader": "Non-Surgical Treatment",
+        "occureListSubDetails": "Non-surgical approaches focus on symptom management through medication:",
+        "occureSubDetailsLists": [
+          "Painkillers: These are prescribed to alleviate pain associated with adenomyosis.",
+
+          "Hormonal Therapy: Hormonal contraceptives, such as birth control pills or progesterone-releasing intrauterine devices, are commonly used to manage symptoms effectively.",
+
+          "While non-surgical treatment aims to manage symptoms, surgery becomes necessary for severe cases:"
+        ],
+        
+        "occureSubHeader": "Surgical Treatment",
+        "occureSubDetails" : "Surgery is recommended when symptoms are severe, including abnormal vaginal bleeding, heavy menstrual bleeding, and painful intercourse.",
+        "occureSubDetailsLists2": [
+          "Hysterectomy: This surgical procedure involves the removal of the uterus and sometimes other reproductive organs like ovaries, cervix, and fallopian tubes. Hysterectomy is the definitive treatment for adenomyosis.",
+
+          "Hysterectomy can be performed through:",
+
+          "Open-cut Hysterectomy: A traditional method involving incisions and stitches, typically requiring a hospital stay of 2-3 days.",
+
+          "Laparoscopic Hysterectomy: A minimally invasive procedure where small incisions are made, and a laparoscope is used to remove the uterus. Hospitalization typically lasts for one day."
+        ],
+        
+
+        "details": ""
+      }
+    }
+  },
+  "pcos-pcod": {
+    "parentDisease": "Gynaecology",
+    "heroHeader": "PCOD/PCOS Treatment",
+    "subHeading": "",
+    "details": "Polycystic ovarian syndrome (PCOS) is a multifaceted condition characterized by the excessive production of male sex hormones (androgens). If you experience symptoms such as missed periods, acne or oily skin, weight gain, or excessive body hair, it is crucial to consult a gynecologist promptly. Delaying treatment can lead to additional health complications.",
+    "subLists": [
+      "उन्नत 3D तकनीक",
+      "दर्दरहित सर्जरी (Painless Surgery) तथा जल्द रिकवरी",
+      "संक्रमण का कोई खतरा नहीं"
+    ],
+    "treatment": {
+      "treatmentHeader": [
+        ""
+      ],
+      "treatments": [
+        ""
+      ]
+    },
+    "SurgeryForm": {
+      "surgeryHeader": [
+        "Importance of Treating PCOD/PCOS"
+      ],
+
+      "surgerydetailsList" : [
+        "Polycystic ovary syndrome (PCOS) is a common condition that significantly affects fertility and overall health, particularly among women of reproductive age. Early diagnosis and consistent management of PCOD (Polycystic Ovary Disease) or PCOS are crucial for several reasons:"
+      ],
+
+      "featureList" : [
+        {
+          "featureHeader": "Preventing Further Health Complications:",
+          "features": [
+          "Women with PCOS are at an increased risk of developing several metabolic and cardiovascular conditions, including:",
+          "Glucose intolerance and type 2 diabetes mellitus",
+          "Hepatic steatosis (fatty liver disease)",
+          "Metabolic syndrome",
+          "Hypertension (high blood pressure)",
+          "Dyslipidemia (abnormal cholesterol levels)",
+          "Vascular thrombosis (blood clots)",
+          "Cerebrovascular accidents (strokes)",
+          "Potential cardiovascular events"
+          ]
+        },
+        {
+          "featureHeader": "Improving Fertility:",
+          "features": [
+          "PCOS is a leading cause of infertility due to hormonal imbalances that interfere with ovulation. Treating PCOS can help restore regular menstrual cycles and improve fertility outcomes."
+          ]
+        },
+        {
+          "featureHeader": "Managing Symptoms:",
+          "features": [
+          "PCOS can cause a range of symptoms, including irregular periods, acne, excessive hair growth, and weight gain. Effective treatment can help manage these symptoms, improving quality of life."
+          ]
+        },
+        {
+          "featureHeader": "Reducing the Risk of Endometrial Cancer:",
+          "features": [
+          "Chronic anovulation (lack of ovulation) associated with PCOS can increase the risk of endometrial cancer. Regular treatment helps in reducing this risk."
+          ]
+        },
+        {
+          "featureHeader": "Enhancing Mental Health:",
+          "features": [
+          "The symptoms of PCOS, along with the associated health risks, can contribute to mental health issues such as depression and anxiety. Managing PCOS can improve mental well-being and overall quality of life."
+          ]
+        }
+      ],
+
+       "treatmentDetails" : {
+        "treatmentFooterDetails": "Given the potential for serious health issues linked to PCOD/PCOS, timely and appropriate treatment is essential. For expert guidance and personalized care in managing PCOD/PCOS, consult with Med Life Easy. Their comprehensive approach ensures effective management and prevention of associated health complications."
+       },
+
+      "subHeader": "",
+      "typeHeader": "",
+      "type": "",
+      "timeHeader": "",
+      "time": "",
+      "costHeader": "",
+      "cost": "",
+      "footerTitle": "",
+      "formTitle": ""
+    },
+    "aboutDisease": {
+      "diseaseHeader": "",
+      "details": "",
+      "symptoms": {
+        "symptomHeader": "",
+        "symptomsList": [
+          ""
+        ]
+      },
+      "diagnosis": {
+        "diagnosisHeader": "Risks and Complications of Untreated PCOD",
+        "details": "Failure to address polycystic ovary syndrome (PCOS) in a timely manner can result in various serious health complications, including:",
+        "occureTreatment": [
+          {
+            "occureHeader": "",
+            "occureTreatmentLists": [
+              "Hypertension",
+              "Diabetes",
+              "Impaired glucose tolerance",
+              "Myocardial infarction (Heart Attack) / Coronary Artery Disease (CAD)",
+              "Endometrial cancer",
+              "Hypercholesterolemia with low HDL (High-Density Lipoprotein)",
+              "Gestational diabetes",
+              "Sleep apnea"
+            ]
+          }
+        ],
+        "diagnosisFooterDetails": "Early detection and treatment of PCOD are crucial to mitigate the risk of these complications and ensure optimal health outcomes. Seeking medical attention promptly can help in managing PCOD effectively and reducing the likelihood of developing associated health issues. For expert guidance and tailored treatment options, consider consulting with Med Life Easy. Their specialized care approach can provide comprehensive management and prevention of potential complications linked to PCOD."
+      }
+    }
+  },
+  "pregnancy": {
+    "parentDisease": "Gynaecology",
+    "heroHeader": "Pregnancy Care and Treatmen",
+    "subHeading": "",
+    "details": "Pregnancy is a transformative journey in a woman's life, marked by both challenges and beauty. It is paramount to prioritize comprehensive care before, during, and after pregnancy to ensure the well-being of both the mother and the baby. Embracing healthier dietary habits and making lifestyle modifications during pregnancy can yield positive outcomes.",
+    "subLists": [
+      
+    ],
+    "treatment": {
+      "treatmentHeader": [
+        
+      ],
+      "treatments": [
+      ]
+    },
+    "SurgeryForm": {
+      "surgeryHeader": [
+        ""
+      ],
+
+      "featureList" : [
+        {
+          "featureHeader": "Pre-pregnancy Care:",
+          "features": [
+          "Prior to conception, it is advisable for women to focus on pre-pregnancy care, which involves:",
+          "Ensuring optimal physical health through regular exercise and a balanced diet.",
+          "Consulting with a healthcare provider to address any pre-existing medical conditions and optimize overall health.",
+          "Taking prenatal vitamins, including folic acid, to support fetal development."
+          ]
+        },
+        {
+          "featureHeader": "Prenatal Care:",
+          "features": [
+          "Once pregnancy is confirmed, prenatal care becomes essential. This includes:",
+    "Regular visits to healthcare professionals for check-ups, screenings, and monitoring of maternal and fetal health.",
+    "Following a nutritious diet rich in essential nutrients, vitamins, and minerals to support fetal growth and development.",
+    "Engaging in appropriate physical activity under the guidance of healthcare providers.",
+    "Avoiding harmful substances such as alcohol, tobacco, and illicit drugs."
+          ]
+        },
+        {
+          "featureHeader": "Labour and Delivery:",
+          "features": [
+          "Adequate preparation for labour and delivery is crucial, including:",
+    "Attending prenatal classes to learn about the birthing process and pain management techniques.",
+    "Creating a birth plan in collaboration with healthcare providers to outline preferences and expectations for labour and delivery.",
+    "Understanding the signs of labour and knowing when to seek medical assistance."
+          ]
+        },
+        {
+          "featureHeader": "Postpartum Care:",
+          "features": [
+          "Following childbirth, postpartum care is essential to support maternal recovery and newborn care:",
+    "Monitoring physical and emotional well-being, including addressing postpartum depression or anxiety.",
+    "Establishing breastfeeding if desired, with guidance and support from lactation consultants.",
+    "Ensuring adequate rest and nutrition to facilitate healing and recovery.",
+    "Seeking medical attention for any postpartum complications or concerns."
+          ]
+        },
+        {
+          "featureHeader": "Enhancing Mental Health:",
+          "features": [
+          "The symptoms of PCOS, along with the associated health risks, can contribute to mental health issues such as depression and anxiety. Managing PCOS can improve mental well-being and overall quality of life."
+          ]
+        }
+      ],
+
+      "surgerydetails4": "Comprehensive pregnancy care encompasses a holistic approach to support the health and well-being of both mother and baby. Embracing healthier dietary habits, lifestyle modifications, and regular prenatal care are integral components of this journey. For personalized guidance and support throughout your pregnancy journey, consider consulting with Med Life Easy. Their dedicated team of healthcare professionals can provide tailored care and treatment to ensure a positive pregnancy experience.",
+
+
+      "importanceHeader" : "Importance of Pregnancy Care",
+      "importanceDetails" : "Pregnancy care plays a pivotal role in ensuring a healthy pregnancy and safe delivery. While many pregnancies proceed smoothly, the potential for complications underscores the importance of prenatal care. Here's why pregnancy care is crucial:",
+      "importances" : [
+        {
+          "header": "Identifying Underlying Health Conditions:",
+          "importance": [
+          "Regular health checkups during pregnancy enable healthcare providers to detect underlying health issues in the mother, such as diabetes, hypertension, hyperthyroidism, or hypothyroidism. Early detection allows for timely intervention and management, reducing the risk of complications for both mother and baby."
+          ]
+        },
+        {
+          "header": "Preventing Complications:",
+          "importance": [
+          "Early detection and management of complications can help prevent adverse outcomes. For instance, uncontrolled diabetes during pregnancy can lead to macrosomia (larger-than-normal baby), increasing the risk of birth injuries and stillbirth. Prenatal care allows for timely adjustments in treatment plans to mitigate these risks."
+          ]
+        },
+        {
+          "header": "Monitoring Fetal Health:",
+          "importance": [
+          "Prenatal checkups also involve monitoring the health and development of the fetus. This includes screening for genetic abnormalities and conditions such as pre-eclampsia. Early detection enables proactive measures to safeguard both maternal and fetal health."
+          ]
+        },
+        {
+          "header": "Optimizing Dietary Habits:",
+          "importance": [
+          "Pregnancy care emphasizes the importance of maintaining a healthy diet. Proper nutrition supports fetal growth and development while promoting maternal well-being. Guidance from healthcare providers ensures that dietary needs are met to optimize pregnancy outcomes."
+          ]
+        }
+      ],
+
+      "surgeryFooterDetails" : "By prioritizing pregnancy care, expectant mothers can navigate their pregnancy journey with greater confidence and reduce the likelihood of complications. Consulting with healthcare professionals and adhering to prenatal care recommendations is essential for a safe and healthy pregnancy.",
+
+      
+
 
       "subHeader": "",
       "typeHeader": "",
@@ -1508,223 +1849,130 @@
         ]
       },
       "diagnosis": {
-        "diagnosisHeader": "Diagnosis and Treatment for Endometriosis",
-        "diagnosisSubHeader": "Diagnosis:",
-        "details": "",
-        "diagnosisSubDetails": "While symptoms provide strong indications, the definitive diagnosis of endometriosis requires a diagnostic laparoscopy. This minimally invasive procedure uses a laparoscope—a small instrument equipped with a camera and lens—to visualize the pelvic organs and confirm the presence of endometrial tissue outside the uterus.",
-
-        "subheader3": "Treatment:",
-
-        "occureHeader": "Non-Surgical Options:",
-        "occureDetails": "For early-stage endometriosis, non-surgical approaches may suffice. Contraceptives and pain relievers are commonly prescribed to manage symptoms. Contraceptive pills regulate hormones, halting ovulation and reducing endometrial growth. Hormonal therapy may also be recommended for short-term relief.",
-
-        "occureSubHeader": "Surgical Options:",
-        "occureSubDetails": "Advanced or severe cases may necessitate surgical intervention:",
-
-        "occureSubDetailsLists" : [
-          "Laparoscopy: This minimally invasive procedure involves removing endometrial tissue through small incisions using a laparoscope. It offers quicker recovery and lower risks compared to traditional open surgery.",
-
-          "Open Surgery: In more complex cases, open surgery may be required. This involves a larger incision and longer recovery time but may be necessary for extensive tissue removal or concurrent procedures like hysterectomy."
+        "diagnosisHeader": "Preconception and prenatal care are vital aspects of ensuring a safe and healthy pregnancy. Here's a Med Life Easy guide on preparing for pregnancy:",
+        "occureTreatment": [
+          {
+            "occureHeader": "Consult Your Healthcare Provider:",
+            "occureTreatmentLists": [
+              "Schedule a preconception appointment with your healthcare provider. They will conduct tests and review your medical history to assess your current health status and plan for a healthy pregnancy."
+            ]
+          },
+          {
+            "occureHeader": "Avoid Harmful Substances:",
+            "occureTreatmentLists": [
+              "Refrain from smoking, drinking alcohol, or using drugs. These substances can harm fertility and negatively affect fetal development."
+            ]
+          },
+          {
+            "occureHeader": "Increase Folic Acid Intake:",
+            "occureTreatmentLists": [
+              "Folic acid is crucial for preventing birth defects. Consider taking prenatal vitamins containing folic acid or supplements as advised by your doctor."
+            ]
+          },
+          {
+            "occureHeader": "Maintain a Healthy Weight:",
+            "occureTreatmentLists": [
+              "Aim to achieve and maintain a healthy weight before conceiving. Your healthcare provider can provide guidance on nutrition and exercise to support healthy weight management."
+            ]
+          },
+          {
+            "occureHeader": "Prioritize Mental Health:",
+            "occureTreatmentLists": [
+              "Pregnancy can bring about emotional challenges. Practice self-care, seek support from loved ones, and consider counseling if needed to maintain good mental health."
+            ]
+          },
+          {
+            "occureHeader": "Follow a Balanced Diet:",
+            "occureTreatmentLists": [
+              "Eat a nutritious diet comprising fresh fruits, vegetables, whole grains, low-fat dairy products, and lean proteins. Your healthcare provider may offer dietary recommendations tailored to your individual needs."
+            ]
+          }
         ],
 
-       "diagnosisFooterDetails" : "Both surgical and non-surgical treatments aim to alleviate symptoms, reduce endometrial tissue growth, and improve quality of life for individuals with endometriosis. Consulting with a healthcare professional is essential to determine the most appropriate treatment plan based on individual circumstances."
-      }
-    }
-  },
-  "adenomyosis": {
-    "parentDisease": "Gynaecology",
-    "heroHeader": "Adenomyosis Treatment",
-    "subHeading": "सुरक्षित एवं सफल",
-    "details": "लेप्रोस्कोपिक हर्निया सर्जरी, एक न्यूनतम इनवेसिव दृष्टिकोण, सर्जरी के क्षेत्र में एक गेम-चेंजर बन गई है, जो रोगियों को कई लाभ प्रदान करती है। Medlife Easy में, हम इस अत्याधुनिक तकनीक को बिहार में हर्निया के लिए सुलभ बनाने के लिए पूरी तरह समर्पित हैं।",
-    "subLists": [
-      "उन्नत 3D तकनीक",
-      "दर्दरहित सर्जरी (Painless Surgery) तथा जल्द रिकवरी",
-      "संक्रमण का कोई खतरा नहीं"
-    ],
-    "treatment": {
-      "treatmentHeader": [
-        "Safe Umbilical Herniya Surgery With",
-        "Med Life Easy"
-      ],
-      "treatments": [
-        "Excellence in Healthcare",
-        "Patient-Centric Care",
-        " Personalized Approach",
-        "State-of-the-Art Facilities",
-        "Accepting All Insurance Plans",
-        "Zero-Cost EMI Options Available"
-      ]
-    },
-    "SurgeryForm": {
-      "surgeryHeader": [
-        "Explore Affordable Umbilical Hernia Surgery With",
-        "Med Life Easy"
-      ],
-      "subHeader": "Experience a Swift Recovery with Our Expert Surgeons",
-      "typeHeader": "Type of Surgery",
-      "type": "Umbilical Hernia Surgery",
-      "timeHeader": "Time",
-      "time": "1-2 Days",
-      "costHeader": "Cost Range",
-      "cost": " Starting from 55,000 INR to 90,000 INR, with an Average of 60,000 INR",
-      "footerTitle": "For a Precise Cost Estimate and Personalized Assistance",
-      "formTitle": "Umbilical Herniya Surgery Cost Estimate"
-    },
-    "aboutDisease": {
-      "diseaseHeader": "What is Umbilical Herniya ",
-      "details": "Umbilical Herniya is characterized by the formation of solid particles within the gallbladder. These stones can vary in size and may cause symptoms such as pain, discomfort, or bloating. In some cases, individuals with gallbladder stones may experience no symptoms at all.",
-      "symptoms": {
-        "symptomHeader": "Symptoms of Umbilical Herniya:",
-        "symptomsList": [
-          "Abdominal pain, particularly in the upper right side",
-          "Nausea or vomiting",
-          "Sudden and intense pain in the upper abdomen, known as biliary colic",
-          "Jaundice (yellowing of the skin and eyes)",
-          "Fever and chills in cases of infection",
-          "Back or shoulder pain",
-          "Indigestion or bloating after meals"
-        ]
+        "occureGuidelines" : {
+          "guidelinesHeadingsDetails" : [
+            "By following these guidelines and working closely with your healthcare provider, you can optimize your health for pregnancy and increase the chances of a safe and healthy journey to parenthood. Nourishing Your Pregnancy: Essential Dietary Guidelines for Optimal Health",
+
+            "A balanced diet is crucial during pregnancy to support both the mother's well-being and the healthy growth and development of the fetus. Here's a guide to essential diet modifications required during pregnancy:",
+
+            "Fundamentals of a Healthy Pregnancy Diet:"
+          ],
+          "guidelinesHeadingsList" : [
+            "Ensure your diet provides optimal energy levels and essential macro and micronutrients.",
+            "Strive for appropriate weight gain throughout pregnancy.",
+            "Avoid harmful substances that can compromise maternal and fetal health."
+
+          ],
+          "heading1" : "Tips for a Healthy Pregnancy Diet:",
+          "dietTips" : [
+              {
+                "tipsHeading": "Incorporate Protein:",
+              "tipsList": [
+                "Protein is essential for building the baby's organs. Include sources like lean meats, poultry, fish, eggs, dairy products, legumes, nuts, and seeds in your diet."
+              ]
+            },
+              {
+                "tipsHeading": "Ensure Sufficient Folate Intake:",
+              "tipsList": [
+                "Folate, or folic acid, is crucial for preventing neural tube defects in the baby. Include foods such as green leafy vegetables, fortified cereals, bread, peanuts, sunflower seeds, and whole grains in your diet."
+              ]
+            },
+              {
+                "tipsHeading": "Enrich Your Diet with Calcium:",
+              "tipsList": [
+                "Calcium is necessary for the baby's bone and teeth development. Consume calcium-rich foods like dairy products, fortified plant-based milk alternatives, leafy greens, tofu, almonds, and sesame seeds."
+              ]
+            }
+            ],
+
+
+          "supplementsHeading" : "Supplements to Consider:",
+          "supplementsList" : [
+            "Protein: Incorporate sources of high-quality protein into your meals to support fetal development.",
+            "Folate: Ensure adequate intake of folate through foods and supplements to prevent birth defects.",
+            "Calcium: Enrich your diet with calcium-rich foods or consider calcium supplements to support the baby's bone development."
+          ],
+          "supplementFooter" : "By following these dietary guidelines and ensuring a balanced and nutritious diet, you can promote optimal health for both you and your baby throughout pregnancy. Always consult with your healthcare provider for personalized dietary recommendations based on your individual needs and circumstances.",
+
+          "foodsToAvoidHeading" : "Foods to Avoid During Pregnancy According to the FDA",
+          "foodsToAvoidDetail" : "During pregnancy, it's crucial to avoid certain foods to ensure the health and safety of both the mother and the baby. According to the FDA, the following items should be avoided:",
+          "foodsToAvoidList" : [
+            "Raw Sprouts: These can harbor harmful bacteria.",
+            "Undercooked Fish: To prevent exposure to parasites and bacteria.",
+            "Raw Eggs: Risk of Salmonella.",
+            "Organ Meat: High in vitamin A, which can be harmful in excess.",
+            "Undercooked and Raw Meat: Potential risk of Toxoplasmosis and other infections.",
+            "Caffeine: Should be limited to reduce the risk of preterm birth and low birth weight.",
+            "Unpasteurized Milk: Can contain harmful bacteria such as Listeria.",
+            "Alcohol: Can lead to fetal alcohol spectrum disorders (FASD).",
+            "Processed Junk Food: Lacks essential nutrients and can contribute to excessive weight gain."
+          ],
+
+
+          "sleepingPositionsHeading" : "Best Sleeping Positions During Pregnancy",
+          "sleepingPositionsList" : [
+            "Experts recommend that the best sleeping position during pregnancy is on your side. This position optimizes blood flow to both you and your baby. Specifically, sleeping on your left side is often advised as it enhances circulation and helps prevent the uterus from pressing against the liver.",
+
+            "It is important to avoid sleeping on your back and stomach during pregnancy. Sleeping on your back can lead to low blood pressure and reduced blood circulation to your heart and baby. Similarly, sleeping on your stomach becomes uncomfortable and impractical as your pregnancy progresses."
+          ]
+
       },
-      "diagnosis": {
-        "diagnosisHeader": "Diagnosis:",
-        "details": "Umbilical Hernia diagnosis relies on a thorough examination of symptoms, a patient's medical history, and, if necessary, imaging tests. During the examination, the doctor may ask the patient to cough, as this often accentuates the visibility of a hernia."
-      }
-    }
-  },
-  "pcosPcod": {
-    "parentDisease": "Gynaecology",
-    "heroHeader": "PCOS-PCOD Treatment",
-    "subHeading": "सुरक्षित एवं सफल",
-    "details": "लेप्रोस्कोपिक हर्निया सर्जरी, एक न्यूनतम इनवेसिव दृष्टिकोण, सर्जरी के क्षेत्र में एक गेम-चेंजर बन गई है, जो रोगियों को कई लाभ प्रदान करती है। Medlife Easy में, हम इस अत्याधुनिक तकनीक को बिहार में हर्निया के लिए सुलभ बनाने के लिए पूरी तरह समर्पित हैं।",
-    "subLists": [
-      "उन्नत 3D तकनीक",
-      "दर्दरहित सर्जरी (Painless Surgery) तथा जल्द रिकवरी",
-      "संक्रमण का कोई खतरा नहीं"
-    ],
-    "treatment": {
-      "treatmentHeader": [
-        "Safe Umbilical Herniya Surgery With",
-        "Med Life Easy"
-      ],
-      "treatments": [
-        "Excellence in Healthcare",
-        "Patient-Centric Care",
-        " Personalized Approach",
-        "State-of-the-Art Facilities",
-        "Accepting All Insurance Plans",
-        "Zero-Cost EMI Options Available"
-      ]
-    },
-    "SurgeryForm": {
-      "surgeryHeader": [
-        "Explore Affordable Umbilical Hernia Surgery With",
-        "Med Life Easy"
-      ],
-      "subHeader": "Experience a Swift Recovery with Our Expert Surgeons",
-      "typeHeader": "Type of Surgery",
-      "type": "Umbilical Hernia Surgery",
-      "timeHeader": "Time",
-      "time": "1-2 Days",
-      "costHeader": "Cost Range",
-      "cost": " Starting from 55,000 INR to 90,000 INR, with an Average of 60,000 INR",
-      "footerTitle": "For a Precise Cost Estimate and Personalized Assistance",
-      "formTitle": "Umbilical Herniya Surgery Cost Estimate"
-    },
-    "aboutDisease": {
-      "diseaseHeader": "What is Umbilical Herniya ",
-      "details": "Umbilical Herniya is characterized by the formation of solid particles within the gallbladder. These stones can vary in size and may cause symptoms such as pain, discomfort, or bloating. In some cases, individuals with gallbladder stones may experience no symptoms at all.",
-      "symptoms": {
-        "symptomHeader": "Symptoms of Umbilical Herniya:",
-        "symptomsList": [
-          "Abdominal pain, particularly in the upper right side",
-          "Nausea or vomiting",
-          "Sudden and intense pain in the upper abdomen, known as biliary colic",
-          "Jaundice (yellowing of the skin and eyes)",
-          "Fever and chills in cases of infection",
-          "Back or shoulder pain",
-          "Indigestion or bloating after meals"
-        ]
-      },
-      "diagnosis": {
-        "diagnosisHeader": "Diagnosis:",
-        "details": "Umbilical Hernia diagnosis relies on a thorough examination of symptoms, a patient's medical history, and, if necessary, imaging tests. During the examination, the doctor may ask the patient to cough, as this often accentuates the visibility of a hernia."
-      }
-    }
-  },
-  "pregnancy": {
-    "parentDisease": "Gynaecology",
-    "heroHeader": "Pregnancy Treatment",
-    "subHeading": "सुरक्षित एवं सफल",
-    "details": "लेप्रोस्कोपिक हर्निया सर्जरी, एक न्यूनतम इनवेसिव दृष्टिकोण, सर्जरी के क्षेत्र में एक गेम-चेंजर बन गई है, जो रोगियों को कई लाभ प्रदान करती है। Medlife Easy में, हम इस अत्याधुनिक तकनीक को बिहार में हर्निया के लिए सुलभ बनाने के लिए पूरी तरह समर्पित हैं।",
-    "subLists": [
-      "उन्नत 3D तकनीक",
-      "दर्दरहित सर्जरी (Painless Surgery) तथा जल्द रिकवरी",
-      "संक्रमण का कोई खतरा नहीं"
-    ],
-    "treatment": {
-      "treatmentHeader": [
-        "Safe Umbilical Herniya Surgery With",
-        "Med Life Easy"
-      ],
-      "treatments": [
-        "Excellence in Healthcare",
-        "Patient-Centric Care",
-        " Personalized Approach",
-        "State-of-the-Art Facilities",
-        "Accepting All Insurance Plans",
-        "Zero-Cost EMI Options Available"
-      ]
-    },
-    "SurgeryForm": {
-      "surgeryHeader": [
-        "Explore Affordable Umbilical Hernia Surgery With",
-        "Med Life Easy"
-      ],
-      "subHeader": "Experience a Swift Recovery with Our Expert Surgeons",
-      "typeHeader": "Type of Surgery",
-      "type": "Umbilical Hernia Surgery",
-      "timeHeader": "Time",
-      "time": "1-2 Days",
-      "costHeader": "Cost Range",
-      "cost": " Starting from 55,000 INR to 90,000 INR, with an Average of 60,000 INR",
-      "footerTitle": "For a Precise Cost Estimate and Personalized Assistance",
-      "formTitle": "Umbilical Herniya Surgery Cost Estimate"
-    },
-    "aboutDisease": {
-      "diseaseHeader": "What is Umbilical Herniya ",
-      "details": "Umbilical Herniya is characterized by the formation of solid particles within the gallbladder. These stones can vary in size and may cause symptoms such as pain, discomfort, or bloating. In some cases, individuals with gallbladder stones may experience no symptoms at all.",
-      "symptoms": {
-        "symptomHeader": "Symptoms of Umbilical Herniya:",
-        "symptomsList": [
-          "Abdominal pain, particularly in the upper right side",
-          "Nausea or vomiting",
-          "Sudden and intense pain in the upper abdomen, known as biliary colic",
-          "Jaundice (yellowing of the skin and eyes)",
-          "Fever and chills in cases of infection",
-          "Back or shoulder pain",
-          "Indigestion or bloating after meals"
-        ]
-      },
-      "diagnosis": {
-        "diagnosisHeader": "Diagnosis:",
-        "details": "Umbilical Hernia diagnosis relies on a thorough examination of symptoms, a patient's medical history, and, if necessary, imaging tests. During the examination, the doctor may ask the patient to cough, as this often accentuates the visibility of a hernia."
+
+        "details": ""
       }
     }
   },
   "laser": {
     "parentDisease": "Gynaecology",
-    "heroHeader": "Laser Treatment",
-    "subHeading": "सुरक्षित एवं सफल",
-    "details": "लेप्रोस्कोपिक हर्निया सर्जरी, एक न्यूनतम इनवेसिव दृष्टिकोण, सर्जरी के क्षेत्र में एक गेम-चेंजर बन गई है, जो रोगियों को कई लाभ प्रदान करती है। Medlife Easy में, हम इस अत्याधुनिक तकनीक को बिहार में हर्निया के लिए सुलभ बनाने के लिए पूरी तरह समर्पित हैं।",
+    "heroHeader": "Understanding Laser Vaginal Tightening: Procedure, Benefits, and Recovery",
+    "subHeading": "",
+    "details": "Are you dealing with urinary incontinence or feeling self-conscious due to vaginal laxity? This condition can result from factors such as pregnancy, weight changes, and physical trauma. Med Life Easy provides advanced laser vaginal tightening treatments to effectively address both medical and aesthetic concerns. Our services are affordable and designed to enhance your quality of life. Contact our care coordinators to schedule a consultation with our expert cosmetic gynecologists today.",
     "subLists": [
-      "उन्नत 3D तकनीक",
-      "दर्दरहित सर्जरी (Painless Surgery) तथा जल्द रिकवरी",
-      "संक्रमण का कोई खतरा नहीं"
+      
     ],
     "treatment": {
       "treatmentHeader": [
-        "Safe Umbilical Herniya Surgery With",
-        "Med Life Easy"
+        
       ],
       "treatments": [
         "Excellence in Healthcare",
@@ -1737,110 +1985,152 @@
     },
     "SurgeryForm": {
       "surgeryHeader": [
-        "Explore Affordable Umbilical Hernia Surgery With",
-        "Med Life Easy"
+        "Understanding Briefly Laser Vaginal Tightening"
       ],
-      "subHeader": "Experience a Swift Recovery with Our Expert Surgeons",
-      "typeHeader": "Type of Surgery",
-      "type": "Umbilical Hernia Surgery",
-      "timeHeader": "Time",
-      "time": "1-2 Days",
-      "costHeader": "Cost Range",
-      "cost": " Starting from 55,000 INR to 90,000 INR, with an Average of 60,000 INR",
-      "footerTitle": "For a Precise Cost Estimate and Personalized Assistance",
-      "formTitle": "Umbilical Herniya Surgery Cost Estimate"
+      "surgerydetailsList" : [
+        "Laser vaginal tightening is a procedure aimed at addressing vaginal laxity, commonly chosen by women experiencing issues such as urinary incontinence, vaginal prolapse, or diminished self-confidence. It's important to dispel the misconception that the vagina loosens permanently due to sexual activity, as it typically reverts to its original state. However, factors like childbirth and aging can lead to mild laxity.",
+        "During this procedure, the vaginal walls, including the anterior, posterior, and lateral aspects, are tightened. This addresses stretched vaginal structures resulting from pregnancy, aging, weight loss, or sagging skin around the vagina. Moreover, it can alleviate medical conditions like urinary incontinence, vaginal prolapse, and organ dysfunction.",
+        "Laser vaginal tightening stands out as a popular option due to its efficacy in tightening the vaginal walls, providing functional and cosmetic improvements."
+      ],
+
+      "subHeader": "",
+      "typeHeader": "Disease name",
+      "type": "Vaginal Tightening",
+      "surgeryNameHeader": "Surgery name",
+      "surgeryName": "Vaginoplasty",
+      "timeHeader": "Duration ",
+      "time": "30-40 Minutes",
+      "costHeader": "Treated by",
+      "cost": "Gynecologist, Plastic Surgeon"
     },
     "aboutDisease": {
-      "diseaseHeader": "What is Umbilical Herniya ",
-      "details": "Umbilical Herniya is characterized by the formation of solid particles within the gallbladder. These stones can vary in size and may cause symptoms such as pain, discomfort, or bloating. In some cases, individuals with gallbladder stones may experience no symptoms at all.",
+      "diseaseHeader": "",
+      "details": "",
       "symptoms": {
-        "symptomHeader": "Symptoms of Umbilical Herniya:",
+        "symptomHeader": "",
         "symptomsList": [
-          "Abdominal pain, particularly in the upper right side",
-          "Nausea or vomiting",
-          "Sudden and intense pain in the upper abdomen, known as biliary colic",
-          "Jaundice (yellowing of the skin and eyes)",
-          "Fever and chills in cases of infection",
-          "Back or shoulder pain",
-          "Indigestion or bloating after meals"
+          
         ]
       },
       "diagnosis": {
-        "diagnosisHeader": "Diagnosis:",
-        "details": "Umbilical Hernia diagnosis relies on a thorough examination of symptoms, a patient's medical history, and, if necessary, imaging tests. During the examination, the doctor may ask the patient to cough, as this often accentuates the visibility of a hernia."
+        "diagnosisHeader": "Exploring the Laser Vaginal Tightening Procedure: Steps and Considerations",
+        "detailList": [
+          "The laser vaginal tightening procedure is typically conducted in a doctor's clinic or a hospital setting. While the duration of the procedure generally ranges from 10 to 15 minutes, it may vary depending on individual patient needs.",
+
+          "Following a comprehensive assessment of the patient's condition, the performing physician selects the appropriate type of laser and equipment for the procedure. Here is an overview of the steps involved:"
+        ],
+
+        "diagnosisLists": [
+          "Preparation: The patient is positioned in a lithotomy position, lying on their back with legs raised and hips and knees separated. The area is then cleansed to minimize the risk of infection.",
+          "Anesthesia: Topical anesthesia is administered to numb the treatment area, ensuring the patient's comfort throughout the procedure.",
+          "Laser Application: A fractional CO2 laser probe is inserted approximately 4 to 6 centimeters into the vagina or directed towards the external genital area. The laser emits a light beam that heats the tissue, stimulating collagen production. This process targets the vaginal wall, penetrating about 0.5 millimeters to maximize protein stimulation.",
+          "Rotation and Heat Distribution: The probe is rotated to evenly distribute heat across the treatment area, ensuring thorough tissue stimulation.",
+          "Conclusion: After the laser application, the probe is carefully removed, and the vagina and surrounding areas are cleaned."
+        ],
+        "subDetails" : [
+            "This treatment promotes overall vaginal improvement and often leads to significant patient satisfaction. To achieve optimal outcomes, it is typically recommended that women undergo multiple treatment sessions spaced four to six weeks apart, allowing for adequate healing and collagen regeneration between sessions."
+          ],
+
+          "occureHeader": "Advantages of Laser Vaginal Tightening: Enhancing Confidence and Comfort",
+        "occureDetails": "The laser vaginal tightening procedure offers numerous benefits, making it increasingly sought-after in recent years. Here are some of its key advantages:",
+        "occureDetailsLists": [
+          "Enhanced Vaginal Tightness: This procedure effectively tightens and revitalizes the vagina, addressing concerns related to vaginal laxity. By restoring vaginal tightness, women can regain confidence and feel more youthful.",
+          "Boosted Self-Confidence: Many women experience diminished confidence or self-esteem due to vaginal laxity. Laser vaginal tightening can significantly enhance confidence levels by improving both the appearance and function of the vagina.",
+          "Non-Surgical Approach: Laser vaginal tightening is a non-surgical procedure, eliminating the need for incisions or extensive recovery periods. Typically performed on an outpatient basis in a clinic setting, patients can resume their normal activities shortly after treatment.",
+          "Enhanced Sexual Satisfaction: Loose vaginal tissues can impact sexual pleasure and intimacy for both women and their partners. By restoring vaginal tightness, laser vaginal tightening can enhance sensations during sexual intercourse, leading to increased sexual satisfaction and overall improved sexual experiences.",
+          "Minimal Discomfort and Downtime: The procedure is associated with minimal discomfort and requires short downtime, often performed under topical anesthesia. With minimal downtime, women can quickly return to their daily routines following treatment.",
+          "Long-Lasting Results: Laser vaginal tightening stimulates collagen production, ensuring long-lasting results. While individual experiences may vary, many women enjoy the benefits of the procedure for an extended period.",
+          "By offering these benefits, laser vaginal tightening can significantly improve the quality of life for women experiencing vaginal laxity and associated concerns."
+        ],
+
+        "diagnosisFooterHeading" : "Why Choose Laser Vaginal Tightening?",
+        "diagnosisFooterDetails" : "Opting for laser vaginal tightening offers several compelling reasons. Firstly, it's a non-invasive procedure, meaning no incisions or stitches are involved. Additionally, patients typically experience minimal to no pain or discomfort during the procedure, and they can return home the same day. Moreover, there's no downtime, and recovery is quick and hassle-free."
+        
       }
     }
   },
   "hymenoplasty": {
     "parentDisease": "Gynaecology",
-    "heroHeader": "Hymenoplasty Treatment",
-    "subHeading": "सुरक्षित एवं सफल",
-    "details": "लेप्रोस्कोपिक हर्निया सर्जरी, एक न्यूनतम इनवेसिव दृष्टिकोण, सर्जरी के क्षेत्र में एक गेम-चेंजर बन गई है, जो रोगियों को कई लाभ प्रदान करती है। Medlife Easy में, हम इस अत्याधुनिक तकनीक को बिहार में हर्निया के लिए सुलभ बनाने के लिए पूरी तरह समर्पित हैं।",
-    "subLists": [
-      "उन्नत 3D तकनीक",
-      "दर्दरहित सर्जरी (Painless Surgery) तथा जल्द रिकवरी",
-      "संक्रमण का कोई खतरा नहीं"
-    ],
+    "heroHeader": "Understanding Hymenoplasty: A Procedure Offered by Med Life Easy",
+    "subHeading": "",
+    "details": "Hymenoplasty, also known as hymenorrhaphy or hymen repair surgery, is a procedure designed to restore a torn hymen. At Med Life Easy, we provide this cosmetic surgery to repair a broken or perforated hymen, often sought by women for 'revirginization.' The hymen is a thin, pinkish membrane located in the lower part of the vagina.",
+    "subLists": [],
     "treatment": {
       "treatmentHeader": [
-        "Safe Umbilical Herniya Surgery With",
-        "Med Life Easy"
       ],
       "treatments": [
-        "Excellence in Healthcare",
-        "Patient-Centric Care",
-        " Personalized Approach",
-        "State-of-the-Art Facilities",
-        "Accepting All Insurance Plans",
-        "Zero-Cost EMI Options Available"
       ]
     },
     "SurgeryForm": {
       "surgeryHeader": [
-        "Explore Affordable Umbilical Hernia Surgery With",
-        "Med Life Easy"
+        
       ],
-      "subHeader": "Experience a Swift Recovery with Our Expert Surgeons",
-      "typeHeader": "Type of Surgery",
-      "type": "Umbilical Hernia Surgery",
-      "timeHeader": "Time",
-      "time": "1-2 Days",
-      "costHeader": "Cost Range",
-      "cost": " Starting from 55,000 INR to 90,000 INR, with an Average of 60,000 INR",
-      "footerTitle": "For a Precise Cost Estimate and Personalized Assistance",
-      "formTitle": "Umbilical Herniya Surgery Cost Estimate"
+      "surgerydetailsList" : [
+        "Contrary to popular belief, a broken hymen does not solely indicate sexual activity. It can tear or perforation due to various non-sexual reasons, including intense physical activities and sports. Research also shows that about 1 in 1,000 girls are born with a naturally open or imperforate hymen.",
+        "Every year, many women choose hymenoplasty to address the social stigma associated with premarital loss of virginity or to regain the feeling of being a virgin. In India, the demand for this procedure has increased by 20 to 30 percent in recent years. Hymenoplasty at Med Life Easy involves suturing the remnants of the broken hymen to recreate the appearance of an intact hymen, effectively allowing a woman to 'revirginize' herself."
+      ],
+      "subHeader": "",
+      "typeHeader": "Disease name",
+      "type": "Not Applicable (NA)",
+      "surgeryNameHeader": "Surgery name",
+      "surgeryName": "Hymenoplasty Surgery",
+      "timeHeader": "Duration ",
+      "time": "30-40 Minutes",
+      "costHeader": "Treated by",
+      "cost": "Gynecologists, Plastic Surgeons"
     },
     "aboutDisease": {
-      "diseaseHeader": "What is Umbilical Herniya ",
-      "details": "Umbilical Herniya is characterized by the formation of solid particles within the gallbladder. These stones can vary in size and may cause symptoms such as pain, discomfort, or bloating. In some cases, individuals with gallbladder stones may experience no symptoms at all.",
+      "diseaseHeader": "",
+      "details": "",
       "symptoms": {
-        "symptomHeader": "Symptoms of Umbilical Herniya:",
-        "symptomsList": [
-          "Abdominal pain, particularly in the upper right side",
-          "Nausea or vomiting",
-          "Sudden and intense pain in the upper abdomen, known as biliary colic",
-          "Jaundice (yellowing of the skin and eyes)",
-          "Fever and chills in cases of infection",
-          "Back or shoulder pain",
-          "Indigestion or bloating after meals"
-        ]
+        "symptomHeader": "",
+        "symptomsList": []
       },
       "diagnosis": {
-        "diagnosisHeader": "Diagnosis:",
-        "details": "Umbilical Hernia diagnosis relies on a thorough examination of symptoms, a patient's medical history, and, if necessary, imaging tests. During the examination, the doctor may ask the patient to cough, as this often accentuates the visibility of a hernia."
+        "diagnosisHeader": "Reasons for Hymenoplasty Surgery",
+        "details": "Women may choose to undergo hymenoplasty surgery for a variety of reasons, ranging from social pressures to personal preferences. Here are some of the main motivations for opting for hymen repair surgery:",
+
+        "diagnosisLists": [
+          "Addressing Social and Cultural Stigmas: In many cultures, an intact hymen is wrongly associated with virginity. Some women choose hymenoplasty to conform to socio-cultural expectations, especially in cases where the intactness of the hymen is scrutinized.",
+          "Repairing Hymenal Injuries: Women may opt for hymen repair to address issues such as bleeding or infections resulting from a torn hymen. The hymen can break due to activities like sexual intercourse, strenuous exercise, or bicycle riding.",
+          "Post-Sexual Assault Reconstruction: Women who have experienced rape or sexual assault may choose hymenoplasty to cope with the stigma and psychological impact associated with a broken hymen.",
+          "Personal Reasons: Some women elect to undergo this surgery to feel like a virgin again or to enhance sexual pleasure.",
+          "These diverse motivations highlight the personal and cultural significance of hymenoplasty for many women."
+        ],
+
+        "occureHeader": "Step-By-Step Hymenoplasty Procedure",
+        "occureDetails": "A hymenoplasty procedure is performed in a hospital setting and is quick, allowing patients to return home within a few hours. This straightforward surgery typically lasts between 30 to 40 minutes and follows these steps:",
+        "occureDetailsLists": [
+          "Anesthesia Administration: The procedure is carried out under anesthesia. The type—local or general—is decided by the doctor. General anesthesia renders the patient completely unconscious, while local anesthesia numbs only the surgical area.",
+          "Accessing the Hymen Remnants: The doctor examines the remaining parts of the hymen and removes any scar tissue that might be present.",
+          "Stitching the Hymen: The doctor stitches the remnants of the hymen using dissolvable sutures."
+        ],
+
+        "occureDetailsSubLists" : [
+          "In some cases, the remnants of the hymen cannot be stitched back. When this occurs, the doctor uses a small flap of vaginal lining or synthetic material to create a hymen-like structure. While this layer may not be identical to a natural hymen, it will bleed during intercourse.",
+          "After the surgery, patients are moved to a recovery room where their vitals are monitored by medical staff. Most patients are discharged within a few hours. Before discharge, the doctor provides post-surgery care instructions.",
+          "Hymenoplasty effectively reconstructs the hymen without leaving visible scars. Cosmetic gynecologists perform the procedure with precision to ensure optimal results and patient satisfaction. It is crucial to choose a trusted doctor for this treatment. For safe and effective hymenoplasty, consult with Med Life Easy’s expert cosmetic gynecologists. Contact us today."
+        ],
+
+        "prepareHeader": "How to Prepare for Hymenoplasty",
+        "prepareDetails": "Your gynecologist and patient coordinator will provide detailed instructions on how to prepare for hymen reconstruction surgery. The doctor will likely conduct a physical examination prior to the procedure. Here are some common preparations you may be asked to follow:",
+        "prepareDetailsLists": [
+          "Monitor Allergies and Medications: Inform your doctor about any allergies or current medications. Certain medications, such as ibuprofen or blood thinners, should be halted before the surgery to prevent excessive bleeding.",
+          "Age Verification: Bring proof of age on the day of surgery, as it is required for the procedure.",
+          "Fasting Before Surgery: Do not eat or drink anything for at least 4-6 hours before the surgery to avoid complications related to anesthesia.",
+          "Clothing and Supplies: Wear loose cotton clothing and bring a pack of soft sanitary pads for possible slight bleeding or spotting after the surgery.",
+          "These steps help ensure a smooth and safe hymenoplasty procedure."
+        ]
+
       }
     }
   },
   "vaginoplasty": {
     "parentDisease": "Gynaecology",
-    "heroHeader": "Vaginoplasty Treatment",
-    "subHeading": "सुरक्षित एवं सफल",
-    "details": "लेप्रोस्कोपिक हर्निया सर्जरी, एक न्यूनतम इनवेसिव दृष्टिकोण, सर्जरी के क्षेत्र में एक गेम-चेंजर बन गई है, जो रोगियों को कई लाभ प्रदान करती है। Medlife Easy में, हम इस अत्याधुनिक तकनीक को बिहार में हर्निया के लिए सुलभ बनाने के लिए पूरी तरह समर्पित हैं।",
-    "subLists": [
-      "उन्नत 3D तकनीक",
-      "दर्दरहित सर्जरी (Painless Surgery) तथा जल्द रिकवरी",
-      "संक्रमण का कोई खतरा नहीं"
-    ],
+    "heroHeader": "Vaginoplasty: Procedure, Benefits, Risks, and Recovery",
+    "subHeading": "",
+    "details": "If you are experiencing vaginal looseness or other related issues affecting your self-confidence and causing functional concerns, you might consider a vaginoplasty. This vaginal rejuvenation procedure addresses both cosmetic and functional issues associated with a loose vagina. At Med Life Easy, we offer safe and effective vaginoplasty at affordable prices. Consult with our experienced gynecologists to determine if you are an ideal candidate for vaginoplasty. Book your consultation today.",
+    "subLists": [],
     "treatment": {
       "treatmentHeader": [
         "Safe Umbilical Herniya Surgery With",
@@ -1857,78 +2147,90 @@
     },
     "SurgeryForm": {
       "surgeryHeader": [
-        "Explore Affordable Umbilical Hernia Surgery With",
-        "Med Life Easy"
+        "Understanding Vaginoplasty: Procedure and Purposes"
       ],
-      "subHeader": "Experience a Swift Recovery with Our Expert Surgeons",
-      "typeHeader": "Type of Surgery",
-      "type": "Umbilical Hernia Surgery",
-      "timeHeader": "Time",
-      "time": "1-2 Days",
-      "costHeader": "Cost Range",
-      "cost": " Starting from 55,000 INR to 90,000 INR, with an Average of 60,000 INR",
-      "footerTitle": "For a Precise Cost Estimate and Personalized Assistance",
-      "formTitle": "Umbilical Herniya Surgery Cost Estimate"
+      "surgerydetailsList" : [
+        "Vaginoplasty is a genitoplasty procedure designed to repair or reconstruct the vagina. Also referred to as colporrhaphy, this surgery is performed for both cosmetic and functional reasons. Cosmetically, it aims to enhance the aesthetic appearance of the vagina, while functionally, it addresses disorders resulting from childbirth, pelvic floor disease, or vaginal injury. Vaginoplasty is also utilized in gender affirmation procedures to create a transgender vagina.",
+
+        "As women age, their vaginas may lose shape and tightness. Vaginoplasty helps restore and improve vaginal laxity caused by factors such as vaginal births, accidental trauma, or aging. This surgery tightens the vaginal walls, effectively treating vaginal looseness and addressing various pelvic conditions associated with a loose vagina. These conditions include poor pelvic muscle control, urinary leakage, pain during sexual intercourse, decreased sensation during sex, and vaginal prolapse.",
+
+        "Additionally, women with congenital abnormalities present since birth can undergo vaginoplasty to address such issues."
+      ],
+      "subHeader": "",
+      "typeHeader": "Disease name",
+      "type": "Vaginoplasty",
+      "surgeryNameHeader": "Surgery name",
+      "surgeryName": "Colporrhaphy, Vaginal reconstruction surgery",
+      "timeHeader": "Duration ",
+      "time": "5-7 hours",
+      "costHeader": "Treated by",
+      "cost": "Gynecologist"
     },
     "aboutDisease": {
-      "diseaseHeader": "What is Umbilical Herniya ",
-      "details": "Umbilical Herniya is characterized by the formation of solid particles within the gallbladder. These stones can vary in size and may cause symptoms such as pain, discomfort, or bloating. In some cases, individuals with gallbladder stones may experience no symptoms at all.",
+      "diseaseHeader": "",
+      "details": "",
       "symptoms": {
-        "symptomHeader": "Symptoms of Umbilical Herniya:",
+        "symptomHeader": "",
         "symptomsList": [
-          "Abdominal pain, particularly in the upper right side",
-          "Nausea or vomiting",
-          "Sudden and intense pain in the upper abdomen, known as biliary colic",
-          "Jaundice (yellowing of the skin and eyes)",
-          "Fever and chills in cases of infection",
-          "Back or shoulder pain",
-          "Indigestion or bloating after meals"
         ]
       },
       "diagnosis": {
-        "diagnosisHeader": "Diagnosis:",
-        "details": "Umbilical Hernia diagnosis relies on a thorough examination of symptoms, a patient's medical history, and, if necessary, imaging tests. During the examination, the doctor may ask the patient to cough, as this often accentuates the visibility of a hernia."
+        "diagnosisHeader": "Step-By-Step Vaginoplasty Procedure: Restoring Vaginal Tightness",
+        "details": "A vaginoplasty is often performed to restore vaginal laxity and tighten the vagina, especially after childbirth or vaginal injury. Here's a step-by-step guide to how the procedure is typically performed:",
+
+        "diagnosisLists": [
+          "Anesthesia Administration: The patient is administered either general anesthesia for sedation or local anesthesia to numb the area to be operated. The choice depends on the surgeon's discretion and the patient's preference.",
+          "Incision Making: The surgeon makes incisions inside the vagina, the location and length of which vary based on the chosen technique. Usually, small incisions are made around the vaginal opening or in the posterior vaginal wall.",
+          "Tissue Removal and Tightening: Excess vaginal lining and tissue are removed to reduce the diameter of the vaginal canal. The surgeon excises a portion of the vaginal lining and sutures the remaining tissues together to narrow and tighten the vaginal canal.",
+          "Final Adjustments and Suturing: Remaining tissue adjustments are made, and the incisions are carefully sutured with dissolvable stitches."
+        ],
+
+        "diagnosisFooterDetails" : "Following the procedure, patients are typically monitored in the recovery room for a few hours. The length of hospital stay after vaginoplasty varies; it is often performed as a daycare procedure, but some patients may need to stay in the hospital for one day."
       }
     }
   },
   "labiaplasty": {
     "parentDisease": "Gynaecology",
-    "heroHeader": "Labiaplasty Treatment",
-    "subHeading": "सुरक्षित एवं सफल",
-    "details": "लेप्रोस्कोपिक हर्निया सर्जरी, एक न्यूनतम इनवेसिव दृष्टिकोण, सर्जरी के क्षेत्र में एक गेम-चेंजर बन गई है, जो रोगियों को कई लाभ प्रदान करती है। Medlife Easy में, हम इस अत्याधुनिक तकनीक को बिहार में हर्निया के लिए सुलभ बनाने के लिए पूरी तरह समर्पित हैं।",
-    "subLists": [
-      "उन्नत 3D तकनीक",
-      "दर्दरहित सर्जरी (Painless Surgery) तथा जल्द रिकवरी",
-      "संक्रमण का कोई खतरा नहीं"
+    "heroHeader": "Understanding Labiaplasty: Purpose and Considerations",
+    "subHeading": "",
+    "details": "",
+    "detailsList" : [
+      "Labiaplasty is a surgical procedure aimed at altering the size of the labia minora, the inner folds of skin surrounding the urethra and vagina. This surgery can involve either reducing or increasing the size of the labia to enhance their appearance and address associated issues, such as physical discomfort or irritation.",
+
+      "The reasons for undergoing labiaplasty surgery vary among individuals and can be categorized as medical, physical, or cosmetic. Medically, labiaplasty may be recommended if the size or shape of the labia causes discomfort or interferes with daily activities. For instance, excessively large labia can lead to pain during sexual intercourse or while wearing certain types of clothing, and reducing their size can alleviate such issues.",
+
+      "Some women opt for labiaplasty for physical reasons, such as correcting asymmetry or restoring the labia after trauma or childbirth. Additionally, individuals may choose this procedure for cosmetic purposes, aiming to improve the appearance of their genital area based on personal preferences and aesthetic desires."
     ],
+    "subLists": [],
     "treatment": {
       "treatmentHeader": [
-        "Safe Umbilical Herniya Surgery With",
-        "Med Life Easy"
       ],
       "treatments": [
-        "Excellence in Healthcare",
-        "Patient-Centric Care",
-        " Personalized Approach",
-        "State-of-the-Art Facilities",
-        "Accepting All Insurance Plans",
-        "Zero-Cost EMI Options Available"
       ]
     },
     "SurgeryForm": {
       "surgeryHeader": [
-        "Explore Affordable Umbilical Hernia Surgery With",
-        "Med Life Easy"
+        "Exploring Different Labiaplasty Techniques"
       ],
-      "subHeader": "Experience a Swift Recovery with Our Expert Surgeons",
-      "typeHeader": "Type of Surgery",
-      "type": "Umbilical Hernia Surgery",
-      "timeHeader": "Time",
-      "time": "1-2 Days",
-      "costHeader": "Cost Range",
-      "cost": " Starting from 55,000 INR to 90,000 INR, with an Average of 60,000 INR",
-      "footerTitle": "For a Precise Cost Estimate and Personalized Assistance",
-      "formTitle": "Umbilical Herniya Surgery Cost Estimate"
+      "surgerydetails": "Labiaplasty is a surgical procedure aimed at enhancing the appearance of the vulva by reducing the size of the labia minora, or inner lips. Over the years, advancements in medical technologies and techniques have led to the development of three main methods for labia reduction surgery:",
+
+      "surgeryDetails": [
+        "Edge Trim Procedure: This technique is performed under general anesthesia. The surgeon makes a vertical incision along the length of the labia minora using a laser or scalpel. Excess tissue surrounding the labia minora is then removed to achieve symmetry with the labia majora.",
+        "Wedge Procedure: In this method, a small portion of excess tissue from the labia minora is removed in the shape of a wedge. The submucosa layer is preserved, and only the thickest part of the inner lips is excised. Similar to the edge trim procedure, this technique is performed under anesthesia.",
+        "De-epithelialization Procedure: This procedure involves the complete removal of the inner lining of the labia and is also performed under general anesthesia. Compared to the other techniques, post-surgical complications are reduced, and recovery time is typically faster."
+      ],
+
+      "surgeryFooter" : "Each of these techniques offers unique advantages and considerations, and the choice of method depends on individual patient preferences and anatomical factors. It's essential to consult with a qualified gynecologist or plastic surgeon to determine the most suitable approach for achieving desired results while minimizing risks and ensuring a successful out",
+
+      "subHeader": "",
+      "typeHeader": "",
+      "type": "",
+      "timeHeader": "",
+      "time": "",
+      "costHeader": "",
+      "cost": "",
+      "footerTitle": "",
+      "formTitle": ""
     },
     "aboutDisease": {
       "diseaseHeader": "What is Umbilical Herniya ",
@@ -1946,49 +2248,66 @@
         ]
       },
       "diagnosis": {
-        "diagnosisHeader": "Diagnosis:",
-        "details": "Umbilical Hernia diagnosis relies on a thorough examination of symptoms, a patient's medical history, and, if necessary, imaging tests. During the examination, the doctor may ask the patient to cough, as this often accentuates the visibility of a hernia."
+       "diagnosisHeader": "Understanding the Purpose of Labiaplasty",
+        "details": "Labiaplasty is a cosmetic genital surgery aimed at enhancing the appearance of the labia, or inner lips of the vulva. Unlike medical treatments, labiaplasty is performed at the request of the patient for aesthetic purposes. The decision to undergo labiaplasty is highly personal, and women may choose this procedure for various reasons, including:",
+
+        "diagnosisLists": [
+          "Protrusion: Labiaplasty can address concerns related to the protrusion or uneven edges of the labia. While medical professionals may consider labia asymmetry normal, many women find it aesthetically displeasing and opt for labiaplasty to reshape and achieve symmetry.",
+          "Symmetry: Similarly, women may seek labiaplasty to enhance symmetry and reshape the labia for a more aesthetically pleasing appearance.",
+          "Pain and Discomfort: Enlargement of the labia minora can lead to discomfort, tenderness, bleeding, and pain during activities such as sexual intercourse or athletic pursuits. Labiaplasty may provide relief from these symptoms and improve overall comfort.",
+          "Appearance Concerns: Some women may desire to alter the appearance of their labia for personal aesthetic preferences, whether it be how they appear under clothing or when nude. Just like any other aspect of their body, the desire for a pleasing genital appearance is valid and may motivate women to undergo labiaplasty."
+        ],
+
+        "subDetails" : [
+            "Ultimately, the purpose of labiaplasty is to address individual concerns and preferences regarding the appearance and comfort of the labia. It's essential for women considering this procedure to consult with a qualified surgeon to discuss their goals, expectations, and potential risks before making a decision."
+          ],
+
+        "occureHeader": "Preparing for labiaplasty is crucial to ensure a successful procedure and recovery. Here are some essential steps to prepare for labiaplasty:",
+        
+        "occureDetailsLists": [
+          "Counseling and Informed Consent: Before undergoing labiaplasty, patients typically undergo a counseling session with their gynecologist to discuss the procedure, its potential risks and benefits, and to ensure informed consent.",
+          "Preoperative Examination: Prior to the surgery, a standard pelvic examination is conducted to identify any infections or medical conditions that may require treatment before proceeding with the surgery.",
+          "Fasting: Since labiaplasty is performed under anesthesia, patients are instructed to refrain from eating any food or drinking fluids for at least 8 hours before the scheduled surgery time. This fasting period helps reduce the risk of complications during anesthesia.",
+          "Medication Management: Patients are advised to stop taking blood thinners or any anti-inflammatory medications at least a week before the surgery. These medications can increase the risk of bleeding during and after the procedure.",
+          "Clothing and Comfort: On the day of the surgery, it's recommended to wear loose-fitting clothing to ensure comfort during the procedure and after. Additionally, patients may bring a device for listening to music if the procedure is performed under local anesthesia to help relax and distract from any discomfort."
+        ],
+
+        "occureDetailsSubLists" : [
+          "By following these preparation steps and guidelines provided by the gynecologist, patients can help ensure a smooth and successful labiaplasty procedure with optimal outcomes."
+        ]
       }
     }
   },
   "vaginal": {
     "parentDisease": "Gynaecology",
-    "heroHeader": "Vaginal Wart Removal Treatment",
-    "subHeading": "सुरक्षित एवं सफल",
-    "details": "लेप्रोस्कोपिक हर्निया सर्जरी, एक न्यूनतम इनवेसिव दृष्टिकोण, सर्जरी के क्षेत्र में एक गेम-चेंजर बन गई है, जो रोगियों को कई लाभ प्रदान करती है। Medlife Easy में, हम इस अत्याधुनिक तकनीक को बिहार में हर्निया के लिए सुलभ बनाने के लिए पूरी तरह समर्पित हैं।",
-    "subLists": [
-      "उन्नत 3D तकनीक",
-      "दर्दरहित सर्जरी (Painless Surgery) तथा जल्द रिकवरी",
-      "संक्रमण का कोई खतरा नहीं"
-    ],
+    "heroHeader": "Laser Treatment for Vaginal Warts",
+    "subHeading": "",
+    "details": "Laser treatment represents a highly efficient and cutting-edge approach for the removal of large vaginal warts. To address concerns regarding the presence of vaginal warts, individuals are encouraged to consult with our experienced gynecologists for personalized treatment options and effective removal procedures.",
+    "subLists": [],
     "treatment": {
       "treatmentHeader": [
-        "Safe Umbilical Herniya Surgery With",
-        "Med Life Easy"
       ],
       "treatments": [
-        "Excellence in Healthcare",
-        "Patient-Centric Care",
-        " Personalized Approach",
-        "State-of-the-Art Facilities",
-        "Accepting All Insurance Plans",
-        "Zero-Cost EMI Options Available"
       ]
     },
     "SurgeryForm": {
       "surgeryHeader": [
-        "Explore Affordable Umbilical Hernia Surgery With",
-        "Med Life Easy"
+        "Understanding Vaginal Warts: Causes, Symptoms, and Prevalence"
       ],
-      "subHeader": "Experience a Swift Recovery with Our Expert Surgeons",
-      "typeHeader": "Type of Surgery",
-      "type": "Umbilical Hernia Surgery",
-      "timeHeader": "Time",
-      "time": "1-2 Days",
-      "costHeader": "Cost Range",
-      "cost": " Starting from 55,000 INR to 90,000 INR, with an Average of 60,000 INR",
-      "footerTitle": "For a Precise Cost Estimate and Personalized Assistance",
-      "formTitle": "Umbilical Herniya Surgery Cost Estimate"
+      "surgerydetailsList" : [
+        "Vaginal warts, also known as genital warts or condyloma acuminatum, are small bumps that appear on the vulva, vagina, or cervix. These warts are typically skin-colored or whitish in appearance and can cause symptoms such as bleeding, mucus-like discharge, and the presence of brown-colored bumps near the vagina. They are among the most common sexually transmitted infections (STIs).",
+
+        "Genital warts are primarily caused by certain strains of the Human Papillomavirus (HPV), namely HPV 6 and HPV 11. According to the Centers for Disease Control and Prevention (CDC), anyone who is sexually active is at risk of contracting HPV, including genital warts. In India, female genital warts have been reported in 2-25 per cent of sexually transmitted disease clinic attendees, as reported by The Hans India. Healthline states that while there are 30 to 40 strains of HPV that affect the genitals, only a few of these strains are responsible for causing genital warts."
+      ],
+      "subHeader": "",
+      "typeHeader": "",
+      "type": "",
+      "timeHeader": "",
+      "time": "",
+      "costHeader": "",
+      "cost": "",
+      "footerTitle": "",
+      "formTitle": ""
     },
     "aboutDisease": {
       "diseaseHeader": "What is Umbilical Herniya ",
@@ -2006,8 +2325,19 @@
         ]
       },
       "diagnosis": {
-        "diagnosisHeader": "Diagnosis:",
-        "details": "Umbilical Hernia diagnosis relies on a thorough examination of symptoms, a patient's medical history, and, if necessary, imaging tests. During the examination, the doctor may ask the patient to cough, as this often accentuates the visibility of a hernia."
+        "diagnosisHeader": "Understanding Diagnosis and Treatment of Vaginal Warts",
+        "diagnosisLists": [
+          "Diagnosis of Vaginal Warts",
+          "External vaginal warts are typically visible and can be diagnosed through physical examination by gynecologists. However, diagnosing internal vaginal warts may require specific tests, such as:",
+          "Pap Test: This screening test is performed to detect non-visible human papillomavirus (HPV) and early signs of cervical cancer. It involves collecting a cell sample from the cervix for laboratory examination.",
+          "HPV Test: Recommended for women aged 30-65, this test detects the presence of human papillomavirus (HPV), which is closely associated with genital warts.",
+          "Biopsy: While not often necessary, a biopsy may be recommended if HPV and Pap tests are inconclusive. It involves taking a tissue sample for further examination.",
+          "Blood Test: Doctors may suggest blood tests to check for other sexually transmitted diseases (STDs) commonly linked with genital warts.",
+          "Treatment for Vaginal Warts",
+          "While some vaginal warts may clear up without treatment, appropriate treatment can reduce the risk of spreading the virus. Treatment options include medication or surgical procedures:",
+          "Topical Treatments: These medications are commonly used for small vaginal warts that cannot be removed through laser procedures. Examples include Trichloroacetic Acid, Podophyllin, and Podofilox (Condylox).",
+          "Laser Treatment: This procedure is typically reserved for larger vaginal warts. It is performed under local anesthesia either in a gynecological clinic or a hospital setting. A focused laser beam is used to target and destroy the causative agent of vaginal warts."
+        ]
       }
     }
   },
@@ -3395,102 +3725,106 @@
 
   "tympanoplasty": {
     "parentDisease": "ENT",
-    "heroHeader": "Umbilical Tympanoplasty Surgery",
-    "subHeading": "सुरक्षित एवं सफल",
-    "details": "लेप्रोस्कोपिक हर्निया सर्जरी, एक न्यूनतम इनवेसिव दृष्टिकोण, सर्जरी के क्षेत्र में एक गेम-चेंजर बन गई है, जो रोगियों को कई लाभ प्रदान करती है। Medlife Easy में, हम इस अत्याधुनिक तकनीक को बिहार में हर्निया के लिए सुलभ बनाने के लिए पूरी तरह समर्पित हैं।",
-    "subLists": [
-      "उन्नत 3D तकनीक",
-      "दर्दरहित सर्जरी (Painless Surgery) तथा जल्द रिकवरी",
-      "संक्रमण का कोई खतरा नहीं"
-    ],
+    "heroHeader": "Understanding Tympanoplasty",
+    "subHeading": "",
+    "details": "Tympanoplasty is a surgical procedure to repair a perforated eardrum, often using a graft or prosthesis. Eardrum perforation typically results from trauma, and in some cases, damage may extend to other parts of the ear canal, such as the middle ear bones. During tympanoplasty, the damaged areas are removed and replaced with a graft or prosthesis.",
+    "subLists": [],
     "treatment": {
-      "treatmentHeader": [
-        "Safe Umbilical Herniya Surgery With",
-        "Med Life Easy"
-      ],
-      "treatments": [
-        "Excellence in Healthcare",
-        "Patient-Centric Care",
-        " Personalized Approach",
-        "State-of-the-Art Facilities",
-        "Accepting All Insurance Plans",
-        "Zero-Cost EMI Options Available"
-      ]
+      "treatmentHeader": [],
+      "treatments": []
     },
     "SurgeryForm": {
-      "surgeryHeader": [
-        "Explore Affordable Umbilical Hernia Surgery With",
-        "Med Life Easy"
-      ],
-      "subHeader": "Experience a Swift Recovery with Our Expert Surgeons",
-      "typeHeader": "Type of Surgery",
-      "type": "Umbilical Hernia Surgery",
-      "timeHeader": "Time",
-      "time": "1-2 Days",
-      "costHeader": "Cost Range",
-      "cost": " Starting from 55,000 INR to 90,000 INR, with an Average of 60,000 INR",
-      "footerTitle": "For a Precise Cost Estimate and Personalized Assistance",
-      "formTitle": "Umbilical Herniya Surgery Cost Estimate"
+      "surgeryHeader": [""],
+      "subHeader": "",
+      "surgerydetails": "There are different types of tympanoplasty depending on the surgery's complexity. The most common type is myringoplasty, where the surgeon replaces the perforated eardrum with a membranous tissue graft taken from behind the ear.",
+      "typeHeader": "Disease name",
+      "type": "Perforated Eardrum",
+      "surgeryNameHeader": "Surgery name",
+      "surgeryName": "Tympanoplasty",
+      "timeHeader": "Duration ",
+      "time": "1 - 2 hours",
+      "costHeader": "Treated by",
+      "cost": "ENT Surgeon (Otolaryngologists)"
     },
     "aboutDisease": {
-      "diseaseHeader": "What is Umbilical Herniya ",
-      "details": "Umbilical Herniya is characterized by the formation of solid particles within the gallbladder. These stones can vary in size and may cause symptoms such as pain, discomfort, or bloating. In some cases, individuals with gallbladder stones may experience no symptoms at all.",
+      "diseaseHeader": "",
+      "details": "",
       "symptoms": {
-        "symptomHeader": "Symptoms of Umbilical Herniya:",
-        "symptomsList": [
-          "Abdominal pain, particularly in the upper right side",
-          "Nausea or vomiting",
-          "Sudden and intense pain in the upper abdomen, known as biliary colic",
-          "Jaundice (yellowing of the skin and eyes)",
-          "Fever and chills in cases of infection",
-          "Back or shoulder pain",
-          "Indigestion or bloating after meals"
-        ]
+        "symptomHeader": "",
+        "symptomsList": []
       },
       "diagnosis": {
-        "diagnosisHeader": "Diagnosis:",
-        "details": "Umbilical Hernia diagnosis relies on a thorough examination of symptoms, a patient's medical history, and, if necessary, imaging tests. During the examination, the doctor may ask the patient to cough, as this often accentuates the visibility of a hernia."
+        "diagnosisHeader": "Tympanoplasty: Diagnosis and Treatment Process",
+        "diagnosisSubHeader": "Diagnosis",
+        "diagnosisSubDetails": "Diagnosing a perforated eardrum for tympanoplasty involves a physical examination and hearing tests. The ENT doctor will review your medical history to understand the nature and cause of the hearing loss. Using an otoscope, the doctor will inspect the ear canal and eardrum. Diagnostic tests that may be performed include:",
+        "diagnosisLists": [
+          "Tympanometry: This test measures the eardrum's response to different air pressures, helping to determine the extent of the perforation.",
+
+          "Audiology: Sounds of various volumes and pitches are played to assess the severity of the hearing loss.",
+
+          "Swab Test: If there is any ear discharge, a sample is taken for lab culture to check for middle ear infections.",
+
+          "Tuning Fork Test: A tuning fork is used to produce sound next to the ear, allowing the doctor to evaluate the patient's hearing ability."
+        ],
+
+        "ProcedureHeader": "Procedure:",
+        "ProcedureList": [
+          "Once diagnosed, the surgeon will prepare you for surgery, which can be performed endoscopically or through an open approach. Endoscopic surgery is often preferred due to minimal scarring.",
+          "The surgery is usually done on an outpatient basis under local anesthesia. If a tissue graft is needed to repair the eardrum, it is typically taken from behind the ear for its similarity to the eardrum and proximity to the surgical site. After anesthesia is administered, the surgeon may either make an incision behind the ear to access the ear canal or work directly through the ear canal. The eardrum is lifted, and a graft, which may be made of your cartilage, connective tissue, or a synthetic material, is used to repair the hole. The incision is then closed with bio-absorbable sutures, and packing is placed in the ear canal to secure the graft. Following the surgery, you will be moved to a recovery area for post-surgical observation.",
+          "If the middle ear bones are damaged, a prosthetic implant may be placed during the same procedure to replace the damaged bones."
+        ],
+
+        "benefitsHeader": "Benefits of Tympanoplasty",
+        "benefitsList": [
+          "Eardrum perforations often do not heal on their own and can lead to severe complications if left untreated. Tympanoplasty repairs the eardrum, which separates the inner and middle ear from the external environment, helping to prevent serious infections in these areas.",
+
+          "The eardrum, or tympanic membrane, collects sound vibrations and transmits them to the middle ear for amplification and hearing. A perforation disrupts this process, leading to hearing loss. Tympanoplasty restores the integrity of the eardrum, thereby reversing hearing loss and improving auditory function."
+        ],
+
+        "occureHeader": "When Tympanoplasty is Needed",
+        "occureDetails": "Tympanoplasty is typically needed to treat eardrum perforation and middle ear bone trauma in various situations, including:",
+        "occurePoints": [
+          "Bacterial infection in the middle ear",
+          "Insertion of foreign objects too deeply into the ear",
+          "Facial or ear injury",
+          "Sudden exposure to loud noises",
+          "Changes in air pressure (barotrauma)",
+          "Contact sports",
+          "Deep-sea diving"
+        ],
+
+        "diagnosisFooterDetails": "These conditions can cause damage that necessitates surgical repair through tympanoplasty."
+        
       }
     }
   },
   "adenoidectomy": {
     "parentDisease": "ENT",
-    "heroHeader": "Umbilical Adenoidectomy Surgery",
-    "subHeading": "सुरक्षित एवं सफल",
-    "details": "लेप्रोस्कोपिक हर्निया सर्जरी, एक न्यूनतम इनवेसिव दृष्टिकोण, सर्जरी के क्षेत्र में एक गेम-चेंजर बन गई है, जो रोगियों को कई लाभ प्रदान करती है। Medlife Easy में, हम इस अत्याधुनिक तकनीक को बिहार में हर्निया के लिए सुलभ बनाने के लिए पूरी तरह समर्पित हैं।",
-    "subLists": [
-      "उन्नत 3D तकनीक",
-      "दर्दरहित सर्जरी (Painless Surgery) तथा जल्द रिकवरी",
-      "संक्रमण का कोई खतरा नहीं"
-    ],
+    "heroHeader": "Adenoidectomy: Comprehensive Guide to Diagnosis, Surgery, and Recovery",
+    "subHeading": "",
+    "details": "Adenoidectomy is a surgical procedure aimed at removing swollen, inflamed, or infected adenoids to manage adenoiditis. Its primary goal is to enhance breathing and mitigate complications such as sleep apnea, sinusitis, and tonsillitis. For further details on minimally invasive adenoidectomy options in India, please don't hesitate to contact us.",
+    "subLists": [],
     "treatment": {
-      "treatmentHeader": [
-        "Safe Umbilical Herniya Surgery With",
-        "Med Life Easy"
-      ],
-      "treatments": [
-        "Excellence in Healthcare",
-        "Patient-Centric Care",
-        " Personalized Approach",
-        "State-of-the-Art Facilities",
-        "Accepting All Insurance Plans",
-        "Zero-Cost EMI Options Available"
-      ]
+      "treatmentHeader": [],
+      "treatments": []
     },
     "SurgeryForm": {
       "surgeryHeader": [
-        "Explore Affordable Umbilical Hernia Surgery With",
-        "Med Life Easy"
+        "Understanding Adenoidectomy"
       ],
-      "subHeader": "Experience a Swift Recovery with Our Expert Surgeons",
-      "typeHeader": "Type of Surgery",
-      "type": "Umbilical Hernia Surgery",
-      "timeHeader": "Time",
-      "time": "1-2 Days",
-      "costHeader": "Cost Range",
-      "cost": " Starting from 55,000 INR to 90,000 INR, with an Average of 60,000 INR",
-      "footerTitle": "For a Precise Cost Estimate and Personalized Assistance",
-      "formTitle": "Umbilical Herniya Surgery Cost Estimate"
+      "surgerydetailsList": [
+      "Adenoidectomy involves the removal of the adenoid glands when they become infected, inflamed, or enlarged. These glands, located near the palate, are part of the immune system in children. As children grow, the adenoids typically lose their function and eventually shrink.",
+
+      "However, in some cases, instead of shrinking, the adenoids can become problematic, causing symptoms such as difficulty breathing, obstructive sleep apnea, snoring, postnasal drip, and sore throat. While these issues are often managed with medication, severe cases may require surgical intervention. Adenoidectomy is often performed alongside a tonsillectomy to address related throat infections and symptoms."
+    ],
+      "typeHeader": "Disease name",
+      "type": "Adenoiditis",
+      "surgeryNameHeader": "Surgery name",
+      "surgeryName": "Adenoidectomy",
+      "timeHeader": "Duration ",
+      "time": "30 - 40 minutes",
+      "costHeader": "Treated by",
+      "cost": "Otolaryngologists"
     },
     "aboutDisease": {
       "diseaseHeader": "What is Umbilical Herniya ",
@@ -3508,8 +3842,42 @@
         ]
       },
       "diagnosis": {
-        "diagnosisHeader": "Diagnosis:",
-        "details": "Umbilical Hernia diagnosis relies on a thorough examination of symptoms, a patient's medical history, and, if necessary, imaging tests. During the examination, the doctor may ask the patient to cough, as this often accentuates the visibility of a hernia."
+        "diagnosisHeader": "Experiencing Any of These Symptoms?",
+        "symptoms": [
+          "Sore throat",
+          "Runny or stuffy nose",
+          "Difficulty swallowing",
+          "Feeling of blocked ears"
+        ],
+
+        "detailList": [
+          "During the adenoidectomy procedure, your physician will carefully review the results of diagnostic tests and discuss treatment options with you. If additional surgical procedures such as tonsillectomy, FESS, or septoplasty are necessary alongside adenoidectomy, they will be incorporated into the treatment plan simultaneously.",
+
+          "Under anesthesia, your doctor will use a retractor to hold your mouth open and remove the adenoids using a curette or laser. The surgical site may be closed with sutures or cauterized. Typically lasting less than 30 minutes, the procedure concludes with you being transferred to a recovery room for observation. Most patients are discharged on the same day."
+        ],
+
+        "advantages": [
+          {
+            "advantageHeader" : "Advantages of Adenoidectomy for Nasal Airway Obstruction",
+            "advantageDetails" : "Adenoidectomy, a minimally invasive procedure often done without sutures, can greatly enhance the quality of life for those experiencing frequent adenoid infections. The benefits include:",
+            "advantageList" : [
+              "Lowering the risk of future throat infections",
+              "Enhancing breathing and airway function, thereby reducing mouth breathing in children",
+              "Reducing the frequency of ear infections",
+              "Improving vocal quality"
+            ]
+          },
+          {
+            "advantageHeader" : "Recovery Tips After Adenoidectomy",
+            "advantageDetails" : "Following your discharge from the hospital after an adenoidectomy, adhere to these at-home care guidelines to ensure a smooth recovery:",
+            "advantageList" : [
+              "Avoid strenuous activities such as gym workouts, swimming, and running for at least 1-2 weeks post-surgery.",
+              "Stick to a bland, soft, or liquid diet for the first few days. Refrain from consuming fried, spicy, or crunchy foods that could irritate the surgical site and hinder the healing process.",
+              "Take medications strictly as prescribed, and avoid self-medication or over-medication.",
+              "Attend follow-up consultations with your ENT surgeon for at least 3-4 weeks post-surgery to monitor your recovery progress."
+            ]
+          }
+        ]
       }
     }
   },
