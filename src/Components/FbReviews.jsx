@@ -1,4 +1,4 @@
-import revstars from "../Assests/revstars.png";
+ import revstars from "../Assests/revstars.png";
 import Swipperbtn from "./Swipperbtn";
 import "swiper/css/pagination";
 import instagramLogo from "../Assests/instagramLogo.png";
@@ -45,7 +45,7 @@ const FbReviews = () => {
         <h1 className="text-2xl md:text-4xl font-semibold text-gray-800  text-center mb-10">
           Our Patient Loves us
         </h1>
-        <div className="flex justify-center relative">
+      <div className="flex justify-center relative">
           <Swiper
             slidesPerView={1}
             breakpoints={{

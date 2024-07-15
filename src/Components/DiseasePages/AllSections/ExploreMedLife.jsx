@@ -3,47 +3,58 @@ import Form from "../../Form";
 import ReactGA from "react-ga";
 import { MdOutlineDone } from "react-icons/md";
 import PropTypes from "prop-types";
+import CallNowButton from "../../ReusableComponents/CallNowButton";
+import Paragraph4 from "../../ReusableComponents/Paragraph4";
+import Heading3 from "../../ReusableComponents/Heading3";
 
 const ExploreMedLife = ({ content }) => {
   useEffect(() => {
     ReactGA.pageview(window.location.pathname + window.location.search);
   });
   return (
-    <div className="bg-[#ecf7fc] flex flex-col items-center">
+    <div className="bg-teal-70 flex flex-col items-center">
       {/* grid grid-cols-1 lg:grid-cols-3 gap-0 lg:gap-7 items-centergrid grid-cols-1 lg:grid-cols-3 gap-0 lg:gap-7 items-center */}
       <div className=" lg:w-[90%] py-2 px-5 lg:px-0 flex flex-col lg:flex-row justify-between gap-10 w-full">
         {/* Left side details */}
         <div className="w-[95%]">
           {content?.SurgeryForm?.surgeryHeader && (
-            <h1 className="text-2xl font-bold mb-3 text-gray-600">
+            <Heading3 className="mb-3 text-gray-600">
               {content?.SurgeryForm?.surgeryHeader[0]}{" "}
               <span className="text-teal-600">
                 {content.SurgeryForm.surgeryHeader[1]}
               </span>
-            </h1>
+            </Heading3>
           )}
 
           {content.SurgeryForm.surgeryInfo && (
-            <p className="text-sm mb-3 font-lato font-normal text-justify">
+            <Paragraph4 className="mb-3 text-justify">
               {content.SurgeryForm.surgeryInfo}
-            </p>
+            </Paragraph4>
           )}
 
           {content?.SurgeryForm?.surgeryForm &&
             content?.SurgeryForm?.surgeryForm?.map((type, index) => {
-              <p
-                className="text-sm mb-2 font-lato font-normal text-justify"
+              <Paragraph4
+                className="mb-2 text-justify"
                 key={index}
               >
                 {type}
-              </p>;
+              </Paragraph4>;
             })}
 
+          {content?.SurgeryForm?.surgerydetailsList && 
+          content?.SurgeryForm?.surgerydetailsList.map((list, index) => 
+            <Paragraph4 key={index} className="mb-5 text-gray-800 text-justify">
+          {list}
+        </Paragraph4>
+          )
+          }
+
           {content?.SurgeryForm?.surgerydetails && (
-            <p className="text-sm mb-5 text-gray-800 font-lato text-justify">
+            <Paragraph4 className="mb-5 text-gray-800 text-justify">
               {content?.SurgeryForm?.surgerydetails}:{" "}
               {content?.SurgeryForm?.surgerydetails}
-            </p>
+            </Paragraph4>
           )}
 
           {content?.SurgeryForm?.subHeader && (
@@ -79,26 +90,26 @@ const ExploreMedLife = ({ content }) => {
             content?.SurgeryForm?.surgeryDetails?.map((type, index) => {
               const [title, description] = type.split(":");
               return (
-                <p
-                  className="text-sm mb-2 font-lato font-normal text-justify"
+                <Paragraph4
+                  className="mb-2 text-justify"
                   key={index}
                 >
                   <span className="font-bold text-gray-800">{title}</span>:{" "}
                   {description}
-                </p>
+                </Paragraph4>
               );
             })}
 
           {content?.SurgeryForm?.surgerydetails2 && (
-            <p className="text-sm mb-5 text-gray-800 font-lato text-justify">
+            <Paragraph4 className="mb-5 text-gray-800 text-justify">
               {content?.SurgeryForm?.surgerydetails2}
-            </p>
+            </Paragraph4>
           )}
 
           {content?.SurgeryForm?.surgerydetails3 && (
-            <p className="text-sm text-gray-800 font-lato text-justify">
+            <Paragraph4 className="text-gray-800 text-justify">
               {content?.SurgeryForm?.surgerydetails3}
-            </p>
+            </Paragraph4>
           )}
 
           {content?.SurgeryForm?.healthcareHeader && (
@@ -118,12 +129,12 @@ const ExploreMedLife = ({ content }) => {
             content?.SurgeryForm?.treatmentDetails?.treatmentHeaderDetails?.map(
               (detail, index) => {
                 return (
-                  <p
-                    className="text-sm mb-2 font-lato font-normal text-justify"
+                  <Paragraph4
+                    className="mb-2 text-justify"
                     key={index}
                   >
                     -{detail}
-                  </p>
+                  </Paragraph4>
                 );
               }
             )}
@@ -134,23 +145,23 @@ const ExploreMedLife = ({ content }) => {
               ? content?.SurgeryForm?.treatmentDetails?.treatmentDetailsLists?.map(
                   (list, index) => (
                     <div key={index} className="flex  gap-2 mb-4">
-                      <div className="bg-[#2ca9e1] p-1 w-5 h-5 rounded-full flex justify-center items-center text-white">
+                      <div className="bg-teal-30 p-1 w-5 h-5 rounded-full flex justify-center items-center text-white">
                         <MdOutlineDone></MdOutlineDone>
                       </div>
-                      <p className="font-semibold text-gray-800 font-lato -mt-[2px]">
+                      <Paragraph4 className="text-gray-800 -mt-[2px]">
                         {list}
-                      </p>
+                      </Paragraph4>
                     </div>
                   )
                 )
               : ""}
           </div>
 
-          {content?.SurgeryForm?.treatmentDetails?.treatmentFooterDetails && (
-            <p className="text-sm mb-2 font-lato font-normal text-justify">
+          {/* {content?.SurgeryForm?.treatmentDetails?.treatmentFooterDetails && (
+            <p className="mb-2 text-justify">
               {content?.SurgeryForm?.treatmentDetails?.treatmentFooterDetails}
             </p>
-          )}
+          )} */}
 
           {content?.SurgeryForm?.featureHeader && (
             <h1 className="text-2xl font-bold mb-3 text-gray-600">
@@ -158,16 +169,103 @@ const ExploreMedLife = ({ content }) => {
             </h1>
           )}
 
+{content?.SurgeryForm?.featureList &&
+          content?.SurgeryForm?.featureList.map((list, index) => 
+          <div key={index}className="flex flex-col gap-3">
+             <h3 className="text-2xl font-bold mb-3 text-gray-600">
+              {list.featureHeader}
+            </h3>
+
+            {
+                      list.features.map((feature, index) => 
+                        <div key={index} className="flex gap-2 mb-4">
+                    <div className="bg-teal-30 p-1 w-5 h-5 rounded-full flex justify-center items-center text-white">
+                      <MdOutlineDone></MdOutlineDone>
+                    </div>
+
+                        <Paragraph4 className="text-gray-800 -mt-[2px]">
+                      {feature}
+                    </Paragraph4>
+                    
+                  </div>
+                      )
+                    }
+
+            
+
+          </div>
+          )
+           }
+
+
+{content?.SurgeryForm?.surgerydetails4 && (
+            <p className="mb-2 text-justify">
+              {content?.SurgeryForm?.surgerydetails4}
+            </p>
+          )}
+
+
+{content?.SurgeryForm?.importanceHeader && (
+            <h1 className="text-2xl font-bold mb-3 text-gray-600">
+              {content?.SurgeryForm?.importanceHeader}
+            </h1>
+          )}
+
+{content?.SurgeryForm?.importanceDetails && (
+            <Paragraph4 className="mb-2 text-justify">
+              {content?.SurgeryForm?.importanceDetails}
+            </Paragraph4>
+          )}
+
+
+{content?.SurgeryForm?.importances &&
+          content?.SurgeryForm?.importances?.map((list, index) => 
+          <div key={index}className="flex flex-col gap-3">
+             <h3 className="text-2xl font-bold mb-2 text-gray-600">
+              {list.header}
+            </h3>
+
+            {
+                      list.importance?.map((importance, index) => 
+                        <div key={index} className="flex gap-2 mb-4">
+                    <div className="bg-teal-30 p-1 w-5 h-5 rounded-full flex justify-center items-center text-white">
+                      <MdOutlineDone></MdOutlineDone>
+                    </div>
+
+                        <Paragraph4 className="text-gray-800 -mt-[2px]">
+                      {importance}
+                    </Paragraph4>
+                    
+                  </div>
+                      )
+                    }
+
+            
+
+          </div>
+          )
+           }
+
+
+{content?.SurgeryForm?.surgeryFooterDetails && (
+            <Paragraph4 className="mb-2 text-justify">
+              {content?.SurgeryForm?.surgeryFooterDetails}
+            </Paragraph4>
+          )}
+
+
+
+
           <div className="mb-2 flex flex-col gap-2">
             {content?.SurgeryForm?.features?.length > 0
               ? content?.SurgeryForm?.features?.map((feature, index) => (
                   <div key={index} className="flex  gap-2 mb-4">
-                    <div className="bg-[#2ca9e1] p-1 w-5 h-5 rounded-full flex justify-center items-center text-white">
+                    <div className="bg-teal-30 p-1 w-5 h-5 rounded-full flex justify-center items-center text-white">
                       <MdOutlineDone></MdOutlineDone>
                     </div>
-                    <p className="font-semibold text-gray-800 font-lato -mt-[2px]">
+                    <Paragraph4 className="text-gray-800 -mt-[2px]">
                       {feature}
-                    </p>
+                    </Paragraph4>
                   </div>
                 ))
               : ""}
@@ -177,13 +275,13 @@ const ExploreMedLife = ({ content }) => {
             content?.SurgeryForm?.types?.map((type, index) => {
               const [title, description] = type.split(":");
               return (
-                <p
-                  className="text-sm mb-2 font-lato font-normal text-justify"
+                <Paragraph4
+                  className="mb-2 text-justify"
                   key={index}
                 >
                   <span className="font-bold text-gray-800">{title}</span>:{" "}
                   {description}
-                </p>
+                </Paragraph4>
               );
             })}
 
@@ -197,63 +295,63 @@ const ExploreMedLife = ({ content }) => {
             content?.SurgeryForm?.causesDetails?.map((cause, index) => {
               const [title, description] = cause.split(":");
               return (
-                <p
-                  className="text-sm mb-2 font-lato font-normal text-justify"
+                <Paragraph4
+                  className="mb-2 text-justify"
                   key={index}
                 >
                   <span className="font-bold text-gray-800">{title}</span>:{" "}
                   {description}
-                </p>
+                </Paragraph4>
               );
             })}
 
           <div className="grid grid-cols-1 md:grid-cols-2 mb-3">
             {content?.SurgeryForm?.typeHeader && (
-              <p className="text-sm text-gray-800">
+              <Paragraph4 className="">
                 <span className="font-bold">
                   {content?.SurgeryForm?.typeHeader}
                 </span>{" "}
                 - {content?.SurgeryForm?.type}
-              </p>
+              </Paragraph4>
             )}
 
             {content?.SurgeryForm?.surgeryNameHeader && (
-              <p className="text-sm text-gray-800">
+              <Paragraph4 className="">
                 <span className="font-bold">
                   {content?.SurgeryForm?.surgeryNameHeader}
                 </span>{" "}
                 - {content?.SurgeryForm?.surgeryName}
-              </p>
+              </Paragraph4>
             )}
 
             {content?.SurgeryForm?.timeHeader && content?.SurgeryForm?.time && (
-              <p className="text-sm text-gray-800">
+              <Paragraph4 className="">
                 <span className="font-bold">
                   {content?.SurgeryForm?.timeHeader}
                 </span>{" "}
                 - {content?.SurgeryForm?.time}
-              </p>
+              </Paragraph4>
             )}
 
             {content?.SurgeryForm?.costHeader && content?.SurgeryForm?.cost && (
-              <p className="text-sm text-gray-800">
+              <Paragraph4 className="">
                 <span className="font-bold">
                   {content?.SurgeryForm?.costHeader}
                 </span>{" "}
                 - {content?.SurgeryForm?.cost}
-              </p>
+              </Paragraph4>
             )}
 
             {content?.SurgeryForm?.footerTitle && (
-              <p className="text-sm text-gray-800">
+              <Paragraph4 className="">
                 {content?.SurgeryForm?.footerTitle}
-              </p>
+              </Paragraph4>
             )}
 
             {content?.SurgeryForm?.formTitle && (
-              <p className="text-sm text-gray-800">
+              <Paragraph4 className="">
                 {content?.SurgeryForm?.formTitle}
-              </p>
+              </Paragraph4>
             )}
           </div>
 
@@ -268,13 +366,13 @@ const ExploreMedLife = ({ content }) => {
               (option, index) => {
                 const [title, description] = option.split(":");
                 return (
-                  <p
-                    className="text-sm mb-2 font-lato font-normal text-justify"
+                  <Paragraph4
+                    className="mb-2 text-justify"
                     key={index}
                   >
                     <span className="font-bold text-gray-800">{title}</span>:{" "}
                     {description}
-                  </p>
+                  </Paragraph4>
                 );
               }
             )}
@@ -285,13 +383,23 @@ const ExploreMedLife = ({ content }) => {
             </h2>
           )}
 
-          <a
-            href="tel:+9876543210"
-            className="w-full md:w-[350px] h-12 2xl:h-16 border border-[#00a0aa] rounded-lg text-[#00a0aa] flex justify-center items-center"
-          >
-            Call now +91 995 599 2502
-          </a>
+
+{content?.SurgeryForm?.treatmentDetails?.treatmentFooterDetails && (
+            <Paragraph4 className="mb-2 text-justify">
+              {content?.SurgeryForm?.treatmentDetails?.treatmentFooterDetails}
+            </Paragraph4>
+          )}
+
+{content?.SurgeryForm?.surgeryFooter && (
+            <Paragraph4 className="mb-5 text-justify">
+              {content?.SurgeryForm?.surgeryFooter}
+            </Paragraph4>
+          )}
+
+          <CallNowButton className="w-full md:w-[350px] h-12 2xl:h-16"/>
+          
         </div>
+
 
         <div className="w-full lg:w-[40%] h-fit flex justify-center mt-4 lg:mt-0">
           <Form header={"Book Free Consultation"} />

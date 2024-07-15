@@ -1,4 +1,3 @@
-import React from "react";
 import "./styles/Officeaddress.css";
 // import map from "../Assests/map.png";
 const Officeaddress = () => {
@@ -34,8 +33,14 @@ const Officeaddress = () => {
               </defs>
             </svg>
             <span>
-              +91 995 599 2502 <br />
+              <a href="tel:+91 995 599 2502">
+
+              +91 995 599 2502 
+              </a>
+              <br />
+              <a href="tel:+91 995 599 2505">
               +91 995 599 2505
+              </a>
             </span>
           </div>
           <div className="oa-card-cont">

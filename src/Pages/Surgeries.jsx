@@ -217,7 +217,7 @@ const Surgeries = () => {
 
   return (
     <div className="py-10 flex justify-center">
-      <div className="bg-white shadow-md w-[95%] md:w-[90%] rounded-xl p-5 md:p-10 border-t border-gray-100 flex flex-col gap-[50px] items-center">
+      <div className="bg-white shadow-md w-[95%] md:w-[90%] rounded-xl p-5 md:p-10 flex flex-col gap-[50px] items-center">
         <h1 className="text-2xl md:text-4xl font-semibold text-gray-800  text-center ">
           Surgeries We Perform
         </h1>

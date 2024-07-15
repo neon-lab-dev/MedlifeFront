@@ -1,7 +1,7 @@
-import React from "react";
 import Form from "../../Form";
 import "../../styles/Hero.css";
 import { Link } from "react-router-dom";
+import CallNowButton from "../../ReusableComponents/CallNowButton";
 
 const EmergencyServiceHero = () => {
   return (
@@ -31,11 +31,8 @@ const EmergencyServiceHero = () => {
           <p className="text-center lg:text-start text-gray-500  w-[100%] lg:w-[75%] lg:text-[clamp(18px,1.5vw,28px)]">
             For immediate assistance, call our Emergency Helpline:
           </p>
-          <a href="tel:+9876543210" className="w-full flex justify-center lg:justify-start">
-          <div className="w-[70%] md:w-[60%] h-12 2xl:h-16 border border-[#00a0aa] rounded-lg text-[#00a0aa] flex items-center justify-center">
-            Call now +91 995 599 2502
-           </div>
-           </a>
+          <CallNowButton className="w-[70%] md:w-[60%]"/>
+        
         </div>
 
         {/* Right side form */}

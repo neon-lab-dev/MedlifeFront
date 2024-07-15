@@ -204,7 +204,7 @@ const Form = ({ header }) => {
           value={patientName}
           name="patientName"
           placeholder="Patient Name"
-          className="bg-white border border-gray-300 px-4 focus:outline-none focus:border-teal-700 transition duration-300 ease-in-out w-full h-12 2xl:h-16 rounded-lg"
+          className="bg-white border border-gray-50 px-4 focus:outline-none focus:border-teal-10 transition duration-300 ease-in-out w-full h-12 2xl:h-16 rounded-lg"
           onChange={(e) => setPatientName(e.target.value)}
         />
         <input
@@ -213,7 +213,7 @@ const Form = ({ header }) => {
           placeholder="Mobile Number"
           name="mobileNumber"
           value={mobileNumber}
-          className="bg-white border border-gray-300 px-4 focus:outline-none focus:border-teal-700 transition duration-300 ease-in-out w-full h-12 rounded-lg 2xl:h-16"
+          className="bg-white border border-gray-50 px-4 focus:outline-none focus:border-teal-10 transition duration-300 ease-in-out w-full h-12 rounded-lg 2xl:h-16"
           onChange={(e) => setMobileNumber(e.target.value)}
         />
         {/* <p className="text-gray-700">{cityName}</p> */}
@@ -221,7 +221,7 @@ const Form = ({ header }) => {
           <select
             value={selectedCity}
             onChange={(e) => setSelectedCity(e.target.value)}
-            className="block appearance-none bg-white border border-gray-300 px-4 pr-8 focus:outline-none focus:border-teal-700 transition 2xl:h-16 duration-300 ease-in-out cursor-pointer w-full h-12 rounded-lg"
+            className="block appearance-none bg-white border border-gray-50 px-4 pr-8 focus:outline-none focus:border-teal-10 transition 2xl:h-16 duration-300 ease-in-out cursor-pointer w-full h-12 rounded-lg"
           >
             {districts.map((city, ind) => (
               <option key={ind} value={city}>
@@ -246,7 +246,7 @@ const Form = ({ header }) => {
             onChange={(e) => {
               setSelectedDisease(e.target.value);
             }}
-            className="block appearance-none bg-white border 2xl:h-16 border-gray-300 px-4 pr-8 focus:outline-none focus:border-teal-700 transition duration-300 ease-in-out cursor-pointer w-full h-12 rounded-lg"
+            className="block appearance-none bg-white border 2xl:h-16 border-gray-50 px-4 pr-8 focus:outline-none focus:border-teal-10 transition duration-300 ease-in-out cursor-pointer w-full h-12 rounded-lg"
           >
             {disease.map((disease, ind) => (
               <option key={ind} value={disease}>

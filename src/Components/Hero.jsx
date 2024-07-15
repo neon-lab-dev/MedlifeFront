@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="mb-10 bg-[#fcf8ff] w-full flex justify-center">
       <div className="flex justify-center items-center flex-col xl:flex-row w-[95%] md:w-[90%]">
         <div className="relative mt-3 flex justify-center flex-col items-center xl:items-start w-full gap-[10px]">
-          <h1 className="text-[28px] md:text-5xl lg:text-[clamp(28px,3vw,64px)] font-lato font-extrabold text-[#2CA9E1] text-center lg:text-start">
+          <h1 className="text-[28px] md:text-5xl lg:text-[clamp(28px,3vw,64px)] font-lato font-extrabold text-teal-30 text-center lg:text-start">
             Welcome to Med Life Easy
           </h1>
           <h2 className="text-gray-500 text-xl md:text-3xl lg:text-[clamp(18px,1.8vw,36px)] font-semibold text-center lg:text-start">

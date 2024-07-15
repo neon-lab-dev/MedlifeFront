@@ -3,6 +3,8 @@ import { Helmet } from "react-helmet-async";
 import Form from "../Form";
 import { useEffect } from "react";
 import ReactGA from 'react-ga';
+import CallNowButton from "../ReusableComponents/CallNowButton";
+import PropTypes from 'prop-types';
 
 const DiseaseHero = ({ content, disease }) => {
   useEffect(() => {
@@ -29,7 +31,7 @@ const DiseaseHero = ({ content, disease }) => {
             {content?.heroHeader ? content.heroHeader : ""}
           </h1>
           {/* Sub heading */}
-          <h2 className="text-2xl text-[#2ca9e1] font-semibold lg:text-[clamp(28px,2.8vw,48px)] font-lato">
+          <h2 className="text-2xl text-teal-30 font-semibold lg:text-[clamp(28px,2.8vw,48px)] font-lato">
             {content?.subHeading ? content.subHeading : ""}
           </h2>
           {/* Description */}
@@ -37,11 +39,7 @@ const DiseaseHero = ({ content, disease }) => {
             {content?.details ? content.details : ""}
           </p>
 
-          <a href="tel:+9876543210" >
-          <div className="w-full sm:w-[70%] md:w-[60%] h-12 2xl:h-16 border border-[#00a0aa] rounded-lg text-[#00a0aa] flex items-center justify-center">
-            Call now +91 995 599 2502
-           </div>
-           </a>
+          <CallNowButton className="w-full sm:w-[70%] md:w-[60%]"/>
 
           
         </div>
@@ -55,6 +53,16 @@ const DiseaseHero = ({ content, disease }) => {
       </div>
     </div>
   );
+};
+
+
+DiseaseHero.propTypes = {
+  content: PropTypes.shape({
+    heroHeader: PropTypes.string,
+    subHeading: PropTypes.string,
+    details: PropTypes.string,
+  }),
+  disease: PropTypes.string.isRequired,
 };
 
 export default DiseaseHero;

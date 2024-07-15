@@ -31,7 +31,7 @@ const SafeDiseaseRemoval = ({ content,subDisease }) => {
           {treatments.length > 0
             ? treatments.map((treatment, idx) => (
                 <div key={idx} className="flex items-center gap-2 ">
-                  <div className="bg-[#2ca9e1] p-1 w-5 h-5 rounded-full flex justify-center items-center text-white">
+                  <div className="bg-teal-30 p-1 w-5 h-5 rounded-full flex justify-center items-center text-white">
                     <MdOutlineDone></MdOutlineDone>
                   </div>
                   <p className="font-semibold text-gray-800 font-lato">{treatment}</p>

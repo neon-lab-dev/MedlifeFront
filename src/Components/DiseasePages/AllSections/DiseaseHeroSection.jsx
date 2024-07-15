@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { MdOutlineDone } from "react-icons/md";
 import roundedShape from "../../../Assests/rounded-shape.png";
 import { Link } from "react-router-dom";
@@ -6,6 +7,8 @@ import { Helmet } from "react-helmet-async";
 import Form from "../../Form";
 import { useEffect } from "react";
 import ReactGA from "react-ga";
+import CallNowButton from "../../ReusableComponents/CallNowButton";
+import Heading1 from "../../ReusableComponents/Heading1";
 
 const DiseaseHeroSection = ({ content, subDisease, diseaseName }) => {
   useEffect(() => {
@@ -36,11 +39,11 @@ const DiseaseHeroSection = ({ content, subDisease, diseaseName }) => {
       <div className="w-[94%] lg:w-[90%] xl:w-[90%] grid grid-cols-1 lg:grid-cols-5 gap-0 lg:gap-10 relative">
         <div className="pt-4 pb-10 z-10 col-span-3">
           {/* Main heading */}
-          <h1 className="text-5xl text-gray-600 font-semibold mb-3 font-lato capitalize leading-[55px]">
+          <Heading1 className="text-gray-600 mb-3 capitalize text-[45px] leading-[72px]">
             {content ? content?.heroHeader : ""}
-          </h1>
+          </Heading1>
           {/* Sub heading */}
-          <h2 className="text-4xl text-[#2ca9e1] font-semibold mb-3 font-lato">
+          <h2 className="text-4xl text-teal-30 font-semibold mb-3 font-lato">
             {content ? content?.subHeading : ""}
           </h2>
           {/* Description */}
@@ -48,7 +51,17 @@ const DiseaseHeroSection = ({ content, subDisease, diseaseName }) => {
             {content ? content?.details : ""}
           </p>
 
-          <h2 className="text-xl text-[#2ca9e1] font-bold mb-3 font-lato">
+          {
+          content?.detailsList &&
+          content.detailsList.map((detail, index) => (
+            <p key={index} className="text-gray-600 mb-5 font-lato">
+              {detail}
+            </p>
+            ))
+          }
+          
+
+          <h2 className="text-xl text-teal-30 font-bold mb-3 font-lato">
             {content ? content?.overviewHeading : ""}
           </h2>
 
@@ -56,7 +69,7 @@ const DiseaseHeroSection = ({ content, subDisease, diseaseName }) => {
             {content ? content?.overviewDetails : ""}
           </p>
 
-          <h2 className="text-xl text-[#2ca9e1] font-bold mb-3 font-lato">
+          <h2 className="text-xl text-teal-30 font-bold mb-3 font-lato">
             {content ? content?.listHeading : ""}
           </h2>
 
@@ -65,7 +78,7 @@ const DiseaseHeroSection = ({ content, subDisease, diseaseName }) => {
             {content?.subLists?.length > 0
               ? content?.subLists?.map((list, idx) => (
                   <div key={idx} className="flex  gap-2 mb-4">
-                    <div className="bg-[#2ca9e1] p-1 w-5 h-5 rounded-full flex justify-center items-center text-white">
+                    <div className="bg-teal-30 p-1 w-5 h-5 rounded-full flex justify-center items-center text-white">
                       <MdOutlineDone></MdOutlineDone>
                     </div>
                     <p className="font-semibold text-gray-800 font-lato -mt-[2px]">
@@ -77,12 +90,13 @@ const DiseaseHeroSection = ({ content, subDisease, diseaseName }) => {
           </div>
 
           <div className="flex flex-col lg:flex-row gap-3 w-full">
-            <a
+          <CallNowButton className="w-full md:w-1/2 lg:w-full xl:w-[65%] h-12 2xl:h-16"/>
+            {/* <a
               href="tel:+9876543210"
               className="w-full md:w-1/2 lg:w-full xl:w-[65%] h-12 2xl:h-16 border border-[#00a0aa] rounded-lg text-[#00a0aa] flex justify-center items-center"
             >
               Call now +91 995 599 2502
-            </a>
+            </a> */}
 
             <div className="w-full">
               <AppointmentModal

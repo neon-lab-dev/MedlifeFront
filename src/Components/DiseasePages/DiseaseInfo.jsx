@@ -6,7 +6,7 @@ const DiseaseInfo = ({ content, disease }) => {
     ReactGA.pageview(window.location.pathname + window.location.search);
   })
   return (
-    <div className="py-12 w-full flex justify-center bg-[#ECF7FC]">
+    <div className="py-12 w-full flex justify-center bg-teal-70">
       <div className="w-[95%] md:w-[90%]">
         <h1 className="text-[32px] text-gray-600 font-semibold mb-4 font-lato">
           What is <span className="capitalize">{disease}</span>?

@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react';
+/* eslint-disable react/no-unescaped-entities */
+import { useEffect } from 'react';
 import Navbar from '../Navbar';
 import { Link } from 'react-router-dom';
 import Footer from '../Footer';

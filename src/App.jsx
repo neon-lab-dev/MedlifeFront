@@ -30,9 +30,10 @@ import Caurosel from "./Components/Caurosel";
 import "swiper/css";
 import "swiper/css/navigation";
 import "./App.css";
+import "./index.css";
 import FormProvider from "./Components/Provider/FormProvider";
 import ReactGA from "react-ga";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import PreLoader from "./Components/Loader/PreLoader";
 ReactGA.initialize("G-ZH1TFBC5PG");
 
@@ -40,9 +41,18 @@ const queryClient = new QueryClient();
 function App() {
   const [loading, setLoading] = useState(true);
 
-  setTimeout(() => {
-    setLoading(false);
-  }, 2000);
+  useEffect(() => {
+    const handleLoad = () => {
+      setLoading(false);
+    };
+
+    window.onload = handleLoad;
+
+    // Cleanup function to remove the onload event if needed
+    return () => {
+      window.onload = null;
+    };
+  }, [loading]);
 
   if (loading) {
     return <div><PreLoader/></div>;

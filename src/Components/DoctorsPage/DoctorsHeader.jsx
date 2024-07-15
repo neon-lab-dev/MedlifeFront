@@ -1,7 +1,8 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import Form from "../Form";
 import { Link } from "react-router-dom";
 import ReactGA from 'react-ga';
+import CallNowButton from "../ReusableComponents/CallNowButton";
 
 
 const DoctorsHeader = () => {
@@ -35,11 +36,13 @@ const DoctorsHeader = () => {
             Call now +91 995 599 2502
           </button> */}
 
-          <a href="tel:+9876543210" className="w-full flex justify-center lg:justify-start">
+          {/* <a href="tel:+9876543210" className="w-full flex justify-center lg:justify-start">
           <div className="w-[70%] md:w-[60%] h-12 2xl:h-16 border border-[#00a0aa] rounded-lg text-[#00a0aa] flex items-center justify-center">
             Call now +91 995 599 2502
            </div>
-           </a>
+           </a> */}
+
+           <CallNowButton className="w-[70%] md:w-[60%]"/>
 
 
         </div>

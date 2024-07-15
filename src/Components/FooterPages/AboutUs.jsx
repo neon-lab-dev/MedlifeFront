@@ -160,28 +160,28 @@ Medlife Easy aims to provide a reliable & seamless connection b/w healthcare pro
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 px-5 md:px-20">
           
               <div className="flex items-center gap-2">
-            <div className="bg-[#2ca9e1] p-1 w-5 h-5 rounded-full flex justify-center items-center text-white">
+            <div className="bg-teal-30 p-1 w-5 h-5 rounded-full flex justify-center items-center text-white">
               <MdOutlineDone></MdOutlineDone>
             </div>
             <p className="font-semibold font-lato text-gray-800">Low Cost Treatment</p>
           </div>
           
               <div className="flex items-center gap-2">
-            <div className="bg-[#2ca9e1] p-1 w-5 h-5 rounded-full flex justify-center items-center text-white">
+            <div className="bg-teal-30 p-1 w-5 h-5 rounded-full flex justify-center items-center text-white">
               <MdOutlineDone></MdOutlineDone>
             </div>
             <p className="font-semibold font-lato text-gray-800">Top Rated Doctors</p>
           </div>
           
               <div className="flex items-center gap-2">
-            <div className="bg-[#2ca9e1] p-1 w-5 h-5 rounded-full flex justify-center items-center text-white">
+            <div className="bg-teal-30 p-1 w-5 h-5 rounded-full flex justify-center items-center text-white">
               <MdOutlineDone></MdOutlineDone>
             </div>
             <p className="font-semibold font-lato text-gray-800"> Premium Hospital Networks</p>
           </div>
           
               <div className="flex items-center gap-2">
-            <div className="bg-[#2ca9e1] p-1 w-5 h-5 rounded-full flex justify-center items-center text-white">
+            <div className="bg-teal-30 p-1 w-5 h-5 rounded-full flex justify-center items-center text-white">
               <MdOutlineDone></MdOutlineDone>
             </div>
             <p className="font-semibold font-lato text-gray-800">Free Post Treatment Consultation</p>
